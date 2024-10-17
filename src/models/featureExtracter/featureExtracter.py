@@ -96,14 +96,16 @@ def read_text_file(file_path):
 def extract_information(text):
     # Prepare the prompt for extracting information
     prompt = f"""
-    Extract the following information from the given paper text according to this schema:
-    {json.dumps(schema, indent=4)}
+{SYSTEM_INSTRUCTION}
 
-    Paper Text:
-    {text}
+Extract the following information from the given paper text according to this schema:
+{json.dumps(schema, indent=4)}
 
-    Provide the extracted information in JSON format.
-    """
+Paper Text:
+{text}
+
+Provide the extracted information in **strict JSON format** without any additional text or explanation.
+"""
 
     # Generate the response using the model
 
@@ -113,22 +115,25 @@ def extract_information(text):
 		stream=False,  # Enable streaming for responses
 	)
 
-    generated_text = response.text
+    generated_text = response.text.strip()
 
     return generated_text
 
 def main():
 
-    txt_path = '/Users/haozhuo/Documents/GSD_2024Fall/Advanced_Practical_Data_Science/Project/MS2/AC215-Paper-with-Data/src/models/featureExtracter/output.1.txt'  # Replace with your text file path
+    txt_path = 'A3.txt'
     text = read_text_file(txt_path)
     
     # Extract structured information from the full text
     extracted_info = extract_information(text)
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_file_path = os.path.join(script_dir, "extracted_information.json")
     
     # Convert the extracted information to a dictionary and save it
     try:
         extracted_data = json.loads(extracted_info)
-        with open("extracted_information.json", "w") as json_file:
+        with open(output_file_path, "w", encoding='utf-8') as json_file:
             json.dump(extracted_data, json_file, indent=4)
         print(json.dumps(extracted_data, indent=4))
     except json.JSONDecodeError as e:
