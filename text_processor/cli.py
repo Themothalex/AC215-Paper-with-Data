@@ -6,7 +6,7 @@ import time
 import vertexai
 from vertexai.generative_models import GenerativeModel
 
-# set the parameters of Google Cloud 和 Vertex AI
+# set the parameters of Google Cloud and Vertex AI
 GCP_PROJECT = "ac215-438315"
 GCP_LOCATION = "us-east1"
 GENERATIVE_MODEL = "gemini-1.5-flash-001"
