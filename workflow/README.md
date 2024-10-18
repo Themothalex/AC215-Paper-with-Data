@@ -9,6 +9,6 @@ sh docker-shell.sh
 ## Run the workflow
 
 ```
-workflow.sh
+sh workflow.sh
 ```
 
