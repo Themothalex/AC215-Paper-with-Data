@@ -10,6 +10,12 @@ This project aims to develop a machine learning pipeline that processes social s
 - **Feature Extraction**: Utilize a RAG model to retrieve relevant segments of text and generate extracted features.
 - **Containerized Deployment**: Deploy the entire pipeline using Docker, ensuring easy setup and consistency across environments.
 
+## Mock Submission
+This is a demo of our expected product. Our product is essentially a search engine tailored for academic purposes.
+
+<img src="assets/MS.png" alt="mock submission" width="800"/>
+
+
 ## Installation
 
 ### Prerequisites
