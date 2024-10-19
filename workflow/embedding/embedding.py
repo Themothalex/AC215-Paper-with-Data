@@ -62,9 +62,9 @@ def find_best_match(input_text, json_embeddings):
 def main():
     # Set paths to your JSON files
     json_files = [
-        "data/embedding/feature_1.json",
-        "data/embedding/feature_2.json",
-        "data/embedding/feature_3.json"
+        "data/feature_1.json",
+        "data/feature_2.json",
+        "data/feature_3.json"
         # Add paths to other JSON files here
     ]
 

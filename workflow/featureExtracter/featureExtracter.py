@@ -121,7 +121,7 @@ Provide the extracted information in **strict JSON format** without any addition
 
 def main():
 
-    txt_path = 'data/feature/A3.txt'
+    txt_path = 'data/A3.txt'
     text = read_text_file(txt_path)
     
     # Extract structured information from the full text
