@@ -1,0 +1,748 @@
+## The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence in Post-Socialist Countries, 1970-2010
+
+Sunnee Billingsley, Juho Härkönen, Maria Hornung
+
+**Abstract:** Many demographic challenges and new trends have been observed across formerly state socialist countries after embarking on their political and economic transition. Including countries that range from Eastern Europe to Central Asia, this study explores whether some family-related events were more sensitive to the transformation that occurred in the 1990s than others, and whether the disruption was immediate or delayed across this wide range of contexts. Based on year-specific hazard ratios over four decades, results point to changes in fertility patterns being clearly linked to the transition. Second birth rates reacted almost immediately to societal disruption, whereas a more delayed change occurred for first births. Although abrupt changes in marriage and divorce rates also occurred, these changes often began before the transition and therefore may be part of longer-term developments. That second births were the most sensitive family event to the immediate change in conditions may be due to economic costs, but also unique characteristics related both to its lack of conferring a new social role on the individual, such as in the case of marriage and parenthood, and the narrower window of time in which this event usually occurs. The delayed changes in first births may instead reflect changes in norms and culture that influenced younger individuals when they reached childbearing ages.
+
+**Keywords:** Marriage · First births · Second births · Divorce · Postponement · Post-socialist
+
+**Comparative Population Studies**
+Vol. 48 (2023): 493-522 (Date of release: 18.09.2023)
+Federal Institute for Population Research 2023
+URL: www.comparativepopulationstudies.de
+DOI: https://doi.org/10.12765/CPoS-2023-19
+URN: urn:nbn:de:bib-cpos-2023-19en4
+
+* This article belongs to a special issue on “Demographic Developments in Eastern and Western Europe Before and After the Transformation of Socialist Countries”.
+
+**Sunnee Billingsley, Juho Härkönen, Maria Hornung 494**
+
+**1 Introduction**
+
+The study of family dynamics has long been concerned with how macro-level conditions and the social context affect the timing and occurrence of family-related events. One way of understanding how context matters is to isolate a critical historical juncture with a significant development or event and observe how things change after this juncture (see, e.g., Neyer/Andersson 2008). The fall of the Berlin Wall and collapse of the Soviet Union is a remarkable example of a critical juncture that ushered in an intense period of transformation. Myriad demographic changes in post-socialist regions have been well documented in a large body of research, including on marriage, childbearing and divorce. We know there was widespread change in partnership dynamics, including marriage and cohabitation, as well as in childbearing behavior. Although we can piece together findings from studies that address these family events individually and for specific countries, drawing widespread conclusions is difficult because of differences in samples, timing, and methods across countries and family-related events. No research to date has compared standardized trends over time for multiple dimensions of family behavior, presenting a fine-grained picture of how rapidly and when exactly changes occurred.
+
+Based on the current literature, we cannot yet answer the following two questions:
+
+* For which family-related event do we see the most widespread impact from the transition among post-socialist countries?
+* Was the impact of transition on selected events immediate or delayed?
+
+In this study, we address these questions and assess whether some events that are integral to family dynamics are more sensitive to major societal disruption than others, using the transition from state socialism as a critical juncture. Specifically, we track period estimates of marriage, entering parenthood, having a second child, and divorce using a standardized procedure. We do not explore the take-up of “new” behavior, such as non-marital cohabitation, in keeping with the aim of tracking long-term trends of common family behavior.
+
+Our results yield insight into whether there are certain moments in the life course that are more vulnerable than others, as well as how societal disruption affects individuals, couples and families.
+
+In our search for signs of a universal effect in any of these life course events, we include a wide range of contexts that all experienced the transition from state socialism to democracy, dominant-party, and authoritarian systems (Belarus, Bulgaria, Czech Republic, Estonia, Georgia, Hungary, Kazakhstan, Lithuania, Poland, Romania, and Russia). Despite diversity in cultural heritage and levels of prosperity, there were commonalities across the country groups in terms of relatively similar institutional arrangements, including access to healthcare, fertility control, education, and employment. Similar societal norms were promoted about women as workers and mothers, there was full employment on paper, and the state organized and managed services from the cradle to the grave (Frejka 2008; Blanchard 2008). After either 1989 (fall of the Berlin Wall) or 1991 (dissolution of the Soviet Union), the countries we include all adopted market reforms to some degree, shifted toward democratic processes and opened their borders. Many countries gained independence and some lost parts of their territory, ushering in an intense period of nation building. New opportunities and risks emerged that had great potential for shifting the behavior of individuals and families in all eleven countries we study, and a wealth of research shows us that behavior did indeed shift.
+
+Our analysis of this critical period and wide range of countries is possible due to the Harmonized Histories dataset (Perelli-Harris et al. 2011), which is based on Generations and Gender Surveys, and has been extended to include an update on earlier surveys in many of the post-socialist countries. We make use of these retrospective histories to estimate hazard ratios of experiencing each event in each year from the 1970s and 1980s – to establish secular trends – and into the 1990s and 2000s to establish change that may be linked to the transition from state socialism, particularly if showing an abrupt deviation in the 1990s. We explore changes in family demography for both men and women.
+
+**2 Theoretical perspectives and previous research**
+
+Marriage, childbearing and divorce are life course events that have all been argued to be governed by individual and societal norms and values, as well as influenced by economic context. In the case of the post-socialist transitions, changes occurred in all these domains, making it impossible to point clearly to the specific causal mechanisms at work. As such, Frejka (2008) argues that all forces of change, including economic and ideational, must be included in the main explanation of broad changes in family and fertility behavior, which he argued was simply the transition to capitalism.
+
+Theoretically, the specific arguments for how family life course events are influenced work in the following ways. In the Second Demographic Transition (SDT) framework (Lesthaeghe/van de Kaa 1986; van de Kaa 2004), a shift in values and norms promotes and allows for individuals to make more individualized choices related to when and if they marry, have children and divorce. The gender, sexual and contraception revolutions that were part of the SDT were key elements that allowed women greater freedom of choice in these matters (Lesthaeghe/Surkyn 2002). They enabled women’s autonomy so that they were no longer dependent on being in a partnership. These changes upended the order and timing of when women and men began co-residential unions and started their families (Billari/Liefbroer 2010) as well as contributed to family instability through allowing more movement out of partnerships that were not successful. In an updated overview of how well the SDT explains fertility and non-marital cohabitation trends over the turbulent last three decades, Lesthaeghe (2020) points out a remarkable diversity in how family behavior developed (including postponement of marriage and childbearing, non-marital cohabitation, higher parity transitions) as well as how behavior may first develop in different parts of the population, in line with the patterns of disadvantage thesis (Perelli-Harris/Gerber 2011).
+
+How economic conditions influence family dynamics is one of the oldest questions in sociology and demography, and the literature on these issues is broad. In relation to income, both marriages and childbirths are less likely to occur when they are… 
+
+Sunnee Billingsley, Juho Härkönen, Maria Hornung
+
+not affordable (Becker 1960; Hill 2015) or not perceived as affordable (Easterlin
+1976). The relationship for marriage is relatively unambiguous. In contrast, although
+fertility on average appears to be pro-cyclical in wealthy countries (Sobotka et al.
+2011), the idea that it could be counter-cyclical has long been argued (Butz/Ward
+1979a/b). In the latter case, conditions of economic improvement make it more
+costly to step out of the labor market and care for children.
+
+Similar to fertility, income is argued to be related to divorce and partnership
+instability in both opposite directions. Whereas relationship quality may be
+compromised when economic stress is heightened at the macro- and micro-level,
+it also increases the barriers to leaving the partnership (Fischer/Liefbroer 2006),
+particularly if experienced at the micro-level such as through one member of
+the couple losing a job. Results are mixed, whereby we can find, for example, a 
+pro-cyclical relationship in Hellerstein and Sandler Morrill’s (2010) study of the
+US and a counter-cyclical relationship in Fischer and Liefbroer’s (2006) study of
+the Netherlands. Härkönen et al. (2020) describe in greater depth the potential
+mechanisms at work in how divorce rates may have changed in post-socialist
+regions.
+
+Economic conditions may influence family behavior not just through income 
+effects but also economic uncertainty. This mechanism has been intertwined
+with income in much of the literature on pro-/counter-cyclical family dynamics,
+particularly when assessing the impact of aggregated unemployment rates or
+consumer confidence. It can be conceptualized through perceptions of future 
+stability based on type of contract in employment, unemployment rates and the
+current economic climate. But it appears on its own in a few different versions. For
+example, it features prominently in the literature on the impact of globalization. The
+globalization framework focuses particularly on the development of increasingly
+volatile financial markets and the accelerating speed of change (Mills/Blossfeld
+2005). In this narrative, individuals approach these changes from a rational choice
+perspective that leads them to delay or forego transitions that are binding or
+long-term commitments such as marriage and childbearing. Instead of focusing
+on individuals acting out their individualized preferences, individuals’ choices are 
+here understood to be constrained by work and family incompatibility as well as by
+uncertainty in the labor market (Mills/Blossfeld 2013). These, in turn, are shaped by
+the institutional characteristics of a setting, such as policies related directly to family
+and work.
+
+Many studies have assessed how family policies shape family dynamics, but
+some questions have not yet been conclusively answered. Most studies are based
+on cross-sectional data or use aggregate fertility rates as an outcome, which comes
+with strong limitations (Neyer/Andersson 2008). Studies that combine longitudinal
+policy measures with individual level data on fertility intentions (Billingsley/Ferrarini
+2014) and actual parity transitions captured in childbearing histories (Billingsley et
+al. 2022), show that family policies supporting the labor market attachment of both
+parents were related to continued childbearing. These latter studies included post-
+socialist and other countries in Europe.
+
+The shift toward dual earner-carer households, in which both men and women
+are engaged in the labor market and childrearing, as well as examining how policies
+support this arrangement, have been a key focus of more recent theorizing in family
+and fertility research. McDonald (2000) posited that the negative affect of women
+becoming more equal to men in the public sphere will reverse as institutions better
+support this shift. Goldscheider et al. (2015) conceptualize this early, negative
+relationship as an incomplete gender revolution and predict that gender equality
+within the home will complete the gender revolution and support higher fertility.
+This U-shaped pattern that is argued to develop over time between gender equality
+and fertility was further elaborated by Esping-Andersen and Billari (2015). Kolk (2019)
+found only weak support for this, although his measure captured female political
+empowerment and not the private dimension.
+
+Policy developments have led to variation over time and across countries in
+responsibilities and rights accorded to couples depending on whether they are
+married or cohabiting (Perelli-Harris/Sánchez Gassen 2012). These legal factors
+have the capacity to influence both the entrance into and exit from marriage. 
+
+To summarize, the main theories related to family behavior are cultural (SDT) and
+economic (costs, uncertainty and globalization), while also covering gender equality
+in work and private life and the role social policies play in supporting women to
+balance work and family.
+
+In addition to these specific mechanism-based explanations, a helpful perspective 
+for understanding how family behavior might change in accordance with major social,
+political and economic events is provided by life course theory. This framework was
+conceived within historical research on the Great Depression of the 1920s. From the
+study of cohorts that were children when severe economic hardship hit, followed by
+the war years, Elder discussed the life course as developmental theory (1998) and
+explains that all life choices are contingent on the opportunities and constraints of
+social structure and culture.
+
+The life course framework emphasizes, among other factors, the importance
+of the societal regulation of key life course transitions – such as family formation 
+events – and their timing as well as the long-lasting effects of early formative 
+experiences (e.g., Settersten/Mayer 1997; Elder 1998). As for the former, the life
+course framework highlights how social norms and institutions shape ideas around
+the appropriate and optimal age for each transition. This regulation of the timing of
+life course events, as it involves attitudes and beliefs, is likely to respond slowly to
+societal ruptures and may moderate its effects, specifically by counteracting the 
+pressures from economic mechanisms (e.g., Mynarska 2010; Perelli-Harris 2005).
+
+Regarding the latter, the life course approach also emphasizes how the development
+of individuals’ identities, ideas and prospects are shaped by what happens when 
+they are young. A critical juncture can create a cohort effect through changes in
+the values and attitudes individuals develop as a child or adolescent, in which case
+we would not see the effect until they reach the stage in life where partnership
+and fertility careers commence. This would imply that a critical juncture could
+have a lasting influence on the life course, but it may not influence those who have 
+already begun their family careers with values and attitudes formed long ago. If
+adults’ identity formation and ideas about family life have already solidified, certain 
+behaviors may be less sensitive to societal disruption.
+
+In general, there is remarkable overlap in the common theoretical pathways to
+the family life course events studied here. From these discussions, we would expect
+the societal disruption at the dawn of the transition from socialism to have ushered
+in a decline in marriage and fertility rates, and an increase in divorce rates. And we
+know from past research that this is the case, even if we cannot clearly compare
+the starting points and similarities of changes across the countries and events. We
+have no a priori reason to expect any of the events to be more sensitive to societal
+disruption than the others. Indeed, based on the standard theoretical approaches,
+we might expect that all events would be influenced similarly, given the similarity 
+in the pathways to change. In our analysis, we empirically assess whether this is
+the case and analyze whether an effect of the transition may be seen immediately
+or with a delay, potentially indicating new norms appearing during childhood and
+adolescence and influencing family life course events occurring later. We do not 
+expect trends to differ for men and women, particularly because these are events
+that relate to couples, but analyze them separately in order to track any potential
+deviations.
+
+The critical juncture
+
+Barr (2001) summarized the socialist system in Central and Eastern Europe according
+to five stylized facts: the government was totalitarian; resources were allocated 
+by central planning; workers all received the same, wages were low; these wages
+were supplemented with universal benefits; and work was guaranteed. Drawing 
+also on Frejka’s (2008) discussion of the most important changes that influenced 
+family and fertility, we know that before the transition commenced, the general
+policy standpoint toward families under state socialism was pro-natalist. The costs
+of childbearing were substantially reduced through a range of measures, often
+including meal and clothing subsidies, institutional care (nurseries, kindergartens
+and after-school programs), childbirth grants, and child allowance. Housing was in
+short supply and an important means to gain independence from one’s parents was 
+to marry and have a child, which helped secure access to own housing.
+
+Inefficiencies in the economic system kept demand for labor high, guaranteeing 
+full employment in the population. This demand, coupled with the need for two
+earners, fueled almost equal rates of employment for men and women (Frejka
+2008). However, similarly to developments in the West, this was not accompanied
+by gender equality in the private sphere, with women carrying the double burden of
+paid work and work at home.
+
+Family formation was incentivized and protected from risks found in market
+economies under state socialism, resulting in what has been called a “Socialist 
+greenhouse” (Sobotka 2002). These favorable conditions for family formation and
+expansion can be seen in the relatively stable and similar childbearing patterns
+before the 1990s across a wide range of countries in Central and Eastern Europe,
+as well as the Caucasus and Central Asia (Billingsley/Duntava 2017; Frejka/Gietel- 
+
+The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence 
+
+Basten (2016). Nevertheless, differences based on unique historical developments impacted how societies adapted to state-socialism (Inglot et al. 2022); for example, Rat and Szikra (2018) find three different models of “familism” developed in Hungary, Poland and Romania.
+
+For varying lengths of time during the 1990s, the transformation of the economic system was accompanied by economic crisis. Individuals, couples and families faced massive inflation and a sharp increase in unemployment and/or wage arrears, a decline in social services including public childcare and health clinics, and a lack of housing (Holzman et al. 2020; Frejka 2008). The unstable political, economic and social environment bred uncertainty, which was exacerbated by deprivation due to rapidly rising income inequality and the emergence of poverty (Gimpelson 2001; Blanchard 1998; World Bank 2000; Klugman et al. 2002). Milanovic (1998: 23) terms this era the “Post-communist Great Depression”.
+
+After this initial economic turbulence and once market economies had begun to function, a set of new issues arose. New career opportunities were accompanied by increased job insecurity and heightened competition for positions. Discrimination of women in the job market increased at the same time as educational expansion occurred (Frejka 2008). While the market was flooded with new services and goods, childcare and healthcare became more costly, as did the indirect costs of raising children. Fajth (1999) and Teplova (2007) reported extensive losses of state and firm-sponsored family services, which increased reconciliation difficulties for women combining paid and unpaid work. In the political arena, family policies were changing rapidly but generally became less supportive of working mothers (Frejka/Gietel-Basten 2016; Billingsley et al. 2022). These changes led to “re-familization” in Central and Eastern European countries (Saxonberg/Sirovátka 2006).
+
+However, no single narrative accurately characterizes all the countries considered here, or the entire period since the end of the 1980s. For example, Czech Republic and Slovakia diverged in parental leave policies as late as 2004 (Šťastná et al. 2020). In fact, Szeleva and Polakowski (2008) studied developments in childcare and parental leave from 1990 to 2004 in eight Central and Eastern European countries and found that most shifted models of family policy over this period. Billingsley et al. (2022) show that family policies dramatically changed in the aftermath of the transition, becoming either more or less conservative across and within countries over time. The period of European integration brought new policy pressures and considerations for the new EU member states as well (Inglot et al. 2022). Besides variation in policies, political instability and lack of resources – particularly at the beginning of the transition – led to many cases of poor policy implementation (Frejka/Gietel-Basten 2016).
+
+Specific to post-socialist countries, other relevant institutional features, such as how housing provision was linked to marriage and having children, were also altered during the transition from socialism (Frejka 2008; Zakharov 2008). Besides the influence of policies, market reforms and democratization universally provided new opportunities and choices for individualized life paths (see, e.g., Oláh 2015; Mureşan/Oláh 2019), as has been particularly pointed out for the case of the Czech Republic (Maříková 2021) and Hungary (Szalma/Takács 2022). New travel and consumer opportunities also appeared and accompanied shifts in values and norms toward more individualized life courses (Sobotka 2002).
+
+Many scholars have argued that demographic shifts were largely caused by the unfolding of the SDT in post-socialist regions (e.g., Sobotka 2008, 2011; Mureşan 2007; Zakharov 2008; Hoem et al. 2009), whereas others have argued that the observed changes may be more complicated than that and are also related to new economic constraints and uncertainties (e.g., Perelli-Harris/Gerber 2011; Billingsley 2010; Potârcă et al. 2013; Gerber/Berman 2010). To be sure, social and cultural shifts paved the way for a delayed SDT in post-socialist countries, even if its links to the specific changes in marriage, natality and divorce are less clear. It is worth noting that trends in partnerships (Hoem et al. 2009) and divorce (Härkönen et al. 2020) indicate that the SDT had in some contexts begun before the transition from socialism commenced.
+
+A well-developed literature exists on family dynamics during the transition years in most of the countries included in this study. It is beyond the scope of this paper to review each literature on marriage, fertility and divorce within each country. As argued, comparative research is best suited to address the questions of this study. Comparative perspectives such as the ones used in this paper are rare, although comparative analyses of other types do exist. For example, Sobotka (2003), Frejka and Sobotka (2008), Billingsley (2010), and Billingsley/Duntava (2017), among others, have shown trends in fertility for a wide range of post-socialist countries, but annual changes were either not the focus or the measures were based on aggregated rates. Sobotka and Toulemon (2008) and Perelli-Harris and Lyons-Amos (2015) extended this comparative discussion to marriage and partnership dynamics as well. Härkönen et al. (2020) analyzed divorce rates across a smaller group of countries and identified an increased prevalence of divorce that varied across countries and could not be explained by compositional changes in marriage.
+
+Broadening the analyses to include a wider range of family dynamics, Andersson/Philipov (2002) and the follow-up study by Andersson et al. (2017) presented life table representations of family events to assess how family dynamics differed across countries. These two studies introduced the novel perspective of the child’s point of view alongside adults’, providing a snapshot of partnership and separation behavior in a given period. Although the latter study updated these findings, allowing a comparison of two moments in time, the observation points were decades apart and it is not clear when the documented changes occurred.
+
+Billingsley and Oláh (2022) studied changes in the amount of time women spent in co-residential unions during their twenties in the same set of countries analyzed in this study. The aim was to identify whether less time in a union could be a contributor to universally declining fertility rates during the first years of the transition from socialism. Rather than focusing on marriage and divorce, however, they considered the entrance to and dissolution of all unions that were co-residential. Overall, the number of years spent in a co-residential union before age 30 declined across the Central and South-Eastern European countries, with little or no changes in the post-Soviet countries. Underlying these two different findings, however, were many similarities. Virtually all countries experienced an increase in partnership instability, but this was counterbalanced by even earlier ages at entering a union during the 1990s in some countries, whereas in others it was exacerbated by union postponement and fewer women entering a union at all during their twenties.
+
+None of these studies provide the capacity to judge how universally family dynamics were upended during the transition from socialism, which family transitions were sensitive to transition in general, and whether shifts in family-related events were immediate or delayed. The present study addresses these questions and gaps.
+
+**3 Data and methods**
+
+Data on first marriages, first births, second births, and first divorces are drawn from the Harmonized Histories dataset (Perelli-Harris et al. 2011) for the eleven countries in our analyses. This data source compiles individual histories from the Generations and Gender Surveys (GGS) for over 20 countries. Our study is one of the first to also use the harmonized data from the second waves of the GGS, where available (seven countries). The second wave lengthens the histories that were already documented in the previous wave and does not add additional respondents.
+
+The GGS is based on a sampling of 18-79-year-olds that is nationally representative. In the surveys, respondents were asked to recall first and subsequent partnerships and births, along with their timing. Specifically, participants were asked when they entered and ended all co-residential unions and whether they were marital or non-marital. The country data has been carefully explored and is considered high quality in general (see e.g., Vergauwen et al. 2015), although some more recent surveys have been less explored.
+
+Table 1 lists the years in which each country was surveyed. We include all men and women from the age of 16 (or the age they were at the start of the observation period, 1970) until they transition to first marriage or first birth, whereas those person-years in which there is only a first child born at any time between 1970 and the survey are included in the sample for the second birth analysis. Similarly, only those person-years in which a respondent was married were included in the analysis of divorce. The sample includes individuals born between 1924 (these individuals who had not yet either married, had children or divorced were 46 years old in 1970) and 1993. Table 1 also shows the sample sizes on which all analyses are based in terms of number of respondents (not person-years).
+
+We use event history analysis methods to assess changes in transition rates over time for both men and women separately. This approach allows us to use the most up-to-date information available, including individuals who have not yet experienced the event under study. It properly accounts for different lengths of time under which an individual is at risk of experiencing the event. We use a piecewise exponential hazard model, which assumes the risk of an event is stable within each segmented duration specified in the baseline hazard. The baseline hazard is time since age 16 for first marriage and first birth analyses, whereas it is time since the 
+
+##  Survey Years and Analytical Sample Sizes, Including GGS First and Second Waves
+
+| Survey Years | Marriage and First Birth | Second Birth | Divorce |
+|---|---|---|---|
+|  | Men | Women | Men | Women | Men | Women |
+| Belarus (2017) | 3825 | 4647 | 2346 | 3578 | 2442 | 3561 |
+| Bulgaria (2004) | 2007 | 4621 | 5605 | 3360 | 4756 | 3847 | 4996 |
+| Czech Republic (2005) | 2008 | 3929 | 3983 | 2182 | 2914 | 2801 | 3489 |
+| Estonia (2004/05) | 2159 | 3494 | 1781 | 3359 | 1886 | 3625 |
+| Georgia (2006) | 2009 | 3707 | 4382 | 2815 | 3659 | 2880 | 4020 |
+| Hungary (2004) | 2008 | 4720 | 5035 | 3746 | 4948 | 4023 | 5759 |
+| Kazakhstan (2018) | 5074 | 7840 | 2946 | 5324 | 3002 | 5176 |
+| Lithuania (2006) | 2009 | 3973 | 3814 | 2912 | 3156 | 3485 | 3602 |
+| Poland (2010/11) | 2014 | 7090 | 8802 | 5177 | 7489 | 6053 | 9055 |
+| Romania (2005) | 4534 | 3942 | 3634 | 3897 | 4738 | 5081 |
+| Russia (2004) | 2007 | 3377 | 5112 | 2753 | 5007 | 3133 | 5359 |
+
+**Source:** Own calculations
+
+**The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence**
+
+The analysis uses time since age 16 for first marriage and first birth, time since the first birth for the second parity transition model, and time since marriage for the divorce model. 
+
+Estimates are adjusted for:
+
+* Age at first birth in the second birth model.
+* Age at marriage and number of children (time-varying) in the divorce model.
+
+Single year dummy variables are included to produce estimates for every year under observation. Due to the long history covered in the data, only a few additional covariates are included in the analyses. 
+
+Information on the highest level of education ever achieved and the time when this level was achieved is used to construct a time-varying measure of education that shows when an individual was studying and when they completed their education at a specific level. 
+
+Birth cohort is not included in the analysis, as this information would overlap with other measures of period and age (time since the observation begins and age 16/age at previous event). Results can therefore be interpreted as a combined cohort and period approach. 
+
+Relative risks are interpreted as the combined influence of the timing and probability of the event, meaning that we do not distinguish between whether changes are due to postponement or fewer events ever occurring.
+
+**Focus on Within-Country Differences**
+
+Because we are interested in change over time, we focus primarily on within-country differences instead of differences between countries. Results for men and women are presented separately for each country, and all four family-related events are displayed across the same window of time (1970-2010). All relative risks are based on 1980 as the reference category. 
+
+To remove noise from our estimates and identify trends more clearly, we display the estimate based on a three-year moving average. For instance, 1972 represents the average of 1970-1972. Whether the non-averaged hazard ratio is statistically different from 1980 is determined through a p-value of less than 0.05 and is indicated with a marker for that point. 
+
+All hazard ratios are adjusted for a time-varying educational measure that includes time spent studying up until the highest level achieved. The baseline hazard is time since age 16 for first marriage and first birth, whereas it is time since the first birth for the second parity transition model and time since marriage for the divorce model. 
+
+Estimates are also adjusted for age at first birth in the second birth model, as well as age at marriage and a time-varying indicator of the number of children in the divorce model. Full model results for one selected country (Belarus) can be found in Appendix Table A1 and A2.
+
+**Trends in Family-Related Events**
+
+We consider the trends in terms of whether there was an immediate shift (early 1990s), a delayed shift (late 1990s or early 2000s), a shift that occurred before the transition from state socialism (1980s or earlier), or no shift at all. The focus is mainly on those estimates that show a statistical deviation from 1980. In the few instances when the trend differed for men and women, one was usually unclear, and we therefore discuss the trend that was the clearest.
+
+**Results**
+
+Figure 1 presents our main results by country, showing how marriage, first birth, second birth, and divorce trends changed over time separately for men and women. Note the shift in axis for men in the figures due to high relative risks for divorce. In general, the pace of change and development was often similar for marriage and the first birth, but different patterns and timing emerged for second births and divorce. Family-related events were usually similar for men and women according to the general pattern, even if not for years in which there was statistically significant deviation.
+
+**Marriage**
+
+Considering marriage first, we see a decline in hazard ratios even before the transition began in Estonia, Georgia, Hungary, Kazakhstan, and Romania. All other countries showed a timing of decline that followed immediately after the transition commenced (i.e., before 1995). We do not find any country in which there was a delayed decline in marriage rates, and all countries experienced a decline. This means that marriage was postponed across all eleven countries in the 1980s or 1990s, relative to 1980.
+
+Besides the onset of decline, some trends are worth considering. For the former Soviet countries of Georgia, Russia, and Estonia, the decline in marriage risks was substantial and slowed down in the mid-1990s (Georgia) and the 2000s (Russia, Estonia). In the case of Georgia, it is important to note that the decline in marriage may be related to individuals choosing a religious form of marriage instead of civil registered marriages more frequently than before, and that the questionnaire did not capture both forms of marriage. While marriage risks in Georgia and Russia declined after a stable period around 2000, marriage risks in Kazakhstan started to increase around the 2000s, reaching higher marriage risks for women in 2010 than in 1980. The decline in marriage risks in the Czech Republic, Lithuania, and Romania introduced a steady trend of decreasing marriage risks until 2010. In Poland, marriage risks started to decline slowly in 1990, followed by an increase in marriages in the mid-2000s.
+
+**First Birth**
+
+In contrast, the trend for first birth shows a marked delay in its decline for almost all countries. The exceptions were the following: In Hungary, the timing of parenthood was already postponed for women throughout the 1980s. In contrast, an immediate decline in first birth hazard ratios was evident for Estonia, and in Kazakhstan, we do not find a clear decline in first birth hazards at all. The most general pattern was stable first birth risks in the first two decades observed, and a decline that was especially strong until 2000. In Belarus, Estonia, and Kazakhstan, birth risks increased again, leading, especially in Kazakhstan, to more similar first birth risks in 2010 than in 1990. In Lithuania, we find stabilizing first birth risks after 2000, particularly for men. In Russia and Romania, in contrast, first birth risks have somewhat continuously decreased since 1990.
+
+**Second Births**
+
+Second births show a trend that appears to be more similar to what we observed for marriage, in terms of an immediate reaction in hazard ratios to the transition from state socialism. In the case of marriage, however, quite a few countries experienced changes before the transition occurred, but not a single country showed this pattern for second births. The only exception to the immediate decline was found in Hungary, where only a few years (1999 and 2002) deviated statistically from 1980 (and this was only found for Hungarian women). The decline in second births appeared more pronounced than for first births from 1990 onward in Belarus, ... 
+
+The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence
+
+Bulgaria, Romania, and Russia. However, the samples at risk of different events are different, so any comparison of effect sizes must be made with caution. For Estonia, Georgia, Kazakhstan, and Lithuania, the development of second birth risks mirrored those for first births. In the Czech Republic, the transition affected second birth risks less than first birth risks.
+
+The hazard ratios for divorce, on the other hand, present a less clear picture. Almost all countries show a long-term increase in divorce since the 1970s, but not all annual estimates were statistically significant and there was more variation by gender in these estimates. For women in Estonia, Georgia, Kazakhstan, Lithuania, and Poland, we see significant increases in divorce in our first observed decades. This early increase was visible for men only in Bulgaria and for both men and women in Romania. In contrast, an immediate increase in divorce after the collapse of communism was evident for Bulgarian women and both men and women in the Czech Republic and Russia. A delayed effect appeared for men in Lithuania and Poland. We did not observe any statistically significant increase in divorce over time in Belarus, although the trend did increase over time. The transition decade led to a strong increase in divorces in the post-Soviet countries of Georgia, Lithuania, and Russia. In most cases, divorce risks increased throughout all decades observed.
+
+Fig. 1: Hazard ratios of family-related events for women and men from 1970-2010, three-year moving averages
+
+Sunnee Billingsley, Juho Härkönen, Maria Hornung 
+
+Sunnee Billingsley, Juho Härkönen, Maria Hornung
+
+**5 Discussion**
+
+The main aims of this study were to compare shifts in family life course events within post-socialist countries to assess patterns across countries and identify how they were impacted by the transition from socialism. Specifically, we sought to learn how widespread changes were, whether some family dynamics appear to be more sensitive to societal change and disruption than others, as well as whether the transition from state socialism affected these behaviors immediately or with a delay. An immediate change would imply a period effect. In contrast, delayed effects may reflect changes that were more gradually set in motion by the transition, possibly through cohort effects on behaviors among those who were children and adolescents at the time of the critical juncture, as argued in the life course perspective (Elder 1998). Taken together, the analyses of different family dynamics in the immediate and long term can provide clues on how the transition did and did not affect family behavior. To this aim, we assessed smoothed year-by-year hazard ratios.
+
+As past research has shown, we find that the massive changes that occurred in the 1990s and 2000s, including economic and social transitions, economic crises, and then economic recovery, were accompanied by changes in family-related events (see, e.g., Hoem 2008). We assessed changes for both men and women, which is rare in the literature. Unexpectedly, trends did not differ substantially for men and women. The greatest disparity between the two, in terms of statistically significant deviations from 1980, appeared for divorce, where men’s increases were more often statistically significant.
+
+Despite similar theoretical predictions related to marriage, childbearing and divorce, countries and family-related events were differentially impacted. While the transition from state socialism seemed to have influenced family-related events strongly in some post-Soviet countries (Russia, Georgia, Kazakhstan, Lithuania), other countries such as Estonia, Hungary and Poland were less affected. In addition, our analyses revealed that fertility, and second birth rates more specifically, were almost universally impacted by the transition whereas the shift toward lower marriage rates and higher divorce rates often began before transition commenced. Regarding the latter, although conditions during the 1990s contributed to changes in the entrance to and exit from marriage, we cannot rule out the possibility that these later developments were part of a longer secular trend. In contrast, it was only in Hungary that we found evidence of declining birth rates before the collapse of communism. This corresponds with the cohort trends and developments in age at first birth for Hungary shown in Spéder and Kamarás (2008).
+
+The decline in second births began almost universally within the first few years of the transition, reflecting a clear and immediate period effect. The decline in first births appears to have been slower to develop. When interpreting these two parity events, lower first birth rates can generally be understood as a postponement of parenthood (given that the overwhelming majority of each cohort eventually becomes a parent), whereas a decline in second births may reflect an event that is not just postponed but altogether foregone (although whether a shift in quantum has occurred, and not just tempo, is a conclusion that needs to be confirmed with later rounds of data collection). As mentioned above, declines in marriage rates and increases in divorce often already began before the transition from socialism, even though the transition may have further fueled these changes.
+
+Although identifying precise mechanisms that underlie this parity-specific change is beyond the scope of this study, we can offer some reflections based on these stylized facts. Rather than forming or dissolving a family, the decision of whether to expand the family by having another child appears to be the moment in the early family life course most vulnerable to societal disruption. This is noteworthy given no evidence of a decline in the two-child norm (Sobotka/Beaujouan 2014).
+
+Marriage, childbearing and divorce differ according to their nature in terms of social significance as well as in terms of beginnings, continuations and endings, which may render them more or less sensitive to immediate and slowly evolving influences. Marriage and entering parenthood are events that reflect the beginning of family life. Generally, one precedes the other, but that was increasingly less of a given in the decades under review with the rise of non-marital childbearing (Koytcheva/Philipov 2008; Sobotka et al. 2008; Spéder/Kamarás 2008; Katus et al. 2007). In addition to the movable nature of these events in terms of timing, they are also loaded with personal and social meaning. Union formation is a marker of the entrance into adulthood and separation from the family of origin. Entering parenthood is also a self-expression of the individual and can be seen as fulfilling a social role (Mills 2007). Assuming that most people consider their future to include a partner and children at some point, the main question around these choices is not if, but when in the life cycle they will take place. To varying degrees according to the country context, it is also a question of if and when to make a partnership official through marriage. Although marriage and divorce can occur at any time, entering parenthood is an event that is bound in time, but still in a relatively wide window determined by the biological clock of women and cultural age deadlines.
+
+In contrast, the second birth, as an event that expands the family, usually occurs in a very specific time of the life cycle. It cannot occur before the first child has been born and most people prefer to space their children relatively closely together to condense the time in their life with young children and to create siblings of a similar age.
+
+Because parents of one child have transformed their life to parenthood already, the time cost of the second child transition may be perceived as relatively low. The economic cost of a second child may still be considerable, however, even if the marginal cost is lower than that for the first. In considering the meaning of having a second child, the social utility is arguably lower than for the first child, given that one has already entered the biological and social role of parent. The value of the second child may diminish over time as well, as the age gap between two potential siblings increases. Accordingly, it may be the case that even if the societal disruption and economic crises of the 1990s did not prevent individuals from seeking the social reward of entering parenthood, second births were more affected because a) the reward is lower for the second child and potentially diminishes quickly over time, and b) the second child carries additional economic costs. That second births were 
+
+The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence 
+
+… particularly affected in the post-Soviet states, which were contexts with more serious economic crises and more severe turbulence (Billingsley 2010; Billingsley/Duntava 2017; Sobotka 2003) may give some credence to the importance of economic costs. In the case of first births, the declines were more gradual and usually plateaued by the end of the 1990s and into the 2000s. The expansion of higher education and new difficulties of getting established in the labor market likely contributed to the postponement of parenthood, as these developments have been linked to postponement in other contexts (e.g., Ní Bhrolcháin/Beaujouan 2012; Hsu 2023).
+
+One way to understand the more delayed development in first birth trends is from a life course perspective (Elder 1998). The behavior of youth that reached childbearing ages in the late 1990s may have developed differently due to shifts or circumstances occurring at a formative age that shaped their life orientations, which then were expressed through opting for continued education, investments in work careers or other opportunities associated with a childfree life at the expense of delays in family demographic events. The period of the 2000s was characterized by economic recovery and growth to varying degrees across these countries, which also leads to the possibility that the halt in the decline of first birth rates was not just a natural recuperation of postponement but was a pro-cyclical effect. But it was not always the case that economic recovery coincided with a halt or an increase in the decline of first birth rates. 
+
+We can interpret the shift in marriage rates as a postponement of union formation, but more importantly, the rise of non-marital cohabitation (Sobotka/Toulemon 2008; Billingsley/Oláh 2022; Perelli-Harris/Lyon-Amos 2015). No theoretical framework suggests that marriage would be delayed in more prosperous times, yet we observe low rates even into the 2000s when stability and recovery had been reached by all countries to some degree. This suggests that the changes surrounding the transition impacted marriage rates through changing the values of individuals who would not reach marriageable age until a decade later, even if the early decline hints at value changes more broadly that began in some contexts before transition. Given that value change is largely cohort driven (Kiley/Vaisey 2020), this too points to exposure to societal change during the formative years as a possible avenue of change.
+
+Divorce showed some immediate effects at the transition from socialism, but we also found evidence that might be considered a delayed impact of the transition on divorce, with changes in rates occurring in the 2000s. However, the evidence of a long-term increasing trend would again indicate that divorce rates developed somewhat independently from the transition from socialism. This finding supports Härkönen et al.’s (2020) findings from a smaller sample that there was no universal impact of the transition. The pre-transition changes imply that the norms and values governing divorce already began changing well before the transition from socialism in these countries. But the erratic timing of divorce increases means we cannot rule out that they were influenced by economic and social conditions. 
+
+The analysis and interpretation of our results do not take into account time-variant conditions beyond the critical juncture of transition from state socialism and general economic trends. Specifically, we are unable to distinguish changes that may be driven by changes in policies that particularly affect family-related events, which we know occurred in the post-transition era (Šťastná et al. 2020; Billingsley et al. 2022).
+
+Our results generally align with country-specific research on these family events. Direct comparisons are difficult because of the different approaches, such as cohort analysis, that are typically used in studies that address these key events. In addition, our results concern within-country changes, whereas much research situates demographic trends in terms of levels. Nevertheless, our country-specific findings are robust to the extent that it is possible to compare them with past work. 
+
+In Bulgaria, the immediate decline in second births was visible after the transition began (Koytcheva 2006). Divorce rates also showed a steady incline over time in the Czech Republic (Sobotka et al. 2008) and an abrupt decline in marriage rates appeared after 1990. Spéder and Kamarás (2008) similarly demonstrated a delayed and gradual postponement of parenthood in Hungary after the transition. Agadjanian et al. (2013) also tracked a gradual decline in marriage rates within Kazakhstan. In Estonia (Katus et al. 2007) and Lithuania (Stankuniene/Jasilioniene 2008), a decline in first births and marriage already took hold after 1990, the latter of which was most pronounced for 20-24-year-olds in Lithuania. Our findings seem to confirm the greater decline in second births compared to other birth orders after 1990 in Poland (Kotowska et al. 2008), as well as the departure in marriage timing at this time.
+
+Mureşan et al. (2008) analyzed changes in Romania after 1990 and similarly found that slow, gradual change was more common in this context. That socialization in the new, post-Soviet era seemed to be related to delayed changes was argued already in Zakharov (2008) when interpreting changing fertility and family formation dynamics in Russia. The scarcity of appropriate data in Belarus (Almialchuk et al. 2011) until the recent collection of GGS data leaves no findings to which we can compare ours. Little research exists on comparable family demographics in Georgia as well (see Badurashvili et al. 2019), but we find support for Blum et al.’s (2009) finding of an increase in divorce that appears for women in the more recent cohorts. This overview of country-specific studies is by no means exhaustive, but this sample provides a useful starting point for gaining a more in-depth view of the institutional and demographic changes that occurred within each country.
+
+Taking a standardized approach across eleven countries, we can conclude that the transition from socialism impacted family demography most directly through fertility, and second parity transitions in particular, rather than through marriage or divorce. Indirectly, through more long-term change, we also see an influence on the timing of parenthood. Our results question a “one size fits all” approach to understanding how societal disruption affects family demographic behaviors and invites more consideration of which behaviors are most likely to be affected by immediate effects and which are more likely to change through delayed effects. 
+
+**References**
+
+Agadjanian, Victor; Dommaraju, Premchand; Nedoluzhko, Lesia 2013: Economic fortunes, ethnic divides, and marriage and fertility in Central Asia: Kazakhstan and Kyrgyzstan compared. In: Journal of Population Research 30. 197-211. https://doi.org/10.1007/s12546-013-9112-2
+
+Amialchuk, Aliaksandr et al. 2011: Economic determinants of fertility in Belarus: A micro-data analysis. In: BEROC Working Paper Series 13. Belarusian Economic Research and Outreach Center (BEROC) [https://www.beroc.org/upload/iblock/1e8/1e8fbf667d5353de9ea08f71ec436539.pdf, 13.09.2023].
+
+Andersson, Gunnar; Philipov, Dimiter 2002: Life-table representations of family dynamics in Sweden, Hungary, and 14 other FFS countries: A project of descriptions of demographic behavior. In: Demographic Research 7,4: 67-144. https://doi.org/10.4054/DemRes.2002.7.4
+
+Andersson, Gunnar; Thomson, Elizabeth; Duntava, Aija 2017: Life-table representations of family dynamics in the 21st century. In: Demographic Research 37,35: 1081-1230. https://doi.org/10.4054/DemRes.2017.37.35
+
+Badurashvili, Irina et al. 2019: Descriptive analyses of youth transitions in Georgia. In: TEW-CCA Working Paper 4.2. Bamberg: TEW-CCA Project, University of Bamberg.
+
+Barr, Nicholas 2001: Reforming welfare states in post-communist countries. In: Orlowski, Lucjan T. (Ed.): Transition and Growth in Post-Communist Countries: The Ten-Year Experience. Cheltenham, UK: Edward Elgar: 169-218.
+
+Becker, Gary S. 1960: An economic analysis of fertility. In Demographic and economic change in developed countries. New York, NY: Columbia University Press: 209-240.
+
+Billari, Francesco C.; Liefbroer, Aart C. 2010: Towards a new pattern of transition to adulthood? In: Advances in Life Course Research 15,2-3: 59-75. http://dx.doi.org/10.1016/j.alcr.2010.10.003
+
+Billingsley, Sunnee 2010: The post-communist fertility puzzle. In: Population Research and Policy Review 29,2: 193-231.
+
+Billingsley, Sunnee; Ferrarini, Tommy 2014: Family Policy and Fertility Intentions in 21 European Countries. In: Journal of Marriage and Family 76,2: 428-445. https://doi.org/10.1111/jomf.12097
+
+Billingsley, Sunnee; Duntava, Aija 2017: Putting the pieces together: 40 years of fertility trends across 19 post-socialist countries. In: Post-Soviet Affairs 33,5: 389-410. https://doi.org/10.1080/1060586X.2017.1293393
+
+Billingsley, Sunnee; Oláh, Livia 2022: Patterns of Co-residential Relationships across Cohorts in Post-socialist Countries. Less time for childbearing? In: Social Inclusion 10,3. https://doi.org/10.17645/si.v10i3.5201
+
+Billingsley, Sunnee; Neyer, Gerda; Wesolowski, Katharina 2022: The influence of family policies on women´s childbearing: A longitudinal micro-data analysis of 21 countries. In: European Journal of Population.
+
+Blanchard, Olivier 1998: The Economics of Post-Communist Transition. Clarendon Lectures in Economics. New York: Oxford University Press.
+
+Blanchard, Olivier J. 2008: The State of Macro. NBER Working Paper Series 14259. Cambridge: National Bureau of Economic Research. https://doi.org/10.3386/w14259
+
+Blum, Alain et al. 2009: Intro-duction: International Comparisons – France, Georgia, Lithuania and Russia: Families East and West: a half century of changes in Europe. In: Revue d’Etudes Comparatives Est-Ouest 40,3-4: 5-34. 
+
+## Corrected Text:
+
+Sunnee Billingsley, Juho Härkönen, Maria Hornung
+
+**Butz, William P.; Ward, Michael P. 1979a:** The emergence of countercyclical U.S. fertility. In: *The American Economic Review* 69,3: 318-328.
+
+**Butz, William P.; Ward, Michael P. 1979b:** Will US fertility remain low? A new economic interpretation. In: *Population and Development Review* 5,4: 663-688.
+
+**Easterlin, Richard A. 1976:** The conflict between aspirations and resources. In: *Population and Development Review* 2,3-4: 417-425.
+
+**Elder, Glen H. 1998:** The Life Course as Developmental Theory. In: *Child Development* 69,1: 1-12. https://doi.org/10.2307/1132065
+
+**Esping-Andersen, Gøsta; Billari, Francesco C. 2015:** Re-theorizing Family Demographics. In: *Population and Development Review* 41,1: 1-31. https://doi.org/10.1111/j.1728-4457.2015.00024.x
+
+**Fajth, Gáspár 1999:** Social Security in a Rapidly Changing Environment: The Case of the Post-Communist Transformation. In: *Social Policy Administration* 33,4: 416-436. https://doi.org/10.1111/1467-9515.00161
+
+**Fischer, Tamar; Liefbroer, Aart C. 2006:** For richer, for poorer: The impact of macroeconomic conditions on union dissolution rates in the Netherlands 1972-1996. In: *European Sociological Review* 22,5: 519-532. https://doi.org/10.1093/esr/jcl013
+
+**Frejka, Tomas 2008:** Overview Chapter 5: Determinants of family formation and childbearing during the societal transition in Central and Eastern Europe. In: Hoem, Jan M. (Ed.): *Childbearing Trends and Policies in Europe* 19,7: 139-170. https://doi.org/10.4054/DemRes.2008.19.7
+
+**Frejka, Tomas; Sobotka, Tomáš 2008:** Overview Chapter 1: Fertility in Europe: Diverse, delayed and below replacement. In: *Demographic Research Special Collection* 7,3: 15-46. https://doi.org/10.4054/DemRes.2008.19.3
+
+**Frejka, Tomas; Gietel-Basten, Stuart 2016:** Fertility and Family Policies in Central and Eastern Europe after 1990. In: *Comparative Population Studies* 41,1: 3-56. https://doi.org/10.12765/CPoS-2016-03
+
+**Gerber, Theodore P.; Berman, Danielle 2010:** Entry to Marriage and Cohabitation in Russia, 1985-2000: Trends, Correlates, and Implications for the Second Demographic Transition. In: *European Journal of Population* 26: 3-31. https://doi.org/10.1007/s10680-009-9196-8
+
+**Gimpelson, Vladimir 2001:** The politics of labor-market adjustment: The case of Russia. In: Kornai, János; Haggard, Stephan; Kaufman, Robert (Eds.): *Reforming the state: Fiscal and welfare in post-socialist countries*. Cambridge, UK: University of Cambridge Press: 25-52.
+
+**Goldscheider, Frances; Bernhardt, Eva; Lappegård, Trude 2015:** The Gender Revolution: A Framework for Understanding Changing Family and Demographic Behavior. In: *Population and Development Review* 41,2: 207-239. https://doi.org/10.1111/j.1728-4457.2015.00045.x
+
+**Hellerstein, Judith K.; Sandler Morrill, Melinda 2011:** Booms, Busts, and Divorce. In: *The B.E. Journal of Economic Analysis & Policy* 11,1: 1-28. https://doi.org/10.2202/1935-1682.2914
+
+**Hill, Matthew J. 2015:** Love in the Time of the Depression: The Effect of Economic Conditions on Marriage in the Great Depression. In: *The Journal of Economic History* 75,1: 163-189. https://doi.org/10.1017/S0022050715000066
+
+**Hoem, Jan M. 2008:** Overview Chapter 8: The impact of public policies on European fertility. In: *Demographic Research* 19: 249-260. https://doi.org/10.4054/DemRes.2008.19.10
+
+**Hoem, Jan M. et al. 2009:** Traces of the Second Demographic Transition in Four Selected Countries in Central and Eastern Europe: Union Formation as a Demographic Manifestation. In: *European Journal of Population* 25: 239-255. https://doi.org/10.1007/s10680-009-9177-y
+
+**Holzmann, Robert; Ritzberger-Grunwald, Doris; Schuberth, Helene 2020:** 30 years of transition in Europe: Looking back and looking beyond in CESEE countries. Edward Elgar Publishing Limited.
+
+**Härkönen, Juho; Billingsley, Sunnee; Hornung, Maria 2020:** Divorce trends in seven countries over the long transition from state socialism: 1981-2004. In: Mortelmans, Dimitri (Ed.): *Divorce in Europe*. Cham: Springer: 63-89. https://doi.org/10.1007/978-3-030-25838-2_4
+
+**Hsu, Chen-Hao 2023:** How women’s employment instability affects birth transitions: the moderating role of family policies in 27 European countries. In: *European Sociological Review* 37. https://doi.org/10.1093/esr/jcad037
+
+**Inglot, Tomasz; Szikra, Dorottya; Rat, Cristina 2022:** Mothers, Families or Children? Family Policy in Poland, Hungary, and Romania 1945-2020. University of Pittsburgh Press.
+
+**Katus, Kalev et al. 2007:** Fertility, family formation and dissolution: comparing Poland and Estonia 1989-2005. In: *Studia Demograficzne* 1,151: 3-39.
+
+**Kiley, Kevin; Vaisey, Stephen 2020:** Measuring Stability and Change in Personal Culture Using Panel Data. In: *American Sociological Review* 85,3: 477-506. https://doi.org/10.1177/0003122420921538
+
+**Kolk, Martin 2019:** Weak support for a U-shaped pattern between societal gender equality and fertility when comparing societies across time. In: *Demographic Research* 40,2: 27-48. https://doi.org/10.4054/DemRes.2019.40.2
+
+**Kotowska, Irena et al. 2008:** Poland: Fertility decline as a response to profound societal and labour market changes? In: *Demographic Research* 19,22: 795-854. https://doi.org/10.4054/DemRes.2008.19.22
+
+**Klugman, Jeni; Micklewright, John; Redmond, Gerry 2002:** Poverty in the transition: Social expenditure and the working-age poor. In: *Innocenti Working Papers* 91. Florence, Italy: UNICEF.
+
+**Koytcheva, Elena 2006:** Social-demographic differences of fertility and union formation in Bulgaria before and after the start of the societal transition. Doctoral dissertation, University of Rostock, Germany [http://www.demogr.mpg.de/?/en/publications/dissertations.htm, 13.09.2023].
+
+**Koytcheva, Elena; Philipov, Dimiter 2008:** Bulgaria: Ethnic differentials in rapidly declining fertility. In: *Demographic Research* 19,13: 361-402. https://doi.org/10.4054/DemRes.2008.19.13
+
+**Lesthaeghe, Ron 2020:** The second demographic transition, 1986-2020: sub-replacement fertility and rising cohabitation – a global update. In: *Genus* 76,10. https://doi.org/10.1186/s41118-020-00077-4
+
+**Lesthaeghe, Ron; van de Kaa, Dirk 1986:** Twee demografische transities? In: van de Kaa, Dirk; Lesthaeghe, Ron (Eds.): *Bevolking: groei en krimp*. Deventer: Van Loghum Slaterus: 9-24.
+
+**Lesthaeghe, Ron; Surkyn, J. 2002:** New forms of household formation in Central and Eastern Europe: Are they related to newly emerging value orientations? In: UNECE (Ed.): *Economic Survey of Europe 2002/1*. New York/Geneva: Economic Commission for Europe, United Nations: 197-216.
+
+**Maříková, Hana 2021:** Men’s explanations for being childless; A dynamic perspective. In: *Sociological Research Online* 28,1. https://doi.org/10.1177/13607804211040094
+
+**McDonald, Peter 2000:** Gender equity in theories of fertility transition. In: *Population and Development Review* 26,3: 427-439. https://doi.org/10.1111/j.1728-4457.2000.00427.x
+
+**Milanovic, Branko 1998:** Income, inequality, and poverty during the transition from planned to market economy. Washington, D.C.: World Bank.
+
+**Mills, Melinda; Blossfeld, Hans-Peter 2005:** Globalization, uncertainty and the early life course: A theoretical framework. In: Blossfeld, Hans-Peter et al. (Eds.): *Globalization, uncertainty and youth in society*. London/New York: Routledge Advances in Sociology Series: 1-24.
+
+**Mills, Melinda; Blossfeld, Hans-Peter 2013:** The Second Demographic Transition Meets Globalization: A Comprehensive Theory to Understand Changes in Family Formation in an Era of Rising Uncertainty. In: Evans, Ann; Baxter, Janeen (Eds.): *Negotiating the Life Course*. Dordrecht: Springer: 9-33. https://doi.org/10.1007/978-90-481-8912-0_2
+
+**Mills, Melinda 2007:** Individualization and the life course: Towards a theoretical model and empirical evidence. In: Howard, Cosmo (Ed.): *Contested Individualization*. Toronto: Palgrave MacMillan: 61-79. https://doi.org/10.1057/9780230609259_4
+
+**Mureșan, Cornelia 2007:** Family dynamics in pre- and post-transition Romania: a life-table description. In: *MPIDR Working Paper* 018(0),70.
+
+**Mureșan, Cornelia et al. 2008:** Romania: Childbearing metamorphosis within a changing context. In: *Demographic Research* 19,23: 855-906. https://doi.org/10.4054/DemRes.2008.19.23
+
+**Mureșan, Cornelia; Oláh, Livia Sz. 2019:** Men’s first partnership formation in four former state-socialist countries during the transition period. In: *Romanian Journal of Population Studies* 13,2: 35-52. https://doi.org/10.24193/RJPS.2019.2.03
+
+**Mynarska, Monika 2010:** Deadline for Parenthood: Fertility Postponement and Age Norms in Poland. In: *European Journal of Population* 26: 351-373. https://doi.org/10.1007/s10680-009-9194-x
+
+**Neyer, Gerda; Andersson, Gunnar 2008:** Consequences of family policies on childbearing behavior: Effects or artifacts? In: *Population and Development Review* 34,4: 699-724. https://doi.org/10.1111/j.1728-4457.2008.00246.x
+
+**Ní Bhrolcháin, Máire; Beaujouan, Éva 2012:** Fertility postponement is largely due to rising educational enrolment. In: *Population Studies* 66,3: 311-327. https://doi.org/10.1080/00324728.2012.697569
+
+**Oláh, Livia Sz. 2015:** Changing families in the European Union: trends and policy implications. Analytical paper. Prepared for the United Nations Expert Group Meeting, “Family policy development: achievements and challenges”. New York, May 14-15, 2015.
+
+**Perelli-Harris, Brienna 2005:** The path to lowest-low fertility in Ukraine. In: *Population Studies* 59,1: 55-70. https://doi.org/10.1080/0032472052000332700
+
+**Perelli-Harris, Brienna; Gerber, Theodore P. 2011:** Nonmarital Childbearing in Russia: Second Demographic Transition or Pattern of Disadvantage? In: *Demography* 48,1: 317-342. https://doi.org/10.1007%2Fs13524-010-0001-4
+
+**Perelli-Harris, Brienna; Kreyenfeld, Michaela; Kubisch, Karolin 2011:** Harmonized histories: Manual for the preparation of comparative fertility and union histories. In: *MPIDR Working Paper WP-2010-011*. Max-Planck Institute for Demographic Research. 
+
+## The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence
+
+**Perelli-Harris, Brienna; Sánchez Gassen, Nora** 2012: How Similar Are Cohabitation and Marriage? Legal Approaches to Cohabitation across Western Europe. In: *Population and Development Review* 38: 435-467. https://doi.org/10.1111/j.1728-4457.2012.00511.x
+
+**Potârcă, Gina; Mills, Melinda; Lesnard, Laurent** 2013: Family Formation Trajectories in Romania, the Russian Federation and France: Towards the Second Demographic Transition? In: *European Journal of Population* 29,1: 69-101. https://doi.org/10.1007/s10680-012-9279-9
+
+**Perelli-Harris, Brienna; Lyons-Amos, Mark** 2015: Changes in Partnership Patterns across the Life course: An Examination of 14 Countries in Europe and the United States. In: *Demographic Research* 33,6: 145-78. https://doi.org/10.4054/DemRes.2015.33.6
+
+**Rat, Cristina; Szikra, Dorottya** 2018: Family policies and social inequalities in Central and Eastern Europe: A comparative analysis of Hungary, Poland and Romania between 2005 and 2015. In: Rostgaard, Tine; Eydal, Guðný B. (Eds.): *Handbook of Family Policy*. Edward Elgar: 223-235. https://doi.org/10.4337/9781784719340.00026
+
+**Saxonberg, Steven; Sirovátka, Tomáš** 2006: Failing family policy in post-communist Central Europe. In: *Journal of Comparative Policy Analysis* 8,2: 185-202. https://doi.org/10.1080/13876980600682089
+
+**Settersten, Richard A.; Mayer, Karl Ulrich** 1997: The Measurement of Age, Age Structuring, and the Life Course. In: *Annual Review of Sociology* 23,1: 233-261. http://dx.doi.org/10.1146/annurev.soc.23.1.233
+
+**Sobotka, Tomáš** 2002: Ten years of rapid fertility changes in the European post-communist countries: Evidence and interpretation. In: *Population Research Centre Working Paper Series* 02-1.
+
+**Sobotka, Tomáš** 2003: Re-emerging diversity: Rapid fertility changes in Central and Eastern Europe after the collapse of the communist regimes. In: *Population* 58,4-5: 451-485. https://doi.org/10.2307/3246652
+
+**Sobotka, Tomáš** 2008: The diverse faces of the Second Demographic Transition in Europe. In: *Demographic Research* 19,8: 171-224. https://doi.org/10.4054/DemRes.2008.19.8
+
+**Sobotka, Tomáš** 2011: Fertility in Central and Eastern Europe after 1989: Collapse and Gradual Recovery. In: *Historical Social Research / Historische Sozialforschung* 36,2: 246-296. https://doi.org/10.12759/hsr.36.2011.2.246-296
+
+**Sobotka, Tomáš; Toulemon, Laurent** 2008: Overview chapter 4: Changing family and partnership behaviour: common trends and persistent diversity across Europe. In: *Demographic Research* 19,6: 85-138. https://doi.org/10.4054/DemRes.2008.19.6
+
+**Sobotka, Tomáš et al.** 2008: Czech Republic: A rapid transformation of fertility and family behaviour after the collapse of state socialism. In: *Demographic Research* 19: 403-454. https://doi.org/10.4054/DemRes.2008.19.14
+
+**Sobotka, Tomáš; Skirbekk, Vegard; Philipov, Dimiter** 2011: Economic recession and fertility in the developed world. In: *Population and Development Review* 37,2: 267-306. https://doi.org/10.1111/j.1728-4457.2011.00411.x
+
+**Sobotka, Tomáš; Beaujouan, Éva** 2014: Two Is Best? The Persistence of a Two-Child Family Ideal in Europe. In: *Population and Development Review* 40,3: 391-419. https://doi.org/10.1111/j.1728-4457.2014.00691.x
+
+**Šťastná, Anna; Kocourková, Jiřina; Šprocha, Branislav** 2020: Parental Leave Policies and Second Births: A Comparison of Czechia and Slovakia. In: *Population Research and Policy Review* volume 39: 415-437. https://doi.org/10.1007/s11113-019-09546-x
+
+**Spéder, Zsolt; Kamarás, Ferenc** 2008: Hungary: Secular fertility decline with distinct period fluctuations. In: *Demographic Research* 19,18: 599-664. https://doi.org/10.4054/DemRes.2008.19.18
+
+**Stankuniene, Vlada; Jasilioniene, Aiva** 2008: Lithuania: Fertility decline and its determinants. In: *Demographic Research* 19,20: 705-742. http://dx.doi.org/10.4054/DemRes.2008.19.20
+
+**Szalma, Ivett; Takács, Judit** 2022: Exploring older men’s pathways to childlessness in Hungary: Did the change of policy regime matter? In: *Social Inclusion* 10,3. https://doi.org/10.17645/si.v10i3.5248
+
+**Szeleva, Dorota; Polakowski, Michal P.** 2008: Who cares? Changing patterns of childcare in Central and Eastern Europe. In: *Journal of European Social Policy* 18,2: 115-131. http://dx.doi.org/10.1177/0958928707087589
+
+**Teplova, Tatyana** 2007: Welfare state transformation, childcare, and women’s work in Russia. In: *Social Politics* 14,3: 284-322.
+
+**van de Kaa, Dirk J.** 2004: Is the Second Demographic Transition a useful research concept Questions and answers. In: *Vienna Yearbook of Population Research* 2: 4-10.
+
+**Vergauwen, Jorik et al.** 2015: Quality of demographic data in GGS wave 1. In: *Demographic Research* 32,24: 723-774. https://doi.org/10.4054/DemRes.2015.32.24
+
+**World Bank** 2000: *Making transition work for everyone: Poverty and inequality in Europe and Central Asia*. Washington, D.C.: The World Bank.
+
+**Zakharov, Sergei** 2008: Russian Federation: From the First to the Second Demographic Transition. In: *Demographic Research* 19,24: 907-972. https://doi.org/10.4054/DemRes.2008.19.24
+
+**Date of submission:** 30.06.2022 **Date of acceptance:** 19.07.2023
+
+**Prof. Dr. Sunnee Billingsley ( ), Prof. Dr. Juho Härkönen.** Stockholm University, Demography Unit, Department of Sociology. Stockholm, Sweden.
+E-mail: sunnee.billingsley@sociology.su.se; juho.harkonen@sociology.su.se,
+URL: https://www.su.se/english/profiles/sbill-1.186892
+https://www.su.se/english/profiles/jhr-1.186927
+
+**Maria Hornung.** Humboldt-University Berlin. Berlin, Germany.
+E-mail: maria.hornung@hu-berlin.de
+URL: https://www.sowi.hu-berlin.de/de/institut/Mitarbeiter/mitarbeiterinnen/1692292
+
+**The Sensitivity of Family-Related Behaviors to Economic and Social Turbulence ...**
+
+**Women** | **Men**
+------- | --------
+**Marriage** | **1st birth** | **Marriage** | **1st birth**
+**Education**
+studying | 0.440** | 0.384** | 0.692** | 0.591**
+High | 1.008 | 0.761** | 1.242** | 1.001
+Medium | 1 | 1 | 1 | 1
+Low | 0.745* | 0.767* | 0.678** | 0.691**
+**Year**
+1970 | 1.032 | 0.742 | 0.877 | 1.341
+1971 | 0.833 | 0.816 | 1.058 | 0.759
+1972 | 0.778 | 0.710* | 0.759 | 1.034
+1973 | 0.753 | 0.680* | 0.945 | 0.649
+1974 | 0.722* | 0.803 | 0.822 | 1.111
+1975 | 0.620** | 0.862 | 0.905 | 1.205
+1976 | 0.751* | 0.589** | 0.757 | 1.020
+1977 | 0.733* | 0.840 | 0.601* | 0.762
+1978 | 0.789 | 0.786 | 0.935 | 0.821
+1979 | 0.884 | 0.847 | 0.935 | 1.013
+1980 | 1 | 1 | 1 | 1
+1981 | 0.927 | 0.718* | 0.843 | 0.910
+1982 | 0.792 | 0.766 | 0.936 | 0.961
+1983 | 0.804 | 0.756* | 0.847 | 0.786
+1984 | 0.876 | 0.867 | 0.870 | 0.978
+1985 | 0.885 | 0.991 | 0.959 | 0.947
+1986 | 0.810 | 0.875 | 0.798 | 1.074
+1987 | 0.799 | 0.982 | 0.758 | 0.880
+1988 | 0.869 | 0.838 | 0.557** | 0.703
+1989 | 0.729* | 0.839 | 1.029 | 0.828
+1990 | 0.951 | 0.969 | 0.777 | 0.895
+1991 | 0.823 | 0.826 | 0.558** | 0.934
+1992 | 0.707* | 0.880 | 0.584** | 0.794
+1993 | 0.714* | 1.002 | 0.751 | 0.582**
+1994 | 0.730* | 0.881 | 0.546** | 0.645*
+1995 | 0.806 | 0.821 | 0.714 | 0.582**
+1996 | 0.460** | 0.758 | 0.691* | 0.885
+1997 | 0.620** | 0.569** | 0.529** | 0.670*
+1998 | 0.600** | 0.726* | 0.650* | 0.449**
+1999 | 0.631** | 0.596** | 0.517** | 0.733
+2000 | 0.505** | 0.787 | 0.553** | 0.686*
+2001 | 0.635** | 0.610** | 0.631** | 0.497**
+2002 | 0.671** | 0.636** | 0.471** | 0.623**
+2003 | 0.506** | 0.715* | 0.543** | 0.542**
+
+**Appendix**
+
+**Tab. A1:** Full model results for marriage and first births in Belarus, relative risks from piecewise constant hazard models 
+
+## Table A1: Continuation
+
+|  | Women | Men | Women | Men |
+|---|---|---|---|---|
+|  | Marriage | 1st birth | Marriage | 1st birth |
+| Year |  |  |  |  |
+| 2004 | 0.502** | 0.537** | 0.531** | 0.633** |
+| 2005 | 0.508** | 0.621** | 0.452** | 0.501** |
+| 2006 | 0.657** | 0.736* | 0.514** | 0.562** |
+| 2007 | 0.701* | 0.900 | 0.576** | 0.561** |
+| 2008 | 0.623** | 0.647** | 0.484** | 0.618** |
+| 2009 | 0.529** | 0.792 | 0.450** | 0.471** |
+| Age |  |  |  |  |
+| 16-20 | 1 | 1 | 1 | 1 |
+| 21-25 | 1.366** | 2.254** | 5.879** | 8.620** |
+| 26-30 | 0.540** | 1.377** | 3.796** | 8.835** |
+| 31-35 | 0.241** | 0.671** | 2.008** | 5.793** |
+| 36-40 | 0.091** | 0.246** | 1.113 | 2.532** |
+| 41-45 | 0.048** | 0.024** | 0.775 | 1.460 |
+| 46-50 | 0.035** | 0.021** | 0.396* | 0.582 |
+| Constant | 0.015** | 0.011** | 0.003** | 0.002** |
+| Observations | 52,094 | 50,976 | 45,937 | 47,712 |
+
+** p<0.01, * p<0.05
+
+Source: own estimations
+
+## Table A2: Full model results for second births and divorce in Belarus, relative risks from piecewise constant hazard models
+
+|  | Women | Men | Women | Men |
+|---|---|---|---|---|
+|  | 2nd birth | Divorce | 2nd birth | Divorce |
+| Education |  |  |  |  |
+| studying | 0.886 | 1.116 | 0.880 | 0.988 |
+| High | 0.908 | 0.981 | 0.975 | 0.754* |
+| Medium | 1 | 1 | 1 | 1 |
+| Low | 1.117 | 0.954 | 0.933 | 1.085 |
+| Year |  |  |  |  |
+| 1970 | 0.903 | 0.913 | 0.544 | 0.000 |
+| 1971 | 1.103 | 0.795 | 0.765 | 0.000 |
+| 1972 | 1.154 | 1.083 | 0.667 | 0.746 |
+| 1973 | 1.494* | 0.882 | 0.461* | 0.000 |
+| 1974 | 0.965 | 0.904 | 0.823 | 0.570 |
+| 1975 | 0.957 | 0.730 | 0.643 | 1.512 |
+| 1976 | 0.789 | 0.591 | 0.970 | 1.389 |
+| 1977 | 1.191 | 0.937 | 0.722 | 0.869 |
+| 1978 | 1.021 | 1.531 | 0.807 | 1.609 |
+| 1979 | 0.883 | 0.816 | 0.808 | 0.724 |
+| 1980 | 1 | 1 | 1 | 1 |
+| 1981 | 1.046 | 0.465 | 0.900 | 0.000 |
+| 1982 | 1.252 | 1.092 | 0.725 | 1.421 |
+| 1983 | 1.178 | 0.834 | 0.992 | 1.066 |
+| 1984 | 1.037 | 0.947 | 1.045 | 0.751 |
+| 1985 | 1.490* | 1.004 | 1.150 | 2.627 |
+| 1986 | 1.080 | 1.019 | 1.317 | 2.305 |
+| 1987 | 0.937 | 0.537 | 0.798 | 0.673 |
+| 1988 | 1.385* | 0.864 | 0.910 | 1.080 |
+| 1989 | 0.974 | 0.876 | 1.008 | 2.487 |
+| 1990 | 0.918 | 1.211 | 0.789 | 1.806 |
+| 1991 | 1.116 | 1.058 | 0.666 | 0.784 |
+| 1992 | 0.645* | 1.138 | 0.798 | 1.363 |
+| 1993 | 0.599* | 0.658 | 0.539** | 1.850 |
+| 1994 | 0.590** | 0.991 | 0.422** | 1.422 |
+| 1995 | 0.435** | 1.064 | 0.582* | 2.283 |
+| 1996 | 0.322** | 1.540 | 0.487** | 2.741 |
+| 1997 | 0.511** | 1.529 | 0.387** | 2.506 |
+| 1998 | 0.501** | 0.850 | 0.483** | 1.628 |
+| 1999 | 0.515** | 1.057 | 0.313** | 1.712 |
+| 2000 | 0.537** | 1.422 | 0.457** | 2.757 |
+| 2001 | 0.528** | 1.186 | 0.436** | 1.946 |
+| 2002 | 0.584** | 1.415 | 0.349** | 1.896 |
+| 2003 | 0.411** | 1.544 | 0.346** | 2.284 |
+| 2004 | 0.521** | 1.349 | 0.383** | 1.386 |
+| 2005 | 0.626* | 1.554 | 0.340** | 3.131 |
+| 2006 | 0.582** | 1.596 | 0.517** | 3.104 |
+| 2007 | 0.425** | 1.753* | 0.560** | 3.030 |
+| 2008 | 0.722 | 1.302 | 0.482** | 1.927 |
+| 2009 | 0.805 | 1.375 | 0.445** | 2.270 |
+| Time since 1st child/married |  |  |  |  |
+| 0-2 years | 1 | 1 | 1 | 1 |
+| 3-5 years | 1.513** | 1.456** | 1.616** | 1.409 |
+| 6-8 years | 1.173* | 1.145 | 1.345** | 1.159 |
+| 9+/9-11 years | 0.240** | 1.120 | 0.285** | 1.241 |
+| 12-15 years | N/A | 1.121 | N/A | 1.058 |
+| 16+ | N/A | 1.361** | N/A | 0.817 |
+| Age at 1st birth/marriage |  |  |  |  |
+| 15-20 | 1.222** | 1.236** | 0.937 | 1.309 |
+| 21-25 | 1 | 1 | 1 | 1 |
+| 26-30 | 0.633** | 1.186 | 0.812** | 0.922 |
+| 31-35 | 0.392** | 0.850 | 0.610** | 0.821 |
+| 36-40 | 0.167** | 1.194 | 0.259** | 2.640** |
+| 41+ | 0.174 | 2.390* | 0.079* | 1.027 |
+| Parity |  |  |  |  |
+| 0 | N/A | 1.309* | N/A | 2.663** |
+| 1 child | N/A | 1.440** | N/A | 1.979** |
+| 2 children | N/A | 1 | N/A | 1 |
+| 3+ children | N/A | 1.194 | N/A | 1.951** |
+| Constant | 0.009** | 0.001** | 0.012** | 0.000** |
+| Observations | 45,218 | 88,855 | 25,797 | 59,232 |
+
+** p<0.01, * p<0.05
+
+N/A = Not Applicable
+
+Source: own estimations 
+
+## Comparative Population Studies
+
+Published by the Federal Institute for Population Research (BiB), 65180 Wiesbaden, Germany
+
+**Managing Publisher:** Dr. Nikola Sander
+
+**2023**
+
+**Editor:** Prof. Frans Willekens
+
+**Managing Editor:** Dr. Katrin Schiefer
+
+**Editorial Assistants:** Beatriz Feiler-Fuchs, Wiebke Hamann
+
+**Layout:** Beatriz Feiler-Fuchs
+
+**E-mail:** cpos@bib.bund.de
+
+**Scientific Advisory Board:**
+
+* Kieron Barclay (Stockholm)
+* Karsten Hank (Cologne)
+* Ridhi Kashyap (Oxford)
+* Natalie Nitsche (Rostock)
+* Alyson van Raalte (Rostock)
+* Pia S. Schober (Tübingen)
+* Rainer Wehrhahn (Kiel)
+
+**www.comparativepopulationstudies.de**
+
+**ISSN:** 1869-8980 (Print) – 1869-8999 (Internet)
+
+**Board of Reviewers:**
+
+* Bruno Arpino (Barcelona)
+* Laura Bernardi (Lausanne)
+* Gabriele Doblhammer (Rostock)
+* Anette Eva Fasang (Berlin)
+* Michael Feldhaus (Oldenburg)
+* Alexia Fürnkranz-Prskawetz (Vienna)
+* Birgit Glorius (Chemnitz)
+* Fanny Janssen (Groningen)
+* Frank Kalter (Mannheim)
+* Stefanie Kley (Hamburg)
+* Bernhard Köppen (Koblenz)
+* Anne-Kristin Kuhnt (Rostock)
+* Hill Kulu (St Andrews)
+* Nadja Milewski (Wiesbaden)
+* Roland Rau (Rostock)
+* Thorsten Schneider (Leipzig)
+* Tomas Sobotka (Vienna)
+* Jeroen J. A. Spijker (Barcelona)
+* Heike Trappe (Rostock)
+* Helga de Valk (The Hague)
+* Sergi Vidal (Barcelona)
+* Michael Wagner (Cologne) 

@@ -1,0 +1,78 @@
+{\
+    "dataset_information": [\
+        \{\
+            "formal_name": "2020 U.S. Decennial Census Demographic and Housing Characteristics file",\
+            "source_repository": "U.S. Census Bureau",\
+            "timeframe": "2020",\
+            "geographical_scope": "United States",\
+            "population_sample": "All households",\
+            "unit_of_analysis": "Census tract",\
+            "data_format": "Table",\
+            "sample_size": "1,168,566 same-sex households nationwide",\
+            "missing_data": "Undercount of LGBTQ population, excludes individuals without spouses/partners, individuals who do not live with their spouses/partners, and individuals unwilling to identify themselves as living in a same-sex marriage/partnership.",\
+            "data_collection_method": "Census",\
+            "data_cleaning": "Combined same-sex spouses and unmarried partners in portions of the analysis.",\
+            "usage_in_paper": \{\
+                "variable_type": "Demographic",\
+                "specifics": "Number of same-sex and different-sex households by type (spouses or unmarried partners) down to the census tract level."\
+            \}\
+        \}\
+    ],\
+    "study_context": \{\
+        "study_title": "New Evidence From Census 2020 on the Residential Segregation of Same-Sex Households: A Research Note",\
+        "authors": [\
+            \{\
+                "name": "Amy Spring",\
+                "affiliations": [\
+                    "Department of Sociology, Georgia State University, Atlanta, GA, USA"\
+                ]\
+            \},\
+            \{\
+                "name": "Amin Ghaziani",\
+                "affiliations": [\
+                    "Department of Sociology, University of British Columbia, Vancouver, British Columbia, Canada"\
+                ]\
+            \}\
+        ],\
+        "publication_year": 2023,\
+        "research_domain": "Sociology, Urban Studies, LGBTQ Studies"\
+    \},\
+    "variables": \{\
+        "dependent_variables": [\
+            \{\
+                "name": "Residential Segregation",\
+                "type": "Continuous",\
+                "measurement": "Index of Dissimilarity (D)"\
+            \}\
+        ],\
+        "independent_variables": [\
+            \{\
+                "name": "Household Type",\
+                "type": "Categorical",\
+                "categories": [\
+                    "Male Same-Sex Households",\
+                    "Female Same-Sex Households",\
+                    "Different-Sex Households"\
+                ]\
+            \},\
+            \{\
+                "name": "Marital Status",\
+                "type": "Categorical",\
+                "categories": [\
+                    "Spouses",\
+                    "Unmarried Partners"\
+                ]\
+            \}\
+        ],\
+        "control_variables": [\
+            \{\
+                "name": "Geographic Area",\
+                "type": "Categorical",\
+                "categories": [\
+                    "Cities",\
+                    "Metropolitan Statistical Areas (MSAs)"\
+                ]\
+            \}\
+        ]\
+    \}\
+\}}
