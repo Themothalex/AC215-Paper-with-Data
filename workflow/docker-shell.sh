@@ -16,7 +16,10 @@ export IMAGE_NAME="paper-with-data"
 docker network inspect llm-rag-network >/dev/null 2>&1 || docker network create llm-rag-network
 
 # # Build the image based on the Dockerfile
-docker build -t $IMAGE_NAME -f Dockerfile .
+# docker build -t $IMAGE_NAME -f Dockerfile .
+
+# Build images for each service based on their respective Dockerfiles
+docker compose build
 
 # # Run All Containers
 # # docker compose run --rm --service-ports $IMAGE_NAME
