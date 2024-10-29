@@ -2,24 +2,24 @@ import os
 import vertexai
 from vertexai.generative_models import GenerativeModel, GenerationConfig
 import json
-
+from google.cloud import storage
 
 SYSTEM_INSTRUCTION = """
-You are a helpful research assistant. You help social science scholars to search for papers more easily through sepcific datasets and variables.
-Your job is to read throught the paper and tell the use which datasets are used in this paper and return some specific features for this paper.
-These features will then be used to form a new seach platform for papers.
+You are a helpful research assistant. You help social science scholars to search for papers more easily through specific datasets and variables.
+Your job is to read through the paper and tell the user which datasets are used in this paper and return some specific features for this paper.
+These features will then be used to form a new search platform for papers.
 """
 
 # Setup for Google Cloud Project and Vertex AI Initialization
 GCP_PROJECT = os.environ.get("ac215", "ac215-438315")
-GCP_LOCATION = "us-central1"
+GCP_LOCATION = "us-east1"
 vertexai.init(project=GCP_PROJECT, location=GCP_LOCATION)
 
 # Model for content generation
 GENERATIVE_MODEL = "gemini-1.5-flash-001"
 generative_model = GenerativeModel(
-	GENERATIVE_MODEL,
-	system_instruction=[SYSTEM_INSTRUCTION]
+    GENERATIVE_MODEL,
+    system_instruction=[SYSTEM_INSTRUCTION]
 )
 
 # Configuration settings for content generation
@@ -30,61 +30,9 @@ generation_config = GenerationConfig(
     top_k=40
 )
 
-
+# JSON schema for data extraction
 schema = {
-    "dataset_information": [
-        {
-            "formal_name": "",
-            "source_repository": "",
-            "timeframe": "",
-            "geographical_scope": "",
-            "population_sample": "",
-            "unit_of_analysis": "",
-            "data_format": "",
-            "sample_size": "",
-            "missing_data": "",
-            "data_collection_method": "",
-            "data_cleaning": "",
-            "usage_in_paper": {
-                "variable_type": "",
-                "specifics": ""
-            }
-        }
-    ],
-    "study_context": {
-        "study_title": "",
-        "authors": [
-            {
-                "name": "",
-                "affiliations": [""]
-            }
-        ],
-        "publication_year": "",
-        "research_domain": ""
-    },
-    "variables": {
-        "dependent_variables": [
-            {
-                "name": "",
-                "type": "",
-                "measurement": ""
-            }
-        ],
-        "independent_variables": [
-            {
-                "name": "",
-                "type": "",
-                "categories": [""]
-            }
-        ],
-        "control_variables": [
-            {
-                "name": "",
-                "type": "",
-                "measurement": ""
-            }
-        ]
-    }
+    # (schema details here)
 }
 
 def read_text_file(file_path):
@@ -92,9 +40,7 @@ def read_text_file(file_path):
         text = file.read()
     return text
 
-    
 def extract_information(text):
-    # Prepare the prompt for extracting information
     prompt = f"""
 {SYSTEM_INSTRUCTION}
 
@@ -107,45 +53,60 @@ Paper Text:
 Provide the extracted information in **strict JSON format** without any additional text or explanation.
 """
 
-    # Generate the response using the model
-
     response = generative_model.generate_content(
-		[prompt],  # Input prompt
-		generation_config=generation_config,  # Configuration settings
-		stream=False,  # Enable streaming for responses
-	)
+        [prompt],
+        generation_config=generation_config,
+        stream=False,
+    )
+    return response.text.strip()
 
-    generated_text = response.text.strip()
+def upload_json_to_gcs(bucket_name, content, destination_blob_name):
+    client = storage.Client()
+    bucket = client.bucket(bucket_name)
+    blob = bucket.blob(destination_blob_name)
 
-    return generated_text
+    # Check if the blob already exists in the bucket
+    if blob.exists():
+        print(f"{destination_blob_name} already exists in gs://{bucket_name}/{destination_blob_name}. Skipping upload.")
+        return
+
+    # Save content to a local JSON file and upload
+    with open("extracted_information.json", "w", encoding="utf-8") as f:
+        json.dump(content, f, indent=4)
+    
+    with open("extracted_information.json", "r", encoding="utf-8") as f:
+        blob.upload_from_file(f, content_type="application/json")
+    
+    print(f"Uploaded {destination_blob_name} to gs://{bucket_name}/{destination_blob_name}")
 
 def main():
-
-    txt_path = 'data/A3.txt'
+    txt_path = 'data/ps8.txt'
     text = read_text_file(txt_path)
     
     # Extract structured information from the full text
     extracted_info = extract_information(text)
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_file_path = os.path.join(script_dir, "extracted_information.json")
-    
-    # Convert the extracted information to a dictionary and save it
-    # try:
-    #     extracted_data = json.loads(extracted_info)
-    #     with open(output_file_path, "w", encoding='utf-8') as json_file:
-    #         json.dump(extracted_data, json_file, indent=4)
-    #     print(json.dumps(extracted_data, indent=4))
-    # except json.JSONDecodeError as e:
-    #     print("Error decoding JSON:", e)
-    #     print("Raw extracted info:", extracted_info)
-    
-    print("Extracted Info:", extracted_info)
-    extracted_data = json.loads(extracted_info)
-    with open(output_file_path, "w", encoding='utf-8') as json_file:
-        json.dump(extracted_data, json_file, indent=4)
-    print(json.dumps(extracted_data, indent=4))
+    # Debugging: Print extracted_info to inspect its contents
+    # print("Extracted Information:", extracted_info)  # Inspect the raw output
 
+    # Clean the extracted information to ensure it’s valid JSON
+    extracted_info = extracted_info.strip()  # Remove extra whitespace
+    if extracted_info.startswith("```json"):
+        extracted_info = extracted_info[7:]  # Remove the ```json part
+    if extracted_info.endswith("```"):
+        extracted_info = extracted_info[:-3]  # Remove the ending ```
+
+    try:
+        extracted_data = json.loads(extracted_info)
+    except json.JSONDecodeError as e:
+        print(f"JSON decoding error: {e}")
+        print("Extracted Information content was not valid JSON.")
+        return
+
+    # Upload to GCS bucket
+    output_bucket_name = "features_output"
+    destination_blob_name = "extracted_information.json"
+    upload_json_to_gcs(output_bucket_name, extracted_data, destination_blob_name)
 
 if __name__ == '__main__':
     main()
