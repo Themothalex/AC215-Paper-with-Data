@@ -1,6 +1,6 @@
 # Use the official Debian-hosted Python image
-# FROM python:3.12-slim-bookworm
-FROM python:3.12
+FROM python:3.12-slim-bookworm
+# FROM python:3.12
 
 ARG DEBIAN_PACKAGES="build-essential git screen vim coreutils"
 

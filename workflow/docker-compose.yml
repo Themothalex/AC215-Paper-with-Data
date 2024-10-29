@@ -2,9 +2,11 @@ networks:
     default:
         name: llm-rag-network
         external: true
+
 services:
     text_processor:
-        image: paper-with-data
+        build:
+            context: ./text_processor
         container_name: text_processor
         volumes:
             - ../secrets:/secrets
@@ -12,23 +14,21 @@ services:
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
-        # command: sleep infinityx
 
-        # depends_on:
-        #     - chromadb
-    featureExtracter:
-        image: paper-with-data
-        container_name: featureExtracter
+    featureextracter:  # Renamed to lowercase
+        build:
+            context: ./featureExtracter
+        container_name: featureextracter  # Renamed to lowercase
         volumes:
             - ../secrets:/secrets
             - ${PWD}/featureExtracter:/app
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
-        # command: sleep infinity
 
     embedding:
-        image: paper-with-data
+        build:
+            context: ./embedding
         container_name: embedding
         volumes:
             - ../secrets:/secrets
@@ -36,16 +36,3 @@ services:
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
-        # command: sleep infinity
-
-    # chromadb:
-    #     image: chromadb/chroma:latest
-    #     container_name: llm-rag-chromadb
-    #     ports:
-    #         - 8000:8000
-    #     volumes:
-    #         - ./docker-volumes/chromadb:/chroma/chroma
-    #     environment:
-    #         - IS_PERSISTENT=TRUE
-    #         - ANONYMIZED_TELEMETRY=FALSE
-    #         - CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"] # This is not recommended for production environments.
