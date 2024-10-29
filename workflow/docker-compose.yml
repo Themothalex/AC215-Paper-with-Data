@@ -18,7 +18,7 @@ services:
     featureextracter:  # Renamed to lowercase
         build:
             context: ./featureExtracter
-        container_name: featureextracter  # Renamed to lowercase
+        container_name: featureExtracter  # Renamed to lowercase
         volumes:
             - ../secrets:/secrets
             - ${PWD}/featureExtracter:/app
