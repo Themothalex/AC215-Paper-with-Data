@@ -1,0 +1,94 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Canadian Censuses 1991-2006 (20 percent sample)",
+            "source_repository": "Statistics Canada",
+            "timeframe": "1991 to 2006",
+            "geographical_scope": "Canada",
+            "population_sample": "Women who migrated to Canada before age 19",
+            "unit_of_analysis": "Individual women",
+            "data_format": "Census data",
+            "sample_size": "Approximately 1.8 million observations",
+            "missing_data": "Not specified",
+            "data_collection_method": "Confidential files from Canadian Census of Population",
+            "data_cleaning": "Weighted observations, age grouping, categorization by region of birth",
+            "usage_in_paper": {
+                "variable_type": "Fertility measures",
+                "specifics": "Comparing fertility of child immigrants to native-born, analyzing impacts of age at immigration, education, and region of birth"
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "Factors Influencing the Fertility Choices of Child Immigrants in Canada",
+        "authors": [
+            {
+                "name": "Alicia Adsera",
+                "affiliations": [
+                    "Unknown"
+                ]
+            },
+            {
+                "name": "Ana Ferrer",
+                "affiliations": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "publication_year": "Year unknown",
+        "research_domain": "Immigrant fertility in Canada"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Total number of children born to women in Canada aged 16-45",
+                "type": "Integer variable",
+                "measurement": "Poisson model"
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "Age at immigration",
+                "type": "Indicator variable",
+                "categories": [
+                    "Under age 1 to age 18"
+                ]
+            },
+            {
+                "name": "Highest educational attainment",
+                "type": "Indicator variable",
+                "categories": [
+                    "Below high school, high school, non-university post-secondary education, university education"
+                ]
+            },
+            {
+                "name": "Region of birth",
+                "type": "Indicator variable",
+                "categories": [
+                    "20 homogenous regions"
+                ]
+            }
+        ],
+        "control_variables": [
+            {
+                "name": "Rural indicator",
+                "type": "Indicator variable",
+                "measurement": "Included in Poisson models"
+            },
+            {
+                "name": "Province of residence",
+                "type": "Indicator variable",
+                "measurement": "Included in Poisson models"
+            },
+            {
+                "name": "5-year age groups",
+                "type": "Indicator variable",
+                "measurement": "Included in Poisson models"
+            },
+            {
+                "name": "Birth cohorts",
+                "type": "Indicator variable",
+                "measurement": "Included in Poisson models"
+            }
+        ]
+    }
+}

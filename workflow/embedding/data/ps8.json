@@ -1,0 +1,62 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Demographic and Health Surveys (DHSs)",
+            "source_repository": "",
+            "timeframe": "1986 to 2011",
+            "geographical_scope": "36 sub-Saharan African countries",
+            "population_sample": "Children under 5, adults aged 15-60, siblings",
+            "unit_of_analysis": "Individuals",
+            "data_format": "Generalized additive models (GAM)",
+            "sample_size": "107 DHSs across 36 countries",
+            "missing_data": "Exposure time occurring more than 22 years before surveys discarded",
+            "data_collection_method": "Retrospective reports, full birth histories, maternal sibling group data",
+            "data_cleaning": "Fitting models to minimize generalized cross-validation (GCV) score",
+            "usage_in_paper": {
+                "variable_type": "Child and adult mortality rates",
+                "specifics": "Used to analyze trends and patterns in child and adult mortality in sub-Saharan Africa"
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "Divergences in Trends in Child and Adult Mortality in Sub-Saharan Africa: Survey Evidence on the Survival of Children and Siblings",
+        "authors": [
+            {
+                "name": "Bruno Masquelier",
+                "affiliations": [
+                    "Universit\u00e9 Catholique de Louvain"
+                ]
+            },
+            {
+                "name": "Georges Reniers",
+                "affiliations": [
+                    "London School of Hygiene & Tropical Medicine"
+                ]
+            },
+            {
+                "name": "Gilles Pison",
+                "affiliations": [
+                    "Institut National d\u2019\u00c9tudes D\u00e9mographiques"
+                ]
+            }
+        ],
+        "publication_year": "",
+        "research_domain": "Mortality estimation in sub-Saharan Africa"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Child mortality rates (5q0)",
+                "type": "Rates",
+                "measurement": "Under-5 mortality rate"
+            },
+            {
+                "name": "Adult mortality rates (45q15)",
+                "type": "Rates",
+                "measurement": "Probability of dying between ages 15 and 60"
+            }
+        ],
+        "independent_variables": [],
+        "control_variables": []
+    }
+}

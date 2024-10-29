@@ -1,0 +1,63 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Swedish register data",
+            "source_repository": "Swedish administrative register",
+            "timeframe": "1970-1982 birth cohorts",
+            "geographical_scope": "Sweden",
+            "population_sample": "Total population",
+            "unit_of_analysis": "Individuals",
+            "data_format": "Administrative register data",
+            "sample_size": "Not specified",
+            "missing_data": "Some individuals born in the early 1970s had missing data on parents",
+            "data_collection_method": "Digitized population registries in Sweden",
+            "data_cleaning": "Data collected from registers for all individuals with a unique personal identity number in Sweden since 1947",
+            "usage_in_paper": {
+                "variable_type": "Fertility data",
+                "specifics": "Used to examine the intergenerational transmission of fertility patterns from grandparents and parents' siblings in contemporary Sweden"
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "Multigenerational Transmission of Family Size in Contemporary Sweden",
+        "authors": [
+            {
+                "name": "Martin Kolk",
+                "affiliations": [
+                    "Stockholm University"
+                ]
+            }
+        ],
+        "publication_year": "Not specified",
+        "research_domain": "Demography"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Fertility patterns",
+                "type": "Multigenerational",
+                "measurement": "Association between completed fertility of grandparents and parents' siblings with fertility of index persons"
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "Parental characteristics",
+                "type": "Control",
+                "categories": [
+                    "Age",
+                    "Educational level",
+                    "Birth order",
+                    "Birth intervals",
+                    "Grandmothers' birth years"
+                ]
+            }
+        ],
+        "control_variables": [
+            {
+                "name": "Completed fertility of parents, grandparents, aunts, and uncles",
+                "type": "Fertility data",
+                "measurement": "Total number of children born in Sweden by the end of 2007"
+            }
+        ]
+    }
+}
