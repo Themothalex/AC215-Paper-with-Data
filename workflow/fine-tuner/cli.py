@@ -11,9 +11,7 @@ from vertexai.generative_models import GenerativeModel, GenerationConfig
 
 # Setup
 GCP_PROJECT = os.environ["GCP_PROJECT"]
-# TRAIN_DATASET = "gs://cheese-dataset/llm-finetune-dataset-small/train.jsonl" # Replace with your dataset
 TRAIN_DATASET = "gs://fine-tuning-ac215/train_data.jsonl"
-# VALIDATION_DATASET = "gs://cheese-dataset/llm-finetune-dataset-small/test.jsonl" # Replace with your dataset
 VALIDATION_DATASET = "gs://fine-tuning-ac215/validation_data.jsonl"
 GCP_LOCATION = "us-central1"
 GENERATIVE_SOURCE_MODEL = "gemini-1.5-flash-002" # gemini-1.5-pro-002
@@ -62,19 +60,13 @@ def train(wait_for_job=False):
 def process():
     # print("chat()")
     # Get the model endpoint from Vertex AI: https://console.cloud.google.com/vertex-ai/studio/tuning?project=ac215-project
-    #MODEL_ENDPOINT = "projects/129349313346/locations/us-central1/endpoints/810191635601162240"
-    #MODEL_ENDPOINT = "projects/129349313346/locations/us-central1/endpoints/5584851665544019968"
-    #MODEL_ENDPOINT = "projects/129349313346/locations/us-central1/endpoints/3319822527953371136" # Finetuned model
     MODEL_ENDPOINT = "projects/590232342668/locations/us-central1/endpoints/7908374821732352000" 
     generative_model = GenerativeModel(MODEL_ENDPOINT)
 
-    # query = "How is cheese made?"
-    # print("query: ",query)
-    
+    # check if the model works and test the performance
     with open("demo_paper.txt", "r", encoding="utf-8") as f:
         query = f.read()
-
-
+        
     prompt = """
     Provide the extracted information in **strict JSON format** without any additional text or explanation.
 
