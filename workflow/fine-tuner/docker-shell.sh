@@ -4,7 +4,7 @@
 set -e
 
 # Read the settings file
-# source ../env.dev
+source ./env.dev
 
 export IMAGE_NAME="gemini-finetuner"
 
