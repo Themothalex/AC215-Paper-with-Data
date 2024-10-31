@@ -2,6 +2,7 @@ import os
 import json
 import vertexai
 from vertexai.language_models import TextEmbeddingModel
+from vertexai.generative_models import GenerativeModel, GenerationConfig
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
@@ -13,6 +14,13 @@ vertexai.init(project=GCP_PROJECT, location=GCP_LOCATION)
 # Load the embedding model
 EMBEDDING_MODEL = "text-embedding-004"
 embedding_model = TextEmbeddingModel.from_pretrained(EMBEDDING_MODEL)
+
+generation_config = {
+    "max_output_tokens": 3000,  # Maximum number of tokens for output
+    "temperature": 0.75,  # Control randomness in output
+    "top_p": 0.95,  # Use nucleus sampling
+}
+
 
 def extract_features_from_json(json_file):
     # Extract dataset information, study context, and variables into a text block
@@ -82,6 +90,38 @@ def main():
         print(f"Similarity score: {best_score}")
     else:
         print("No match found.")
+
+    MODEL_ENDPOINT = "projects/590232342668/locations/us-central1/endpoints/7908374821732352000" 
+    generative_model = GenerativeModel(MODEL_ENDPOINT)
+
+    if best_match:
+        with open(best_match['path'], "r") as f:
+            text_summary = f.read()
+
+        prompt_1 = f"""The user is interested in {input_text}. 
+        
+        Here is the summary of the most relevant paper.\n"""
+
+        prompt_2 = text_summary
+
+        prompt_3 = """
+
+        Please tell the user how the paper is related to the query.
+
+        You should first provide the basic information of the paper and then tell how they are related and finally convert the JSON file into a list of points.
+            
+            """
+        
+        prompt = prompt_1 + prompt_2 + prompt_3
+        
+        response = generative_model.generate_content(
+        [prompt],  # Input prompt
+        generation_config=generation_config,  # Configuration settings
+        stream=False,  # Enable streaming for responses
+        )
+
+        generated_text = response.text
+        print("Fine-tuned LLM Response:", generated_text)
 
 if __name__ == "__main__":
     main()
