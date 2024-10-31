@@ -18,7 +18,7 @@ vertexai.init(project=GCP_PROJECT, location=GCP_LOCATION)
 # Model for content generation
 GENERATIVE_MODEL = "gemini-1.5-flash-001"
 generative_model = GenerativeModel(
-    GENERATIVE_MODEL,
+    "projects/590232342668/locations/us-central1/endpoints/7908374821732352000",
     system_instruction=[SYSTEM_INSTRUCTION]
 )
 
