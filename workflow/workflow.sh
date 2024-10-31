@@ -12,7 +12,7 @@ echo "Running container featureExtracter"
 docker exec -it featureExtracter pipenv run python featureExtracter.py
 
 # Embedding files and return the ranked results
-echo "Running container embedding"
-docker exec -it embedding pipenv run python embedding.py
+echo "Running container rag"
+docker exec -it rag pipenv run python rag.py
 
 

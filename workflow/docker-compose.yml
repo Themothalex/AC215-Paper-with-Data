@@ -26,13 +26,13 @@ services:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
 
-    embedding:
+    rag:
         build:
-            context: ./embedding
-        container_name: embedding
+            context: ./rag
+        container_name: rag
         volumes:
             - ../secrets:/secrets
-            - ${PWD}/embedding:/app
+            - ${PWD}/rag:/app
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT

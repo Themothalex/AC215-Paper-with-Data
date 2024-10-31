@@ -12,7 +12,7 @@
 2.2 using the the new article to retrieve the most similar one from the example database \
 2.3 put the example  into the prompt to instruct the LLM to extract features from the new article according to the example 
 
-### Container3 embedding do the following
+### Container3 rag do the following
 3.1 embed all the files of extracted features \
 3.2 embed the query and calculate the similarity between the query and files in the database \
 3.3 rank and return the ranked results

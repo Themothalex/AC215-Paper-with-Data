@@ -106,7 +106,7 @@ def main():
     # Upload to GCS bucket
     output_bucket_name = "features_output"
     destination_blob_name = "extracted_information.json"
-    upload_json_to_gcs(output_bucket_name, extracted_data, destination_blob_name)
+    # upload_json_to_gcs(output_bucket_name, extracted_data, destination_blob_name)
 
 if __name__ == '__main__':
     main()

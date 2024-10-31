@@ -120,7 +120,7 @@ def main():
         process_and_upload_pdfs(input_bucket_name, output_bucket_name)
 
 
-    process_and_upload_pdfs(input_bucket_name, output_bucket_name)
+    # process_and_upload_pdfs(input_bucket_name, output_bucket_name)
 
 
 if __name__ == "__main__":
