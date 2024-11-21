@@ -32,6 +32,7 @@ generation_config = GenerationConfig(
 
 # JSON schema for data extraction 
 
+
 schema = {
     # (schema details here)
 }
