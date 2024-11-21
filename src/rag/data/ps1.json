@@ -1,0 +1,66 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "National Family Health Surveys (NFHS)",
+            "source_repository": "Demographic and Health Survey (DHS) series",
+            "timeframe": "1992-93, 1998-99, 2005-06",
+            "geographical_scope": "India",
+            "population_sample": "nationally representative sample of women and households",
+            "unit_of_analysis": "households, women, children",
+            "data_format": "survey data",
+            "sample_size": "Varied",
+            "missing_data": "Not specified",
+            "data_collection_method": "Interviews with ever-married women",
+            "data_cleaning": "Wealth scores were generated separately for each area to account for differences in scales. First- and second-order temporal dummy variables were included in the regression to address duration dependence of the hazard function.",
+            "usage_in_paper": {
+                "variable_type": "Predictors of child health outcomes",
+                "specifics": "Used to examine the relationship between household wealth and child health outcomes such as mortality and malnutrition"
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "Household wealth and child health in India",
+        "authors": [
+            {
+                "name": "Satvika Chalasani",
+                "affiliations": [
+                    "Not specified"
+                ]
+            },
+            {
+                "name": "Shea Rutstein",
+                "affiliations": [
+                    "Not specified"
+                ]
+            }
+        ],
+        "publication_year": "Not specified",
+        "research_domain": "Social Sciences, Public Health"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Infant mortality, Child mortality, Under-5 mortality, Stunting, Wasting, Underweight",
+                "type": "Health outcomes",
+                "measurement": "Rates/percentages"
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "Household wealth",
+                "type": "Socioeconomic factor",
+                "categories": [
+                    "Lowest, Second, Middle, Fourth, Highest wealth quintiles"
+                ]
+            },
+            {
+                "name": "Mother's education, Birth order, Birth interval, Improved drinking water, Improved sanitation facility, Solid cooking fuel, Urban household, Father's education, Religion",
+                "type": "Control variables",
+                "categories": [
+                    "Education levels, Household characteristics, Socioeconomic factors"
+                ]
+            }
+        ],
+        "control_variables": []
+    }
+}

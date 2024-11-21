@@ -1,0 +1,639 @@
+## Life-Course Factors and Later Life Health in Eastern and Western Europe
+
+Luule Sakkeus, Katrin Schwanitz, Liili Abuladze, Uku Rudissaar
+
+**Abstract:** Human development and ageing are lifelong processes, where earlier life conditions and events are interlinked with later life outcomes. Patterns of inequality within and among cohorts emerge over time as products of the interplay between institutional arrangements and individual life, often dependent on childhood or earlier life circumstances. The life conditions and experiences of older adults in Eastern and Western Europe differ significantly, but whether their cumulative effects on later life outcomes vary across these two regions has not been compared. We explore the effects of socioeconomic position, the experience of a period of hunger, the dispossession of assets, and discrimination suffered by parents in respondents' life courses on later life health inequalities in Europe. Self-reported health, everyday activity limitations, and cognitive functioning are the main outcomes that provide an adequate overview of different health domains. We mainly use data from the seventh wave of the Survey of Health, Ageing, and Retirement in Europe (SHARE 2017) and restrict our sample to respondents aged 65 and older from 26 European countries (N=41,566). We find that older people in Eastern Europe fare worse in self-rated health and everyday activity limitations than Western Europeans, while Eastern Europeans indicate somewhat better outcomes in cognitive functioning. A disadvantaged socioeconomic position in childhood and adulthood has the strongest association with all health outcomes, followed by the experience of hunger over the life course for the whole of Europe. However, we do not find diverging associations between life-course factors and health outcomes in Eastern and Western Europe. We argue that self-reported health, everyday activity limitations and cognitive functioning have to be analyzed within their own frameworks and cannot yield conclusions that are uniform for all health outcomes. Moreover, major generalizations either about Eastern or Western Europe must be treated with caution as the regions have very different historical as well as demographic developments and thus cannot be treated as uniform.
+
+**Keywords:** Self-rated health Â· Everyday activity limitations Â· Cognitive functioning Â· Older adults
+
+**1 Introduction**
+
+Although life expectancy at birth and at age 65 steadily increased in Europe at the beginning of the 21st century, this growth stagnated as of the second half of the 2010s. Life expectancy at the age of 65 has remained on average at 20.1 years in Western Europe and 17.2 years in Eastern Europe, although the increase over these years has been somewhat more rapid in the latter (Eurostat 2022a). At the same time, the more qualitative indicator of health status â€“ healthy life years at and above age 65 â€“ has not improved, especially in Eastern Europe, where the healthy life expectancy of people aged 65 and above (6.5 years) is on average more than three years shorter than the healthy life expectancy of older adults in Western Europe (9.9 years) (Eurostat 2022a). To put this into perspective, older adults in the West live with health restrictions for half of their remaining lifetime, whereas older adults in the East live with health restrictions for over two thirds of their remaining life.
+
+Such health stagnation among older Eastern Europeans is the main motivation for this study: We further investigated the sources of health restrictions between the two regions. The main aim is to understand whether the discrepancy between Eastern and Western Europe remains the same in three different health domains (self-rated health, disability, and cognitive functioning) and what might be the main underlying circumstances. We seek to understand whether, and to what extent, oneâ€™s socioeconomic position over the life course as well as adverse events in childhood, adulthood, or both explain different health outcomes in Eastern and Western Europe. 
+
+Our study uses mainly data from the seventh wave of the Survey of Health, Ageing and Retirement (SHARE), a cross-national multi-disciplinary study of individuals aged 50 and older across Europe. This wave was the first to include all 26 Continental EU Member States, Switzerland, and Israel, which lends additional weight to our East-West comparison of the association between life-course economic or otherwise adverse circumstances and later life health. Prior comparative research was often solely based on a couple of Eastern European countries (e.g. Sieber et al. 2019, 2020), rendering conclusions about broader European regions problematic. Additionally, we account for differences in the principal societal developments of Eastern and Western Europe, since most studies on health disparities have not included a focus on adverse lifelong disruptions after World War II (here defined as dispossessions of assets, hunger episodes, and discriminations against parents over a respondentâ€™s lifetime), as critiqued by Tapia Granados (2013), for example.
+
+**2 Research background: Adverse life-course circumstances and later life health**
+
+Life-course influences contribute significantly to differences in health and mortality in later life (e.g. Case et al. 2005; Freedman et al. 2008; Zhang et al. 2008; Lorenti et al. 2020). Moreover, the relationship between life-course influences and later life health evolves across various domains of health (Arpino et al. 2018; Lorenti et al. 2020). In this study, we specifically examine three health outcomes in later life: self-rated health, disability, and cognitive functioning. Self-rated health is a subjective assessment of oneâ€™s own health, which is a good, if not a main, predictor of mortality (DeSalvo et al. 2006; JylhÃ¤ 2009). Disability, measured by the validated proxy of everyday activity limitations (Jagger et al. 2010), assesses the interaction between personal capabilities and the barriers or facilitators for participation in society (Verbrugge/Jette 1994). Cognitive functioning is an objective assessment of oneâ€™s cognitive abilities and performance, which is associated with well-being, physical and mental health, and life expectancy (Winblad et al. 2016). Cognitive limitations may also lead to activity restrictions and disability in later life (Cambois et al. 2013), and contribute to future increased complex care needs as longevity increases (Kingston et al. 2018). Taken together, these three health outcomes provide a holistic overview of both physical and mental health in later life, as well as their interaction with societal barriers, thus complementing research perspectives focusing solely on life expectancy and survival.
+
+The extent to which life-course influences are associated with health outcomes (i.e. self-rated health, disability, and cognitive functioning) likely depends on at least two aspects: the specific type of (adverse) life-course event and the time of occurrence within the life course (Ben-Shlomo/Kuh 2002; Dannefer 2003). Regarding the first aspect, the literature on health disparities tends to focus on specific life-course influences (e.g. socioeconomic position throughout the life course) but has neglected others (e.g. experience of societal disruptions, repressions, or discrimination). The latter is central for a theoretical framework â€“ the cumulative advantage/disadvantage (CAD) or accumulation of risk model (Ben-Shlomo/Kuh 2002; Dannefer 2003) â€“ that emphasizes gradual and dynamic processes over the life course that generate health disparities.
+
+There are several other mutually inclusive theoretical mechanisms linking life-course circumstances with later life health. First, the direct long-term effects of early life-course or sensitive life-period factors on adult health and mortality have been discussed (Ben-Shlomo/Kuh 2002). Second, early life-course circumstances may indirectly affect later life health, leading to diverging health outcomes through mediating factors such as education or socioeconomic status (Graham 2002). We argue, nevertheless, that the accumulation model is a useful theoretical framework to assess health disparities in later life, as it underlines the process through which (adverse) events affect health outcomes across the life course. According to this (Ben-Shlomo/Kuh 2002; Dannefer 2003), early influences create either baseline vulnerabilities or resilience, which then accumulate over the life course. Accumulation refers to both independent and interlinked events. However, the latter... 
+
+Luule Sakkeus, Katrin Schwanitz, Liili Abuladze, Uku Rudissaar
+
+is more common â€“ adverse circumstances tend to cluster, add up, or act as triggers, resulting in increased health inequalities in later life (Ben-Shlomo/Kuh 2002; Wang/Kang 2019). One of the pathways through which childhood disadvantages may become visible is intracohort inequality regarding earnings, job stability, pension accumulations, health, and access to health care (Dannefer 2003), but also through intergenerational continuities of (dis)advantage (Ben-Shlomo/Kuh 2002). Empirical evidence for such an indirect cumulative effect is mixed overall, showing that early life-course factors compound over time, leading to either widening health disparities with age (Mirowsky/Ross 2008) or narrowing health disparities with age (Ross/Wu 1996; Cullati et al. 2014; Sieber et al. 2019, 2020). 
+
+**2.1 Self-rated health**
+
+Self-rated health is a multidimensional indicator of health, integrating biological, mental, and social health beliefs and behaviours (StanojeviÄ‡ JerkoviÄ‡ et al. 2017). It has proven to be a key predictor of mortality (DeSalvo et al. 2006; JylhÃ¤ 2009) and related to other health outcomes such as well-being, depression, functional health decline, or morbidity onset (Idler et al. 2000; Pinquart 2001; JylhÃ¤ 2011). 
+
+Known predictors of self-rated health include gender, age, family configurations, socioeconomic status, physical and physiological health status, as well as cognitive and emotional factors (Ferraro 1980; Hays et al. 1996; Cott et al. 1999; Leinonen et al. 2001; Crimmins et al. 2011; Weissman/Russell 2018). Previous studies have also shown that there is cross-national divergence in self-rated health, which in Europe typically follows an East-West divide (Witvliet et al. 2014; PrÃ¤g/Subramanian 2017). 
+
+In addition to such proximal influences of self-rated health outcomes, there is substantial evidence from life-course research showing that the antecedents of poor self-rated health in old age may occur much earlier in life. For example, early life conditions such as parental socioeconomic status or other characteristics of the parental household have been shown to be associated with self-rated health in later life (e.g. Case et al. 2005; Yi et al. 2007).
+
+Recently, a few studies have focused on contextualizing the effects of early life conditions on self-rated health outcomes in old age within European welfare regimes using SHARE (Sieber et al. 2019, 2020). Sieber et al. (2019) find that disadvantaged early-life socioeconomic conditions are associated with the risk of poor self-rated health in old age, irrespective of the welfare regime. The way in which adult-life socioeconomic circumstances in turn modify the earlier association, however, differs by welfare regime. Sieber et al. (2020) further find that childhood misfortune and disadvantaged adult-life socioeconomic conditions are associated with poor self-rated health until the age of 50. After that, the socioeconomic gradient in later life self-rated health levels with ageing, with varying patterns across welfare regimes. 
+
+**2.2 Disability**
+
+Disability is a social process: Becoming disabled arises from the loss or reduction of the ability to perform activities pertinent to any social role due to a prolonged deterioration of health (Verbrugge/Jette 1994). Three sets of factors may moderate the speed of the progression towards disability: predisposing factors (e.g. demographic or biological characteristics), intraindividual factors (e.g. social relations), and extraindividual factors (e.g. institutional context). Disability itself is not a personal characteristic, but a gap between personal capability and environmental demand; it thus refers to environmental barriers which are (at least partially) constructed by society. In order to remain as independent as possible and feel well in old age, optimising environments and respective environmental interventions are critical for people with disabilities (Wahl/Oswald 2016). While the situation in Europe improved slowly between 2005 and 2010 in terms of years expected to live without activity limitations above 65 years (Fouweather et al. 2015), the length of unhealthy life has been expanding more recently, but its severity has not (Welsh et al. 2021). It is not clear whether this holds true more for Eastern or Western Europe.
+
+The association with childhood circumstances is revealed in several studies trying to understand late-life disablement (Freedman et al. 2008; Montez/Hayward 2014; Wang/Kang 2019; Lorenti et al. 2020). In the US context, disadvantages in childhood socioeconomic status have been shown to be associated with both shorter lives in general as well as shorter active lives without impairments when compared with older adults from advantaged childhood circumstances (Montez/Hayward 2014). Similarly, the higher the number of disadvantaged situations experienced earlier in life, the lower the number of working years, and the higher the number of years lived with disability (Lorenti et al. 2020). Adverse childhood circumstances may delay (positive) effects on health during the life course in general, increasing the prevalence of chronic diseases, which expand the number of years lived with disability in later life (BeltrÃ¡n-SÃ¡nchez et al. 2022). An association between childhood living conditions and ageing well (including functioning) has been found for Europe (Brandt et al. 2012; Arpino et al. 2018). In addition to childhood cognitive skills and health, higher socioeconomic status at age 10 and parental socioeconomic status was positively associated with better later life health, even when contemporary characteristics were controlled for. In China, the persistence of advantaged childhood socioeconomic circumstances across mid- and late-life was the best protection for later health outcomes (Wang/Kang 2019).
+
+Poverty is one of the important social factors related to the onset of disability, acting in various ways. Experiencing economic hardships such as long-term unemployment or material deprivation may both increase exposure to disabling diseases, making it more difficult to limit the impact of illnesses on functioning (Cambois/Jusot 2011; Fouweather et al. 2015). Education can be the main protecting factor from late-life disability, even in the case of having a disadvantaged childhood (Montez/Hayward 2014; Lorenti et al. 2020). Less educated groups may be more disadvantaged regarding disability in countries with a less favourable economic context and low levels of income redistribution (Cutler et al. 2015; Dahl et al. 2006), such as Eastern European and Baltic countries. However, Cambois and her colleagues (2016) found that out of 26 European countries, only Hungary and the Czech Republic had larger disadvantages in activity limitations between the different education groups.
+
+**2.3 Cognitive functioning**
+
+Cognition plays an important role in old-age well-being due to affecting most of the life functions and domains, and can be considered an important indicator of the future challenges of ageing. Similar to other health outcomes, there is evidence of early life socioeconomic circumstances being associated with cognitive functioning in old age, irrespective of socioeconomic status in adulthood (Cheval et al. 2019; Aartsen et al. 2019), although the effects have been small in some regions (Horvat et al. 2014). Specifically, the number of books at home during childhood has been the main associating factor in later life cognition, suggesting the relevance of social or cultural factors over material or financial ones (Cheval et al. 2019). However, direct effects of childhood conditions on late-life cognition are confirmed only in some contexts (e.g. Zhang et al. 2008; Horvat et al. 2014; Aartsen et al. 2019). There is evidence of early childhood social and economic conditions being associated with (absolute) levels of cognitive functioning in old age (Everson-Rose et al. 2003; Aartsen et al. 2019; Cheval et al. 2019), while fewer studies confirm their relation to cognitive decline (Aartsen et al. 2019). Childhood poverty, hunger and illiteracy have a negative association with old age cognition in some contexts (Zhang et al. 2008; Wang/Kang 2019). Additionally, adulthood socioeconomic conditions may ameliorate the different childhood socioeconomic effects (Aartsen et al. 2019; Zhang et al. 2008; Horvat et al. 2014; Cheval et al. 2019).
+
+Education is one of the most important factors in cognition: The higher the education received, the better cognition outcomes in later life, especially regarding memory (Everson-Rose et al. 2003; Zhang et al. 2008; Horvat et al. 2014; Schneeweis et al. 2014; Lee/Schafer 2021; Wolfova et al. 2021). Among its several benefits, one may be that education enables a better sense of control, therefore extending the pathway into late-life cognition advantages (Lee/Schafer 2021). Other (adulthood) factors relevant to cognition include marital or partnership status, number of children ever born, as well as various economic or social roles and activities (Bordone/Weber 2012; Doblhammer et al. 2013; Horvat et al. 2014; Schneeweis et al. 2014; Okamoto et al. 2021; Wu-Chung et al. 2022). Also, the economic situation during childhood or at birth can relate to all cognitive functioning outcomes in later life through nutrition or stress experienced due to the economic situation and employment opportunities of the parents (Doblhammer et al. 2013). 
+
+Stress experienced over a lifetime as well as more recently is also relevant for cognition. Emotionally traumatic events â€“ such as losing a parent early in life, mistreatment at school, combat activity, genocides, or bereavement of a close person â€“ contribute to emotional and mental stress, mood swings, and depression. This may influence cognition, even if only to a small extent or only in some cognition domains (Tsolaki et al. 2010; Ritchie et al. 2011; Blanchette et al. 2019, Wu-Chung et al. 2022). However, traumatic life events (including childhood, social, community, and war events) were not related to cognitive impairment in later life in a South 
+
+Life-course Factors and Later Life Health in Eastern and Western Europe
+
+African population (Payne et al. 2020). Potentially, survival of a small and selective population to old age explains some of these outcomes. 
+
+Cognitive functioning is one of the under-researched health outcomes for Eastern Europe, with only single countries and life-course associations having been included (Horvat et al. 2014; Laidra 2016; Cermakova et al. 2018; Ahrenfeldt et al. 2019; Formanek et al. 2019; Carmel/Tur-Sinai 2022). Comparative analyses indicate that Eastern European countries do not differ from Western European countries in cognition, especially in verbal fluency, though they fare somewhat worse in recall (Ahrenfeldt et al. 2019; Formanek et al. 2019). General associations with cognition have been similar to other European countries, including the relevance of education (Horvat et al. 2014; Wolfova et al. 2021). Like other spheres, educational systems went through various transitions in Eastern European countries during the 20th century. 
+Childhood socioeconomic position has been found to be related moderately to late-life cognition in one Eastern European city (Horvat et al. 2014), but it remains largely unknown how different life-course factors may relate to cognition in later life in this region. 
+
+**Subject of this study**
+
+The previous theoretical considerations lead us to the following hypotheses: First, we assume that there are cross-regional differences (between Eastern and Western Europe) in all three health outcomes (H1). This is based on the notion that the effect of life-course factors on later life health is more meaningfully contextualized through a comparison between Eastern and Western European countries. This is due to different exposures to health risks in association with broader historical developments related to socioeconomic and political transformations (Hobcraft et al. 1982; Van den Berg et al. 2006; Sagi-Schwartz et al. 2013; Mackenbach 2013; Tapia Granados 2013; Leppik/Puur 2020). While it is conceivable that such regional differences coincide with welfare regime settings, Haas and Oi (2018) note that the welfare regime typologies used, and how countries are classified to them, is key. A comprehensive and accurate taxonomy of â€œtheâ€ Eastern European welfare regime is far from unanimous in the research literature (Van der Veen/Van der Burg 2013; Lauzadyte-Tutliene et al. 2018) without even considering the short- and long-term changes in the specific welfare provision mix, which ranges from recalibration to outright transformation. Several studies have noted differences in health outcomes between Eastern and Western Europe (or other regions of the world), despite their different scope of comparison (Witvliet et al. 2014; PrÃ¤g/Subramanian 2017; Sieber et al. 2019, 2020).
+
+We extend our first hypothesis to explore whether this regional effect is similar (in direction) for the different health outcomes: We expect that older adults in Eastern Europe are more likely to have a disability or poor self-rated health compared with older adults in Western Europe (H1a). This expectation is supported by previous studies and statistical findings (e.g., Witvliet et al. 2014; Cambois et al. 2016, 2016a; PrÃ¤g/Subramanian 2017; Eurostat 2022a). We conversely expect that older adults in Eastern Europe do not differ in cognitive functioning compared with older adults in Western Europe (H1b). This is expected mainly because some Eastern European countries do not differ from Western European countries, especially in verbal fluency (Laidra 2016; Ahrenfeldt et al. 2019; Formanek et al. 2019). Also, there was relatively early uniform access to education, and correspondingly, we see higher proportions of older people with higher levels of education, especially among women, in several, but not all, Eastern European countries (Barone/Ruggera 2018; Eurostat 2022b). These developments may have attenuated the negative health outcomes, possibly due to education being highly relevant for cognitive functioning outcomes in ageing societies (Lutz 2021). Since some cognitive functioning outcomes for selected Eastern European countries are somewhat worse compared with Western Europe, and also because there are more older people with lower levels of education in some Eastern European countries (Ahrenfeldt et al. 2019; Formanek et al. 2019; Eurostat 2022b), we expect these differences between Eastern European countries to counterbalance each other.
+
+According to our second hypothesis, we expect that adverse life-course factors tend to accumulate and lead to worse health outcomes in old age (H2). This hypothesis is based on the notion that the multiple disadvantages experienced during oneâ€™s lifetime are interlinked and exacerbate each adverse eventâ€™s effects (Ben-Shlomo/Kuh 2002; Dannefer 2003). Specifically, we expect older adults who have never experienced socioeconomically disadvantaged circumstances to be least likely to have poor health outcomes, followed by those having been in a socioeconomically disadvantaged position in either childhood or adulthood, and for those who have experienced socioeconomic disadvantage in both childhood and adulthood to be most likely to have poor health outcomes (H2a). We expect older adults who have never experienced a period of hunger to be least likely to have poor health outcomes, followed by those having experienced hunger either in childhood or adulthood, whereas those who have experienced hunger in both childhood and adulthood to be most likely to have poor health outcomes (H2b). Similarly, we also expect older adults who have never experienced dispossession to be least likely to have poor health outcomes, followed by those having experienced dispossession either in childhood or adulthood, and for those who have experienced dispossession in both childhood and adulthood to be most likely to have poor health outcomes (H2c). A similar reasoning is also applied to the associations between discrimination experienced by the respondentsâ€™ parents and later life health outcomes (H2d).
+
+Our third hypothesis is that regions influence the associations between (accumulated) life-course factors and health outcomes in old age (H3). Specifically, we expect that accumulative processes in Eastern Europe â€“ as described in H2a, H2b, H2c, and H2d â€“ are more marked and lead to worse health outcomes among older adults in terms of poor self-rated health (H3a) and limitations in everyday activities (H3b). We further expect, however, that these accumulative processes are relatively similar and do not lead to differences in health outcomes between regions in terms of poor immediate word recall (H3c) and poor delayed word recall (H3d) among older adults. 
+
+**Data and methods**
+
+**4.1 Sample**
+
+We mainly used data from the seventh wave of SHARE (Survey of Health, Ageing, and Retirement in Europe, version 8.0.0) collected in 2017/2018 (BÃ¶rsch-Supan et al. 2013). SHARE is a representative panel survey of the population aged 50 and older within a country and includes a host of multi-disciplinary health and socio-demographic variables. The seventh wave encompasses a total of 28 European countries (and Israel) with five Eastern European countries among them (Bulgaria, Latvia, Lithuania, Romania, and Slovakia) that were not present in previous waves. The seventh wave also includes retrospective questions on peopleâ€™s childhood conditions and life histories, which is of particular importance for the purpose of our study.
+
+The data of the seventh wave pertain to a total of 77,196 respondents from 28 European countries (and Israel). We restrict our analytical sample to people aged 65 and older (at the time of the interview) from the 26 European countries without any missing values on key variables. In order to reduce the missing values in our sample, we supplement the information from earlier waves (2004-2015) with information on childhood conditions and individual childbearing, and we use information from multiply imputed variables provided by the SHARE team. This results in a total sample size of 41,566 individuals. 
+
+**4.2 Variables**
+
+**4.2.1 Dependent variables**
+
+We consider four different dependent variables: (1) The binary variable poor self-rated health is based on a single item, asking respondents to rate their health (from 1 = excellent to 5 = poor). We recoded the response categories â€œexcellentâ€ and 
+
+## Life-Course Factors and Later Life Health in Eastern and Western Europe
+
+**4.2.1 Dependent variables**
+
+We created four binary variables to capture the four health outcomes of interest: (1) The binary variable poor self-rated health is based on the question â€œHow would you rate your health in general?â€ We recoded the response categories â€œvery goodâ€ to 0 and the categories â€œgoodâ€, â€œfairâ€, and â€œpoorâ€ to 1. (2) The binary variable limited in everyday activities is based on the internationally validated Global Activity Limitations Index (GALI; Jagger et al. 2010), which has shown to be a good indicator of disability (e.g. Cabrero-Garcia et al. 2020). We recoded the response category â€œno limitationsâ€ to 0 and the categories â€œmoderately limitedâ€ and â€œseverely limitedâ€ to 1. (3) The binary variable poor immediate word recall is based on how many words of a ten-word list read to them by the interviewer respondents could recall during a 1-minute interval. Following the SHARE criteria, which identify a score of four or less words as impairment in verbal learning and recall (BÃ¶rsch-Supan/JÃ¼rges 2005), we recoded a score of five to ten words to 0 and a score of zero to four words to 1. (4) The binary variable poor delayed word recall is based on how many words respondents could recall from a ten-word list read to them by the interviewer after completing a set of other SHARE questions. Again, we recoded a score of five to ten words to 0 and a score of zero to four words to 1. Both immediate and delayed word recall capture cognitive functioning; they are suitable measures for predicting dementia, assessing learning capacity, memory storage, and memory retrieval (Baltes et al. 1999). 
+
+**4.2.2 Independent variables**
+
+We grouped the 26 countries in our sample into two broader regions, and the resulting binary variable is coded 0 for Western European countries (Denmark, Finland, Sweden, Austria, Belgium, France, West Germany, Luxembourg, Switzerland, Cyprus, Greece, Italy, Malta, Portugal, and Spain) and 1 for Eastern European countries (Bulgaria, Croatia, Czech Republic, Estonia, East Germany, Hungary, Latvia, Lithuania, Poland, Romania, Slovakia, and Slovenia).
+
+We created a categorical variable that captures whether a respondent had a disadvantaged socioeconomic position in childhood or adulthood, distinguishing between â€œNot in childhood and not in adulthoodâ€ (=0), â€œNot in childhood, in adulthoodâ€ (=1), â€œIn childhood, not in adulthoodâ€ (=2), and â€œIn childhood and in adulthoodâ€ (=3). The specific structure of this variable follows the approach suggested by Niedzwiedz et al. (2015). However, it is adapted to the variable availability of our study sample: 
+
+First, we selected three childhood socioeconomic variables (number of books owned, number of rooms per person, and the number of amenities in the childhood home), which correspond to when the respondent was 10 years old. We then selected three adulthood socioeconomic variables (highest education level, household income, and the household net wealth), which correspond to when the seventh wave was collected. We further adjust household income and household net wealth for household size and purchasing power parity. All six variables thus capture different aspects of the respondentâ€™s socioeconomic positioning across their life course. Second, we generated six standardized relative ranks by country, and summed up the respective three childhood and three adulthood ranks to generate a childhood and adulthood socioeconomic index. For both indices, equal weight was given to each of the three indicators making up the socioeconomic index. Third, we calculated whether respondents fall within the lowest 25th percentile of each socioeconomic index. If they did, respondents were considered as having had a disadvantaged socioeconomic position (in childhood and/or adulthood). Based on this information, we created the above four-category variable to capture whether a respondent had experienced a disadvantaged socioeconomic situation during their life course.
+
+We created a categorical variable to capture whether a respondent had experienced a period of hunger in childhood or adulthood, and a categorical variable to capture whether a respondent had experienced dispossession (of their property as a result of war or persecution) in childhood or adulthood. For both of these, we distinguished between â€œNot in childhood and not in adulthoodâ€ (=0), â€œNot in childhood, in adulthoodâ€ (=1), â€œIn childhood, not in adulthoodâ€ (=2), and â€œIn childhood and in adulthoodâ€ (=3). We also created a categorical variable to capture whether respondentsâ€™ parents experienced at least one act of discrimination in the respondentâ€™s childhood or adulthood, distinguishing between â€œNot the mother and not the fatherâ€ (=0), â€œNot the mother, the fatherâ€ (=1), â€œThe mother, not the fatherâ€ (=2), and â€œThe mother and the fatherâ€ (=3). Discrimination in this case specifically refers to a respondentâ€™s mother or father experiencing any of the following: war and occupation; imprisonment; confinement in a labor or concentration camp; deportation; forced displacement or flight; engagement in combat operations or fighting; serious damage to physical and/or mental health or injury; and death (as a direct consequence of war, persecution, or discrimination). For all three measures â€“ and similarly to the measure of socioeconomic position â€“ childhood corresponds to when the respondent was 10 years old, and adulthood corresponds to when the respondent was older than 17 years old. 
+
+**4.2.3 Control variables**
+
+In the analyses, we controlled for age and its squared term (as continuous variables centered at age 65), as well as for the gender of the respondent (0= female, 1= male). Marital status is included as a categorical variable, the four categories being â€œmarried/partneredâ€ (=0), â€œnever marriedâ€ (=1), â€œdivorcedâ€ (= 2), and â€œwidowedâ€ (=3). We included the number of partnerships and the number of children as continuous variables. As the current country of residence â€“ independent of the broader regions of Eastern and Western Europe â€“ may also be of importance to our four different health outcomes, we included country dummies (with Austria as the reference) in our models. This captures wider relevant historical, political, and socioeconomic contexts (Van den Berg et al. 2006; Mackenbach 2013; Tapia Granados 2013).
+
+**4.3 Analytical strategy**
+
+Binary logistic regression analyses with clustered standard errors were conducted to test the hypotheses for the three health outcomes (self-rated health, disability, and cognitive functioning). Note that we operationalized disability through the variable of everyday activity limitations and cognitive functioning through the two variables of immediate and delayed word recall. The number of missing values on the dependent and control variables was low (the highest share (2 percent) of missing values was on the immediate word recall measure). The share of missing values for the independent variable of the disadvantaged socioeconomic position (SEP) in childhood or adulthood, however, was quite high (21 percent). This is because the individual variables for this measure â€“ household income and wealth, and educational attainment â€“ have considerable shares of missing values, too. We therefore used the five imputed datasets generated and provided by the SHARE team to estimate the different logistic regression models and combine their results (Stata 16: mi estimate). 
+
+**5 Results**
+
+**5.1 Descriptive results**
+
+Table 1 shows descriptive characteristics per European region. Regarding the dependent variables â€“ poor self-rated health, limited in everyday activities, poor immediate word recall, and poor delayed word recall â€“ the results generally show that the percentages with poor health outcomes are higher among respondents in Eastern Europe. Regarding the four independent variables capturing life-course disadvantage along several dimensions â€“ SEP, hunger, dispossession, and parental discrimination â€“ the results also show differences between the two regions favouring Western Europeans: The percentages of those experiencing any of these adverse events are generally higher among respondents from Eastern Europe. Mean age varies by about one year between Eastern and Western Europe (with respondents from Western Europe being slightly older on average), and the percentage of males varies between 46.1 percent (Western Europe) and 41.2 percent (Eastern Europe). The proportions of married or partnered respondents varies between regions as well, with higher levels of married or partnered respondents in Western Europe, and higher levels of widowhood in Eastern Europe. The mean number of partnerships is higher among respondents in Eastern Europe, and the mean number of children is slightly higher among respondents in Western Europe. 
+
+## Life-course Factors and Later Life Health in Eastern and Western Europe
+
+**Western Europe** | **Eastern Europe** | **Significance test**
+------- | -------- | --------
+**Mean** | **SD** | **Mean** | **SD**
+**Poor self-rated health** | Ï‡Â²=1.1e+03, p&lt;.001
+No | 21.04 | 9.03 | 78.96 | 90.97
+Yes | 78.96 | 90.97 | 21.04 | 9.03
+**Limitations in everyday activities** | Ï‡Â²=790.42, p&lt;.001
+No | 51.50 | 37.45 | 48.50 | 62.55
+Yes | 48.50 | 62.55 | 51.50 | 37.45
+**Poor immediate word recall** | Ï‡Â²=38.93, p&lt;.001
+No | 58.80 | 55.68 | 41.20 | 44.32
+Yes | 41.20 | 44.32 | 58.80 | 55.68
+**Poor delayed word recall** | Ï‡Â²=167.63, p&lt;.001
+No | 29.91 | 24.06 | 70.09 | 75.94
+Yes | 70.09 | 75.94 | 29.91 | 24.06
+**SEP disadvantaged in childhood or adulthood** | Ï‡Â²=168.51, p&lt;.001
+Not in childhood and not in adulthood | 55.25 | 53.66 | 10.85 | 12.30
+Not in childhood, in adulthood | 17.09 | 13.21 | 16.81 | 20.83
+In childhood, not in adulthood | 16.81 | 20.83 | 17.09 | 13.21
+In childhood and in adulthood | 10.85 | 12.30 | 55.25 | 53.66
+**Experienced hunger period in childhood or adulthood** | Ï‡Â²=13.98, p&lt;.01
+Not in childhood and not in adulthood | 94.58 | 93.82 | 0.46 | 0.64
+Not in childhood, in adulthood | 1.22 | 1.48 | 3.74 | 4.06
+In childhood, not in adulthood | 3.74 | 4.06 | 1.22 | 1.48
+In childhood and in adulthood | 0.46 | 0.64 | 94.58 | 93.82
+**Experienced dispossession in childhood or adulthood** | Ï‡Â²=717.49, p&lt;.001
+Not in childhood and not in adulthood | 96.44 | 90.79 | 0.02 | 0.08
+Not in childhood, in adulthood | 1.36 | 1.55 | 2.17 | 7.59
+In childhood, not in adulthood | 2.17 | 7.59 | 1.36 | 1.55
+In childhood and in adulthood | 0.02 | 0.08 | 96.44 | 90.79
+**Mother or father experienced at least 1 act of discrimination** | Ï‡Â²=210.96, p&lt;.001
+Not the mother and not the father | 66.51 | 63.67 | 7.62 | 11.48
+Not the mother, the father | 24.07 | 22.35 | 1.79 | 2.50
+The mother, not the father | 1.79 | 2.50 | 24.07 | 22.35
+The mother and the father | 7.62 | 11.48 | 66.51 | 63.67
+**Ageâ€ ** | F=94.98, p&lt;.001
+Mean | SD | Mean | SD
+9.51 | 0.04 | 8.84 | 0.05
+**Age squaredâ€ ** | F=96.26, p&lt;.001
+Mean | SD | Mean | SD
+139.94 | 1.11 | 123.30 | 1.22
+**Gender** | Ï‡Â²=99.63, p&lt;.001
+Female | 53.88 | 58.85 | 46.12 | 41.15
+Male | 46.12 | 41.15 | 53.88 | 58.85
+**Marital status** | Ï‡Â²=453.98, p&lt;.001
+Married/partnered | 68.29 | 61.91 | 20.19 | 28.80
+Never married | 4.70 | 2.94 | 6.82 | 6.35
+Divorced | 6.82 | 6.35 | 4.70 | 2.94
+Widowed | 20.19 | 28.80 | 68.29 | 61.91
+**Number of partnerships** | F=1925.77, p&lt;.001
+Mean | SD | Mean | SD
+0.70 | 0.00 | 0.98 | 0.00
+**Number of children** | F=31.81, p&lt;.001
+Mean | SD | Mean | SD
+2.22 | 0.01 | 2.15 | 0.01
+
+**Note:** The descriptive statistics are based on the values prior to imputation. â€  Age and its squared term are centered at age 65.
+
+**Source:** own calculation based on SHARE
+
+**5.2 Regression results**
+
+The results of the logistic regression analyses are shown in Tables 2 and 3. The models are estimated in two steps. In the first step, the main effects are estimated for all independent variables, adjusted for control variables (Models 1a and 2a in Table 2 and Models 3a and 4a in Table 3). In the second step, interactions between the regional variable and all factors for life-course disadvantage are added to the model, to see whether these add to our understanding of the four health outcomes beyond the individual and structural factors (Models 1b and 2b in Table 2 and Models 3b and 4b in Table 3).
+
+According to our first hypothesis, we assumed that there are cross-regional differences (between Eastern and Western Europe) in all three health outcomes. In general, we find support for this hypothesis. The regional indicator is significantly related to self-rated health and disability (see Models 1a and 2a in Table 2), as well as to at least one indicator of cognitive functioning: poor delayed word recall (see Models 3a and 4a in Table 3). This is above and beyond the effects of life-course factors and country dummies (see also Online Supplement, Tables A1-A4). In terms of the expected direction of this effect for the different health outcomes, the results show that Eastern Europeans are more likely to have worse self-rated health and more likely to have everyday activity limitations. Furthermore, and contrary to our expectations, Eastern Europeans are less likely to be impaired in cognitive functioning. While the direction of the effect is the same for impairment in both immediate and delayed word recall, it is only statistically significant for delayed word recall.
+
+According to our second hypothesis, we expected that life-course disadvantage factors accumulate and lead to worse health outcomes in old age. The empirical support for this hypothesis is mixed overall, where the clearest cases can be made for hunger and disadvantaged SEP in childhood or adulthood. Older adults who have been in a socioeconomically disadvantaged position in both childhood and adulthood are most likely to have worse self-rated health, to be limited in everyday activities, to be impaired in immediate word recall, and to be impaired in delayed word recall (consistent with H2a). Older adults who have experienced a period of hunger are most likely to have worse self-rated health, to have everyday activity limitations, and to be impaired in immediate word recall (thus overall, mostly consistent with H2b). Regarding the experience of dispossession in either childhood or adulthood, however, we do not find evidence for an association with different poor health outcomes (contrary to H2c). Older adults whose parents were both discriminated against are most likely to have everyday activity limitations, but not most likely to have worse self-rated health, and in terms of cognitive functioning, the results indicate the opposite effect of what was expected in H2d.
+
+In Models 1b and 2b (Table 2) and Models 3b and 4b (Table 3), we examine the extent to which the regions influence the associations between (accumulated) life-course factors and health outcomes in old age. The results, however, are not generally in line with our hypotheses. We found that only single interactions were statistically significant. A reasonable question is, therefore, whether the interactions... 
+
+## Table 2: Binary Logistic Regressions Predicting Two Health Outcomes: Self-Rated Health and Disability
+
+**Life-Course Factors and Later Life Health in Eastern and Western Europe**
+
+| Model 1a | Model 1b | Model 2a | Model 2b |
+|---|---|---|---|
+| Poor self-rated health | Poor self-rated health | Limitations in everyday activities | Limitations in everyday activities |
+| OR SE | OR SE | OR SE | OR SE |
+| Intercept | 1.36 0.10*** | 1.37 0.11*** | 0.54 0.03*** | 0.56 0.04*** |
+| Eastern Europe (ref. Western Europe) | 1.90 0.34*** | 1.81 0.34** | 1.28 0.14* | 1.20 0.14 |
+| Disadvantaged SEP in childhood or adulthood (ref. Not in childhood and not in adulthood) |  |  |  |  |
+| Not in childhood, in adulthood | 1.68 0.08*** | 1.69 0.09*** | 1.44 0.05*** | 1.41 0.06*** |
+| In childhood, not in adulthood | 1.56 0.06*** | 1.52 0.07*** | 1.28 0.04*** | 1.23 0.05*** |
+| In childhood and in adulthood | 2.54 0.16*** | 2.58 0.19*** | 1.70 0.07*** | 1.62 0.08*** |
+| Experienced hunger period in childhood or adulthood (ref. Not in childhood and not in adulthood) |  |  |  |  |
+| Not in childhood, in adulthood | 1.38 0.22* | 1.38 0.26 | 1.57 0.16*** | 1.63 0.21*** |
+| In childhood, not in adulthood | 1.23 0.12* | 1.20 0.13 | 1.48 0.09*** | 1.42 0.10*** |
+| In childhood and in adulthood | 1.42 0.40 | 1.28 0.42 | 1.99 0.35*** | 2.09 0.47** |
+| Experienced dispossession in childhood or adulthood (ref. Not in childhood and not in adulthood) |  |  |  |  |
+| Not in childhood, in adulthood | 0.99 0.13 | 0.79 0.13 | 0.97 0.10 | 0.71 0.10* |
+| In childhood, not in adulthood | 0.97 0.08 | 0.91 0.11 | 1.09 0.06 | 1.09 0.10 |
+| In childhood and in adulthood | 2.84 3.05 | 1.43 1.77 | 1.08 0.50 | 0.47 0.39 |
+| Parents experienced at least 1 act of discrimination (ref. Not the mother and not the father) |  |  |  |  |
+| Not the mother, the father | 1.22 0.05*** | 1.23 0.05*** | 1.20 0.03*** | 1.17 0.04*** |
+| The mother, not the father | 0.96 0.10 | 1.09 0.14 | 1.09 0.08 | 1.10 0.11 |
+| The mother and the father | 1.16 0.07* | 1.12 0.08 | 1.29 0.05*** | 1.33 0.07*** |
+
+**Interactions**
+
+|  | Model 1a | Model 1b | Model 2a | Model 2b |
+|---|---|---|---|---|
+| Eastern Europe X Disadvantaged SEP (ref. Eastern Europe X Not in childhood, not in adulthood) |  |  |  |  |
+| ... X Not in childhood, in adulthood | 0.99 0.11 | 1.04 0.07 |  |  |
+| ... X In childhood, not in adulthood | 1.11 0.10 | 1.12 0.06 |  |  |
+| ... X In childhood and in adulthood | 0.95 0.14 | 1.13 0.09 |  |  |
+| Eastern Europe X Hunger (ref. Eastern Europe X Not in childhood, not in adulthood) |  |  |  |  |
+| ... X Not in childhood, in adulthood | 1.03 0.38 | 0.93 0.20 |  |  |
+| ... X In childhood, not in adulthood | 1.15 0.27 | 1.12 0.14 |  |  |
+| ... X In childhood and in adulthood | 1.51 1.02 | 0.88 0.32 |  |  |
+| Eastern Europe X Dispossession (ref. Eastern Europe X Not in childhood, not in adulthood) |  |  |  |  |
+| ... X Not in childhood, in adulthood | 2.23 0.75* | 1.98 0.42** |  |  |
+| ... X In childhood, not in adulthood | 1.15 0.20 | 1.01 0.12 |  |  |
+| ... X In childhood and in adulthood | â€” 3.78 | â€” 3.94 |  |  |
+| Eastern Europe X Parental discrimination (ref. Eastern Europe X Not the mother, not the father) |  |  |  |  |
+| ... X Not the mother, the father | 0.99 0.09 | 1.06 0.06 |  |  |
+| ... X The mother, not the father | 0.69 0.14 | 1.00 0.15 |  |  |
+| ... X The mother and the father | 1.13 0.15 | 0.94 0.08 |  |  |
+
+N = 41566
+
+**Note:** OR= odds ratio; SE= clustered standard error. All models control for age, age squared, gender, marital status, number of partnerships, number of children, and country fixed effects. The dash (â€”) indicates when the odds ratio could not be estimated because of a perfect failure prediction. *** p-value <.000; ** p-value <.01; * p-value <.05. 
+
+**Source:** own calculation based on SHARE
+
+## Table 3: Binary Logistic Regressions Predicting Cognitive Functioning
+
+| Model 3a | Model 3b | Model 4a | Model 4b |
+|---|---|---|---|
+| Poor immediate word recall | Poor immediate word recall | Poor delayed word recall | Poor delayed word recall |
+| OR SE | OR SE | OR SE | OR SE |
+| Intercept | 0.10 0.01*** | 0.10 0.01*** | 0.48 0.03*** | 0.48 0.04*** |
+| Eastern Europe (ref. Western Europe) | 0.87 0.11 | 0.81 0.11 | 0.72 0.08** | 0.70 0.09** |
+| Disadvantaged SEP in childhood or adulthood (ref. Not in childhood and not in adulthood) |  |  |  |  |
+| Not in childhood, in adulthood | 2.28 0.08*** | 2.28 0.10*** | 2.19 0.09*** | 2.15 0.11*** |
+| In childhood, not in adulthood | 1.64 0.05*** | 1.67 0.07*** | 1.60 0.05*** | 1.61 0.07*** |
+| In childhood and in adulthood | 2.84 0.11*** | 2.80 0.14*** | 2.82 0.15*** | 2.73 0.17*** |
+| Experienced hunger period in childhood or adulthood (ref. Not in childhood and not in adulthood) |  |  |  |  |
+| Not in childhood, in adulthood | 1.06 0.11 | 1.02 0.14 | 1.01 0.13 | 1.17 0.20 |
+| In childhood, not in adulthood | 1.18 0.07** | 1.18 0.09* | 1.11 0.08 | 1.06 0.10 |
+| In childhood and in adulthood | 1.79 0.31** | 1.84 0.44* | 1.18 0.26 | 1.09 0.34 |
+| Experienced dispossession in childhood or adulthood (ref. Not in childhood and not in adulthood) |  |  |  |  |
+| Not in childhood, in adulthood | 0.84 0.09 | 0.78 0.12 | 0.98 0.12 | 0.79 0.14 |
+| In childhood, not in adulthood | 0.86 0.05** | 0.89 0.09 | 0.84 0.05** | 0.81 0.08* |
+| In childhood and in adulthood | 0.92 0.46 | 1.11 0.99 | 0.45 0.22 | 1.17 0.84 |
+| Parents experienced at least 1 act of discrimination (ref. Not the mother and not the father) |  |  |  |  |
+| Not the mother, the father | 0.92 0.03** | 0.86 0.03*** | 0.99 0.03 | 0.99 0.04 |
+| The mother, not the father | 1.00 0.08 | 0.98 0.11 | 1.02 0.09 | 1.00 0.11 |
+| The mother and the father | 0.85 0.04*** | 0.83 0.05** | 0.93 0.04 | 0.93 0.06 |
+
+N = 41566
+
+**Note:** OR= odds ratio; SE= clustered standard error. All models control for age, age squared, gender, marital status, number of partnerships, number of children, and country fixed effects. *** p-value <.000; ** p-value <.01; * p-value <.05. 
+
+## Life-course Factors and Later Life Health in Eastern and Western Europe
+
+**Table 3: Continuation**
+
+| Model 3a | Model 3b | Model 4a | Model 4b |
+|---|---|---|---|
+| Poor immediate word recall | Poor immediate word recall | Poor delayed word recall | Poor delayed word recall |
+| OR SE | OR SE | OR SE | OR SE |
+| **Interactions** | | | |
+| Eastern Europe X Disadvantaged SEP (ref. Eastern Europe X Not in childhood, not in adulthood) | | | |
+| ... X Not in childhood, in adulthood | 1.00 0.07 | 1.05 0.09 | |
+| ... X In childhood, not in adulthood | 0.96 0.06 | 0.98 0.07 | |
+| ... X In childhood and in adulthood | 1.02 0.08 | 1.09 0.11 | |
+| Eastern Europe X Hunger period (ref. Eastern Europe X Not in childhood, not in adulthood) | | | |
+| ... X Not in childhood, in adulthood | 1.08 0.22 | 0.71 0.18 | |
+| ... X In childhood, not in adulthood | 1.00 0.12 | 1.12 0.17 | |
+| ... X In childhood and in adulthood | 0.96 0.33 | 1.20 0.54 | |
+| Eastern Europe X Dispossession (ref. Eastern Europe X Not in childhood, not in adulthood) | | | |
+| ... X Not in childhood, in adulthood | 1.15 0.24 | 1.63 0.43 | |
+| ... X In childhood, not in adulthood | 0.94 0.12 | 1.06 0.13 | |
+| ... X In childhood and in adulthood | 0.76 0.82 | 0.24 0.22 | |
+| Eastern Europe X Parental discrimination (ref. Eastern Europe X Not the mother, not the father) | | | |
+| ... X Not the mother, the father | 1.19 0.07** | 0.99 0.06 | |
+| ... X The mother, not the father | 1.05 0.17 | 1.04 0.17 | |
+| ... X The mother and the father | 1.05 0.09 | 1.02 0.09 | |
+| N | 41566 | 41566 | 41566 | 41566 |
+
+**Note:** OR= odds ratio; SE= clustered standard error. All models control for age, age squared, gender, marital status, number of partnerships, number of children, and country fixed effects. *** p-value <.000; ** p-value <.01; * p-value <.05.
+
+**Source:** own calculation based on SHARE.
+
+We are required to perform multiply imputed data, and therefore cannot perform a likelihood ratio test to know if adding the interactions improves the basic model (i.e. Models 1a, 2a, 3a, and 4a, respectively). With our multiply imputed data, we tested instead whether the coefficients on the interaction terms are jointly equal to zero for each health outcome. Based on the results, Model 1b is not better than Model 1a for poor self-rated health (F= 1.19; p-value= 0.29), Model 2b is not better than Model 2a for everyday activity limitations (F= 1.69; p-value= 0.06), Model 3b is not better than Model 3a for poor immediate word recall (F= 0.83; p-value= 0.62), and Model 4b is not better than Model 4a for poor delayed word recall (F= 0.83; p-value= 0.62). As we do not find evidence that the interactions improve the different basic models, we refrain from any further interpretations of the models with interactions.
+
+### 5.3 Sensitivity analyses
+
+We specified several additional models to gauge the sensitivity of our results to changes in measurement and modelling. The results of these sensitivity analyses are fully presented in the Online Supplement (Tables A5-A21) and only briefly summarized here. First, we estimated the same models as shown in Table 2 and Table 3, but for complete cases only (i.e. without multiple imputed variables). Largely, the results do not change, indicating that they are generally not driven by the multiply imputed cases. Second, and based on a reviewer's suggestion, we estimated the same models as shown in Table 2 and Table 3 as linear probability regressions. The different model specification produced equivalent results to those shown in Table 2 and Table 3, with one exception: If we specify a linear model to the dichotomous outcome of poor self-rated health, there is partial support for the interaction hypothesis (H3a). We note, however, that the logistic model specification nevertheless has the mathematical advantage, producing more conservative parameter estimates. Third, and based on a reviewerâ€™s suggestion, we checked whether results differed for men and women. To do so, we ran the models in Table 2 and Table 3 separately for men and women and then assessed the differences in the effects of key variables via seemingly unrelated regressions (Stata 16: suest). Although we find three instances where a difference in parameter estimates is statistically significant, the results from these analyses indicate that the main effects generally do not differ between men and women. Overall, we do not find support for a difference in the accumulation of adverse life-course factors and the relationship with the different health outcomes between men and women.
+
+Fourth, we examined an alternative specification of self-rated health as an ordinally scaled variable ranging from â€œexcellentâ€ (=0) to â€œpoorâ€ (=4). The results of the ordinal logistic regressions provided more support for a cumulative effect of having experienced hunger in childhood or adulthood on poor self-rated health in later life, but are otherwise substantially similar to the models shown in Table 3. Because we have to reject the parallel lines assumption for the specified ordinal logistic regressions, we consider a binary logistic regression the more appropriate model specification for poor self-rated health in our sample data. Fifth, we explored the binary operationalisation of having ever experienced a period of hunger, dispossession, and discrimination, as well as the binary operationalisation of the respondentsâ€™ parents having ever experienced at least one act of discrimination. The results of these additional analyses specifically show that there is no support for having ever experienced dispossession being related to either poor self-rated health or being limited in everyday activities in old age. Conversely, those having experienced discrimination themselves are more likely to have either poor health or to report having everyday activity limitations. Regarding cognitive functioning, the results are seemingly non-intuitive: those having ever experienced dispossession are less likely to have either poor immediate or poor delayed word recall.
+
+### 6 Discussion
+
+Our study tracked later life health outcomes in three health domains (self-rated health, disability, and cognitive functioning) between Eastern and Western European respondents, investigating how they relate to various accumulated life-course factors. We confirm a general East-West divide in most health outcomes, but Eastern Europe is not always faring worse. While some life-course factors, especially a disadvantaged socioeconomic position, show stronger associations with health outcomes, our expectation was not confirmed regarding these factors being more marked (in the case of poor self-rated health and limitations in everyday activities) or not different (in the case of poor immediate and poor delayed word recall) for Eastern Europe.
+
+For the whole of Europe, we find that the persistence of disadvantaged circumstances across oneâ€™s lifetime has detrimental associations with later life health. The clearest evidence from our study is seen in the disadvantaged socioeconomic position, followed by the experience of hunger and/or parents being discriminated against. People who experienced disadvantaged socioeconomic positions during both their childhood and adulthood have significantly worse outcomes on all health variables observed, while those having experienced these circumstances neither in childhood nor adulthood have the best health outcomes later in life. These findings confirm previous findings on the relation of accumulated disadvantage to later life health (e.g. Case et al. 2005; Yi et al. 2007; Zhang et al. 2008; Cambois/Jusot 2011; Fouweather et al. 2015; Cambois et al. 2016; Arpino et al. 2018; Wang/Kang 2019; Sieber et al. 2019, 2020), specifically highlighting the important roles of the temporal, clustering, additive, or triggering effect of risks over the life course (Ben-Shlomo/kuh 2002; Dannefer 2003; Wang/Kang 2019). Interestingly, a disadvantaged socioeconomic position in adulthood shows a stronger association with all health outcomes than the childhood position, confirming some of the previous findings on its role in late life health (e.g. Cheval et al. 2019). This is worth studying further, especially in the Eastern European context.
+
+Our study also supports previous findings on regional differences (e.g. Witvliet et al. 2014; Cambois et al. 2016, 2016a; PrÃ¤g/Subramanian 2017; Eurostat 2022a) that show Eastern Europeans fare significantly worse on self-rated health and everyday activity limitations compared with Western Europeans. It is well-knownâ€¦ 
+
+Luule Sakkeus, Katrin Schwanitz, Liili Abuladze, Uku Rudissaar
+
+that mortality is higher in Eastern Europe, and since self-rated health is one of the 
+best constructs to predict mortality (DeSalvo et al. 2006; JylhÃ¤ 2009), the self-rated 
+health outcome might capture the broader trend of generally worse health among Eastern Europeans. The disability measure used in our study is a good indicator of the mismatch between personal capabilities and the extent to which society has successfully responded to them (Verbrugge/Jette 1994). Our results reinforce the 
+need to tackle the barriers that people with disabilities in Eastern European societies face. Among others, activities such as redistributing income for social purposes might yield benefits (Cutler et al. 2015; Dahl et al. 2006). 
+This is the first known analysis where cognitive functioning was observed for such 
+a large number of (Eastern) European countries from a comparative perspective. The better performance of Eastern Europe in the cognitive domain, especially in delayed recall, is a novel finding. One possible explanation is that societies with 
+higher life expectancy tend to have more people with cognitive functioning issues as these health concerns manifest in older ages compared with other common 
+health concerns (Olshansky/Ault 1986). Therefore, it is possible that impairment 
+in cognition is not (yet) as visible in Eastern Europe, as most Western European countries still have higher life expectancies than Eastern European countries. This selection effect, likely due to the survival of specific people as a consequence of 
+repressions and wars, may be creating a selective older population currently living in Eastern Europe where those in good (cognitive) health are alive and captured by the survey. This is in line with the literature of some authors (Hobcraft et al. 1982; 
+Sagi-Schwartz et al. 2013; Leppik/Puur 2020). Future SHARE waves that include 
+more specific dementia measures could shed light on how different population 
+ageing trends may separately relate to cognitive functioning. 
+
+Another important aspect is that self-rated health and everyday activity 
+limitations are largely subjective indicators, whereas cognition measures are more objective. Subjective reports of health may often contradict or show different outcomes than objective health reports. It has been consistently shown that for several self-reported health measures, Eastern European countries tend to indicate lower rankings than Western European countries (e.g. Spitzer/Weber 2019). Some 
+Eastern European countries indicate especially large gaps between subjective and 
+objective measures, usually pointing towards Eastern Europeans underestimating their health (Spitzer/Weber 2019). This mismatch between subjective and objective 
+measures may be due to lower education in older adults being overrepresented in some of the Eastern European countries for the SHARE survey, thus affecting self-reports (Spitzer 2020). However, the educational distribution of survey respondents 
+does not explain the outcome for the more objective cognitive functioning measures. Further analyses including other factors should be conducted to solve this puzzle.
+
+Our study indicates that there are more people in Eastern Europe with 
+adverse life-course experiences. Understandably, more societal transformations among most of the Eastern European countries meant a significant loss of family 
+property, restricted earning circumstances, and a long-term social and material devaluation of jobs that required higher education. In several circumstances, these transformations also rendered all the accumulations people had acquired by the time the transition(s) took place null and void. The fact that their association with later 
+life health outcomes is not generally more marked for Eastern Europe in our study rejects some propositions about the consequences of collective repressions and societal disruptions in later life health (e.g. Van den Berg et al. 2006; Mackenbach 
+2013; Tapia Granados 2013), although it is in line with some findings (e.g. Payne 
+et al. 2020). It is conceivable, however, that we have not been able to account 
+for the effect of societal transitions completely, possibly either due to selection bias or having a more individual- than population-level research design. Another limitation of our study is that we have mostly identified associations between life-
+course factors and health outcomes, which cannot be interpreted as pure causal links. We have also been constrained in terms of the variables available for analysis. Specifically, this resulted in creating a modified childhood socioeconomic position 
+(SEP) indicator using three variables instead of the five proposed by Niedzwiedz et 
+al. in 2015. Therefore, other datasets, research designs, and methods could be used 
+in the future to study their role in later life health differentials. Finally, we also note that isolating life-course influences in childhood and/or adulthood is largely owed 
+to SHAREâ€™s measurement of childhood circumstances and SEP indicators at age 10. Disadvantage during adolescence may also be predictive of health outcomes in later life, but we are unable to test how disadvantages during that phase of the life course specifically contribute to a cumulative burden based on SHARE data.
+
+Taken together, our findings nonetheless underscore that later life health (as well 
+as adverse life-course circumstances and disadvantages) evolve across different domains of health (Arpino et al. 2018; Aartsen et al. 2019; Lorenti et al. 2020) and 
+that it is useful to empirically consider various health outcomes when studying life-course effects (Arpino et al. 2018; Sieber et al. 2020).
+
+**Funding** 
+
+This research was funded by the Estonian Research Council (project number: 
+PRG71). Additionally, this research was partially funded by the Academy of Finland Flagship INVEST (decision number: 320162) and the Academy of Finland project 
+LoveAge (number 317808) and the NetResilience consortium funded by the Strategic 
+Research Council within the Academy of Finland (grant number: 345183). 
+
+**References**
+
+Aartsen, Marja J. et al. 2019: Advantaged socioeconomic conditions in childhood are 
+associated with higher cognitive functioning but stronger cognitive decline in older age. In: Proceedings of the National Academy of Sciences 116,12: 5478-5486. https://doi.org/10.1073/pnas.1807679116
+Ahrenfeldt, Linda J. et al. 2019: Gender differences in cognitive function and grip 
+strength: a cross-national comparison of four European regions. In: European Journal of Public Health 29,4: 667-674. https://doi.org/10.1093/eurpub/cky266
+Arpino, Bruno; GumÃ , Jordi; JuliÃ , Albert 2018: Early-life conditions and health at 
+older ages: The mediating role of educational attainment, family and employment trajectories. In: PLOS ONE 13,4: 1-17. https://doi.org/10.1371/journal.pone.0195320
+Baltes, Paul B.; Staudinger, Ursula M.; Lindenberger, Ulman 1999: Lifespan psychology: 
+Theory and application to intellectual functioning. In: Annual Review of Psychology 50: 471-507. https://doi.org/10.1146/annurev.psych.50.1.471
+Barone, Carlo; Ruggera, Lucia 2018: Educational equalization stalled? Trends in inequality 
+of educational opportunity between 1930 and 1980 across 26 European nations. In: European Societies 20,1: 1-25. https://doi.org/10.1080/14616696.2017.1290265
+BeltrÃ¡n-SÃ¡nchez, Hiram et al. 2022: Population-level impact of adverse early life 
+conditions on adult healthy life expectancy in low- and middle-income countries. In: Population Studies 76,1: 19-36. https://doi.org/10.1080/00324728.2021.1933149
+Ben-Shlomo, Yoav; Kuh, Diana 2002: A life course approach to chronic disease 
+epidemiology: Conceptual models, empirical challenges and interdisciplinary perspectives. In: International Journal of Epidemiology 31,2: 285-293. https://doi.org/10.1093/ije/31.2.285
+Blanchette, Isabelle et al. 2019: Long-term cognitive correlates of exposure to trauma: 
+Evidence from Rwanda. In: Psychological Trauma: Theory, Research, Practice, and Policy 11,2: 147-155. https://doi.org/10.1037/tra0000388
+Bordone, Valeria; Weber, Daniela 2012: Number of children and cognitive abilities in 
+later life. In: Vienna Yearbook of Population Research 10: 95-126. https://doi.org/10.1553/populationyearbook2012s95
+BÃ¶rsch-Supan, Axel; JÃ¼rges, Hendrik (Eds.) 2005: The Survey of Health, Ageing and 
+Retirement in Europe â€“ Methodology. Mannheim: MEA.
+BÃ¶rsch-Supan, Axel et al. 2013: Data resource profile: the Survey of Health, Ageing and 
+Retirement in Europe (SHARE). In: International Journal of Epidemiology 42,4: 992-1001. https://doi.org/10.1093/ije/dyt088
+Brandt, Martina; Deindl, Christian; Hank, Karsten 2012: Tracing the origins of successful 
+aging: The role of childhood conditions and social inequality in explaining later life health. In: Social Science & Medicine 74,9: 1418-1425. https://doi.org/10.1016/j.socscimed.2012.01.004
+Cabrero-GarcÃ­a, Julio; JuliÃ -Sanchis, RocÃ­o; Richart-MartÃ­nez, Miguel 2020: Association 
+of the global activity limitation indicator with specific measures of disability in adults 
+aged below 65. In: European Journal of Public Health 30,6: 1225-1230. https://doi.org/10.1093/eurpub/ckaa066
+Cambois, Emmanuelle; SolÃ©-AurÃ³, AÃ¯da; Robine, Jean-Marie 2016: Economic Hardship 
+and Educational Differentials in Disability in 26 European Countries. In: Journal of Aging and Health 28,7: 1214-1238. https://doi.org/10.1177/0898264316656503
+Cambois, Emmanuelle et al. 2016a: Educational differentials in disability vary across and 
+within welfare regimes: a comparison of 26 European countries in 2009. In: Journal of Epidemiology & Community Health 70,4: 331-338. https://doi.org/10.1136/jech-2015-205978
+Cambois, Emmanuelle; Jusot, Florence 2011: Contribution of lifelong adverse 
+experiences to social health inequalities: Findings from a population survey in France. In: European Journal of Public Health 21,5: 667-673. https://doi.org/10.1093/eurpub/ckq119 
+
+## Life-course Factors and Later Life Health in Eastern and Western Europe
+
+**Cambois, Emmanuelle; Blachier, Audrey; Robine, Jean-Marie** (2013): Aging and health in France: An unexpected expansion of disability in mid-adulthood over recent years. *European Journal of Public Health*, 23(4): 575-581. https://doi.org/10.1093/eurpub/cks136
+
+**Carmel, Sara; Tur-Sinai, Aviad** (2022): Cognitive decline among European retirees: Impact of early retirement, nation-related and personal characteristics. *Ageing & Society*, 42(10): 2343-2369. https://doi.org/10.1017/S0144686X21000064
+
+**Case, Anne; Fertig, Angela; Paxson, Christina** (2005): The lasting impact of childhood health and circumstance. *Journal of Health Economics*, 24(2): 365-389. https://doi.org/10.1016/j.jhealeco.2004.09.008
+
+**Cheval, Boris et al.** (2019): Early-life socioeconomic circumstances explain health differences in old age, but not their evolution over time. *Journal of Epidemiology & Community Health*, 73(8): 703-711. https://doi.org/10.1136/jech-2019-212110
+
+**Cermakova, Pavla et al.** (2018): Socioeconomic position in childhood and cognitive aging in Europe. *Neurology*, 91(17): e1602-e1610. https://doi.org/10.1212/WNL.0000000000006390
+
+**Cott, Cheryl A.; Gignac, Monique A. M.; Badley, Elizabetg M.** (1999): Determinants of self-rated health for Canadians with chronic disease and disability. *Journal of Epidemiology & Community Health*, 53(11): 731-736. http://dx.doi.org/10.1136/jech.53.11.731
+
+**Crimmins, Eileen M.; BeltrÃ¡n-SÃ¡nchez, Hiram** (2011): Mortality and morbidity trends: Is there compression of morbidity? *The Journals of Gerontology Series B: Psychological Sciences and Social Sciences*, 66B: 75-86. https://doi.org/10.1093/geronb/gbq088
+
+**Crimmins, Eileen M.; Kim, Jung Ki; SolÃ©-AurÃ³, AÃ¯da** (2011): Gender differences in health: Results from SHARE, ELSA and HRS. *European Journal of Public Health*, 21(1): 81-91. https://doi.org/10.1093/eurpub/ckq022
+
+**Cullati, StÃ©phane et al.** (2014): Factors of change and cumulative factors in self-rated health trajectories: A systematic review. *Advances in Life Course Research*, 19: 14-27. https://doi.org/10.1016/j.alcr.2013.11.002
+
+**Cunska, Zane; Dedze, Indra** (2015): Educational Policies: Latvia. In: SPLASH-db.eu [https://splash-db.eu/policydescription/educational-policies-latvia-2015/, accessed 13.03.2023].
+
+**Cutler, David M.; Huang, Wei; Lleras-Muney, Adriana** (2015): When does education matter? The protective effect of education for cohorts graduating in bad times. *Social Science & Medicine*, 127: 63-73. https://doi.org/10.1016/j.socscimed.2014.07.056
+
+**Dahl, Espen et al.** (2006): For whom is income inequality most harmful? A multi-level analysis of income inequality and mortality in Norway. *Social Science & Medicine*, 63(10): 2562-2574. https://doi.org/10.1016/j.socscimed.2006.06.002
+
+**Dannefer, Dale** (2003): Cumulative advantage/disadvantage and the life course: Cross-fertilizing age and social science theory. *The Journals of Gerontology Series B: Psychological Sciences and Social Sciences*, 58(6): S327-S337. https://doi.org/10.1093/geronb/58.6.S327
+
+**DeSalvo, Karen B. et al.** (2006): Mortality prediction with a single general self-rated health question. *Journal of General Internal Medicine*, 21: 267-275. https://doi.org/10.1111/j.1525-1497.2005.00291.x
+
+**Doblhammer, Gabriele; van den Berg, Gerard J.; Fritze, Thomas** (2013): Economic Conditions at the Time of Birth and Cognitive Abilities Late in Life: Evidence from Ten European Countries. *PLOS ONE*, 8(9): e74915. https://doi.org/10.1371/journal.pone.0074915
+
+**Eurostat** (2022a): Healthy life years by sex (from 2004 onwards) [hlth_hlye]. [https://ec.europa.eu/eurostat/web/health/data/database, accessed 04.02.2022].
+
+**Eurostat** (2022b): Population by educational attainment level, sex and age (%) â€“ main indicators [edat_lfse_03]. In: https://ec.europa.eu/. [https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=edat_lfse_03&lang=en, accessed 11.02.2022].
+
+**Everson-Rose, Susan A. et al.** (2003): Early Life Conditions and Cognitive Functioning in Later Life. *American Journal of Epidemiology*, 158(11): 1083-1089. https://doi.org/10.1093/aje/kwg263
+
+**Ferraro, Kenneth F.** (1980): Self-ratings of health among the old and the old-old. *Journal of Health and Social Behavior*, 21(4): 377-383. https://doi.org/10.2307/2136414
+
+**Formanek, Tomas et al.** (2019): Differences in cognitive performance and cognitive decline across European regions: a population-based prospective cohort study. *European Psychiatry*, 58: 80-86. https://doi.org/10.1016/j.eurpsy.2019.03.001
+
+**Fouweather, Tony et al.** (2015): Comparison of socio-economic indicators explaining inequalities in Healthy Life Years at age 50 in Europe: 2005 and 2010. *European Journal of Public Health*, 25(6): 978-983. https://doi.org/10.1093/eurpub/ckv070
+
+**Freedman, Vicki A. et al.** (2008): Declines in late-life disability: The role of early- and mid-life factors. *Social Science & Medicine*, 66(7): 1588-1602. https://doi.org/10.1016/j.socscimed.2007.11.037
+
+**Graham, Hilary** (2002): Building an inter-disciplinary science of health inequalities: The example of lifecourse research. *Social Science & Medicine*, 55(11): 2005-2016. https://doi.org/10.1016/S0277-9536(01)00343-4
+
+**Haas, Steven A.; Oi, Katsuya** (2018): The developmental origins of health and disease in international perspective. *Social Science & Medicine*, 213: 123-133. https://doi.org/10.1016/j.socscimed.2018.07.047
+
+**HÄƒrÄƒguÈ™, Paul T.; Mureson, Cornelia; Rebeleanu, Adina** (2014): Educational Policies: Romania. In: SPLASH-db.eu [https://splash-db.eu/policydescription/educational-policies-romania-2014/, accessed 13.03.2023].
+
+**Hays, Judith C.; Schoenfeld, David E.; Blazer, Dan G.** (1996): Determinants of poor self-rated health in late life. *The American Journal of Geriatric Psychiatry*, 4(3): 188-196. https://doi.org/10.1097/00019442-199622430-00002
+
+**Hobcraft, John; Menken, Jane; Preston, Samuel** (1982): Age, period, and cohort effects in demography: A review. *Population Index*, 48(1): 4-43. https://doi.org/10.2307/2736356
+
+**Horvat, Pia et al.** (2014): Life Course Socioeconomic Position and Mid-Late Life Cognitive Function in Eastern Europe. *The Journals of Gerontology: Series B*, 69(3): 470-481. https://doi.org/10.1093/geronb/gbu014
+
+**Idler, Ellen L.; Russell, Louise B.; Davis, Diane** (2000): Survival, functional limitations, and self-rated health in the NHANES I Epidemiologic Follow-up Study, 1992. First National Health and Nutrition Examination Survey. *American Journal of Epidemiology*, 152(9): 874-883. https://doi.org/10.1093/aje/152.9.874
+
+**Jagger, Carol et al.** (2010): The Global Activity Limitation Index measured function and disability similarly across European countries. *Journal of Clinical Epidemiology*, 63(8): 892-899. https://doi.org/10.1016/j.jclinepi.2009.11.002
+
+**JylhÃ¤, Marja** (2009): What is self-rated health and why does it predict mortality? Towards a unified conceptual model. *Social Science & Medicine*, 69(3): 307-316. https://doi.org/10.1016/j.socscimed.2009.05.013
+
+**JylhÃ¤, Marja** (2011): Self-rated health and subjective survival probabilities as predictors of mortality. In: Rogers, Richard G.; Crimmins, Eileen M. (Eds.): *International Handbook of Adult Mortality*. International Handbooks of Population 2. Springer, Dordrecht: 329-344. https://doi.org/10.1007/978-90-481-9996-9_16
+
+**Kingston, Andrew; Comas-Herrera, Adelina; Jagger, Carol** (2018): Forecasting the care needs of the older population in England over the next 20 years: estimates from the Population Ageing and Care Simulation (PACSim) modelling study. *The Lancet Public Health*, 3(9): e447-e455. https://doi.org/10.1016/S2468-2667(18)30118-X
+
+**Laidra, Kaia** (2016): Vaimne ja kognitiivne tervis. In: Sakkeus, Luule; Leppik, Lauri (Eds.): *Pilk hallile alale. SHARE Eesti uuringu esimene Ã¼levaade ja soovitused eakate poliitika kujundamiseks*. Tallinn: Tallinn University: 73-96 [https://www.tlu.ee/public/SHARE/mobile/index.html#p=71, accessed 23.03.2023].
+
+**Lauzadyte-Tutliene, AgnÄ—; Balezentis, Tomas; Goculenko, EglÄ—** (2018): Welfare State in Central and Eastern Europe. *Economics and Sociology*, 11(1): 100-123. https://doi.org/10.14254/2071-789X.2018/11-1/7
+
+**Lee, Haena; Markus, Schafer** (2021): Are positive childhood experiences linked to better cognitive functioning in later life?: Examining the role of life course pathways. *Journal of aging and health*, 33(3-4): 217-226. https://doi.org/10.1177/0898264320972547
+
+**Leinonen, Raija; Heikkinen, Eino; JylhÃ¤, Marja** (2001): Predictors of decline in self-assessments of health among older people â€“ A 5-year longitudinal study. *Social Science & Medicine*, 52(9): 1329-1341. https://doi.org/10.1016/S0277-9536(00)00249-5
+
+**Leppik, Lauri; Puur, Allan** (2020): Longevity of World War II Estonian volunteers in the Finnish Army: A follow-up study of the impact of the post-war life course and repressions. *Demographic Research*, 43(39): 1155-1184. https://doi.org/10.4054/DemRes.2020.43.39
+
+**Lorenti, Angelo et al.** (2020): Working and disability expectancies at older ages: The role of childhood circumstances and education. *Social Science Research*, 91, 102447. https://doi.org/10.1016/j.ssresearch.2020.102447
+
+**Lutz, Wolfgang** (2021): *Advanced Introduction to Demography*. Cheltenham/Northampton: Edward Elgar Publishing Limited.
+
+**Mackenbach, Johan P.** (2013): Political conditions and life expectancy in Europe, 1900-2008. *Social Science & Medicine*, 82: 134-146. https://doi.org/10.1016/j.socscimed.2012.12.022
+
+**Mirowsky, John; Ross, Catherine E.** (2008): Education and self-rated health: Cumulative advantage and its rising importance. *Research on Aging*, 30(1): 93-122. https://doi.org/10.1177/0164027507309649
+
+**Monostori, Judit** (2014): Educational Policies: Hungary. In: SPLASH-db.eu [https://splash-db.eu/policydescription/educational-policies-hungary-2014/, accessed 13.03.2023].
+
+**Montez, Jennifer Karas; Hayward, Mark D.** (2014): Cumulative Childhood Adversity, Educational Attainment, and Active Life Expectancy Among U.S. Adults. *Demography*, 51(2): 413-435. https://doi.org/10.1007/s13524-013-0261-x
+
+**Niedzwiedz, Claire L.; Pell, Jill P.; Mitchell, Richard** (2015): The relationship between financial distress and life-course socioeconomic inequalities in well-being: cross-national analysis of European Welfare States. *American Journal of Public Health*, 105(10): 2090-2098. https://doi.org/10.2105/AJPH.2015.302722
+
+**Okamoto, Shohei et al.** (2021): Decomposition of gender differences in cognitive functioning: National Survey of the Japanese elderly. *BMC Geriatrics*, 21, 38. https://doi.org/10.1186/s12877-020-01990-1 
+
+## Life-course Factors and Later Life Health in Eastern and Western Europe
+
+**Luule Sakkeus**, **Katrin Schwanitz**, **Liili Abuladze**, **Uku Rudissaar**
+
+**References**
+
+Olshansky, S. Jay; Ault, A. Brian 1986: The fourth stage of the epidemiologic transition: the age of delayed degenerative diseases. In: *The Milbank Quarterly* 64,3: 355-391. https://doi.org/10.2307/3350025
+
+Payne, Collin F. et al. 2020: Life-Course Trauma and Later Life Mental, Physical, and Cognitive Health in a Postapartheid South African Population: Findings From the HAALSI study. In: *Journal of Aging and Health* 32,9: 1244-1257. https://doi.org/10.1177/0898264320913450
+
+Pinquart, Martin 2001: Correlates of subjective health in older adults: a meta-analysis. In: *Psychology and Aging* 16,3: 414-426. https://doi.org/10.1037/0882-7974.16.3.414
+
+PrÃ¤g, Patrick; Subramanian, Subra V. 2017: Educational inequalities in self-rated health across US states and European countries. In: *International Journal of Public Health* 62,6: 709-716. https://doi.org/10.1007/s00038-017-0981-6
+
+Ritchie, Karen et al. 2011: Adverse childhood environment and late-life cognitive functioning. In: *International Journal of Geriatric Psychiatry* 26,5: 503-510. https://doi.org/10.1002/gps.2553
+
+Ross, Catherine E.; Wu, Chia-Ling 1996: Education, age, and the cumulative advantage in health. In: *Journal of Health and Social Behavior* 37,1: 104-120. https://doi.org/10.2307/2137234
+
+Saar, Ellu 2008: The Estonian educational system and the ISCED-97. In: Schneider, Silke (Ed.): *The International Standard Classification of Education (ISCED-97). An Evaluation of Content and Criterion Validity for 15 European Countries*. Mannheimer Zentrum fÃ¼r EuropÃ¤ische Sozialforschung: 236-252.
+
+Sagi-Schwartz, Abraham et al. 2013: Against all odds: Genocidal trauma is associated with longer life expectancy of the survivors. In: *PLOS ONE* 8,7: e69179. https://doi.org/10.1371/journal.pone.0069179
+
+Salonen, Laura; PÃ¶yliÃ¶, Heta 2017: Historical dataset of major educational reforms in Europe in 1950-1990. In: *Working Papers on Social and Economic Issues*. Turku: Turku Center for Welfare Research [https://www.utupub.fi/bitstream/handle/10024/169787/Salonen%20&%20Po%20ylio%20%202017%20Historical%20dataset%20of%20major%20educational%20reforms%20in%20Europe%20in%201950%201990%20WPSEI.pdf?sequence=1, 23.03.2023].
+
+Schneeweis, Nicole; Skirbekk, Vegard; Winter-Ebmer, Rudolf 2014: Does Education Improve Cognitive Performance Four Decades After School Completion? In: *Demography* 51,2: 619-643. https://doi.org/10.1007/s13524-014-0281-1
+
+Sieber, Stefan et al. 2019: Welfare regimes modify the association of disadvantaged adult-life socioeconomic circumstances with self-rated health in old age. In: *International Journal of Epidemiology* 48,4: 1352-1366. https://doi.org/10.1093/ije/dyy283
+
+Sieber, Stefan et al. 2020: Do welfare regimes moderate cumulative dis/advantages over the life course? Cross-national evidence from longitudinal SHARE data. In: *The Journals of Gerontology: Series B* 75,6: 1312-1325. https://doi.org/10.1093/geronb/gbaa036
+
+Spitzer, Sonja; Weber, Daniela 2019: Reporting biases in self-assessed physical and cognitive health status of older Europeans. In: *PLOS ONE* 14,10: e0223526. https://doi.org/10.1371/journal.pone.0223526
+
+Spitzer, Sonja 2020: Biases in health expectancies due to educational differences in survey participation of older Europeans: Itâ€™s worth weighting for. In: *The European Journal of Health Economics* 21,4: 573-605. https://doi.org/10.1007/s10198-019-01152-0
+
+StanojeviÄ‡ JerkoviÄ‡, Olivera et al. 2017: Determinants of self-rated health in elderly populations in urban areas of Slovenia, Lithuania and UK: Findings of the EURO-URHIS 2 survey. In: *European Journal of Public Health* 27,2: 74-79. https://doi.org/10.1093/eurpub/ckv097
+
+Stuck, Stephanie et al. 2022: Release guide 8.0.0. In: *share-eric.eu Survey of Health, Ageing, and Retirement in Europe*. Munich Center for the Economics of Aging (MEA) [http://www.share-project.org/fileadmin/pdf_documentation/SHARE_release_guide_8-0-0.pdf, 13.03.2023].
+
+Tapia Granados, JosÃ© A. 2013: Repression, famines, and wars: Major impacts of politics on population health. In: *Social Science & Medicine* 86: 103-106. https://doi.org/10.1016/j.socscimed.2013.02.048.
+
+Tsolaki, Magda et al. 2010: Severely stressful events and dementia: A study of an elderly Greek demented population. In: *Psychiatry Research* 176,1: 51-54. https://doi.org/10.1016/j.psychres.2009.06.001
+
+Van den Berg, Gerard J.; Lindeboom, Maarten; Portrait, France 2006: Economic conditions early in life and individual mortality. In: *American Economic Review* 96,1: 290-302. https://doi.org/10.1257/000282806776157740
+
+Van der Veen, Robert Jan; Van der Burg, Wouter 2013: Three Worlds of Social Insurance: On the Validity of Esping-Andersenâ€™s Welfare Regime Dimensions. In: *British Journal of Political Science* 43,2: 323-343. https://doi.org/10.1017/S0007123412000257
+
+Verbrugge, Lois M.; Jette, Alan M. 1994: The disablement process. In: *Social Science and Medicine* 38,1: 1-14. https://doi.org/10.1016/0277-9536(94)90294-1
+
+Volmari, Kristiina (Ed.) 2019: *Basic Education in the Nordic Region. Similar Values, Different Policies*. Reports and surveys 2019:4. Finnish National Agency for Education [https://www.oph.fi/sites/default/files/documents/30955454_basic_education_in_the_nordic_region_netti_19_04_08_0.pdf, 13.03.2023].
+
+Wahl, Hans-Werner; Oswald, Frank 2016: Theories of environmental gerontology: Old and new avenues for ecological views of aging. In: Bengtson, Vern L.; Settersten, Richard A. (Eds.): *Handbook of theories of aging 3*. New York, NY: Springer: 621-641.
+
+Wang, Qing; Kang, Wenwen 2019: Childhood socioeconomic circumstances, social status, and health in older age: Are they related in China? In: *Advances in Life Course Research* 42: 100289. https://doi.org/10.1016/j.alcr.2019.100289
+
+Weber, Daniela et al. 2014: The changing face of cognitive gender differences in Europe. In: *Proceedings of the National Academy of Sciences* 111,32: 11673-11678. https://doi.org/10.1073/pnas.1319538111
+
+Weissman, Judith D.; Russell, David 2018: Relationships between living arrangements and health status among older adults in the United States, 2009-2014: Findings from the National Health Interview Survey. In: *Journal of Applied Gerontology* 37,1: 7-25. https://doi.org/10.1177/0733464816655439
+
+Welsh, Claire E.; Matthews, Fiona E.; Jagger, Carol 2021: Trends in life expectancy and healthy life years at birth and age 65 in the UK, 2008-2016, and other countries of the EU28: An observational cross-sectional study. In: *The Lancet Regional Health â€“ Europe* 2: 100023. https://doi.org/10.1016/j.lanepe.2020.100023
+
+Winblad, Bengt et al. 2016: Defeating Alzheimerâ€™s disease and other dementias: a priority for European science and society. In: *The Lancet Neurology* 15,5: 455-532. https://doi.org/10.1016/S1474-4422(16)00062-4
+
+Witvliet, Margot I. et al. 2014: Examining self-rated health of young Central and Eastern Europeans in the context of other world regions. In: *European Journal of Public Health* 24,2: 314-321. https://doi.org/10.1093/eurpub/ckt040
+
+Wolfova, Katrin; Kucera, Matej; Cermakova, Pavla 2021: Risk and protective factors of neurocognitive disorders in older adults in Central and Eastern Europe: A systematic review of population-based studies. In: *PLOS ONE* 16,11: e0260549. https://doi.org/10.1371/journal.pone.0260549
+
+Wu-Chung, Lydia E. et al. 2022: Spousal caregiving, widowhood, and cognition: A systematic review and a biopsychosocial framework for understanding the relationship between interpersonal losses and dementia risk in older adulthood. In: *Neuroscience & Biobehavioral Reviews* 134: 104487. https://doi.org/10.1016/j.neubiorev.2021.12.010
+
+Yi, Zeng; Gu, Danan; Land, Kenneth C. 2007: The association of childhood socioeconomic conditions with healthy longevity at the oldest-old ages in China. In: *Demography* 44,3: 497-518. https://doi.org/10.1353/dem.2007.0033
+
+Zhang, Zhenmei; Gu, Danan; Hayward, Mark D. 2008: Early Life Influences on Cognitive Impairment Among Oldest Old Chinese. In: *The Journals of Gerontology: Series B* 63,1: 25-33. https://doi.org/10.1093/geronb/63.1.S25
+
+**Author Affiliations**
+
+**Prof. Dr. Luule Sakkeus**, **Uku Rudissaar**
+Estonian Institute for Population Studies, School of Governance, Law and Society, Tallinn University, Tallinn, Estonia.
+Email: luule.sakkeus@tlu.ee; uku.rudissaar@tlu.ee
+URL: https://www.etis.ee/CV/Luule_Sakkeus/eng/; https://www.etis.ee/CV/Uku_Rudissaar/eng/
+
+**Dr. Katrin Schwanitz**
+INVEST Research Flagship Center, University of Turku, Turun, Finland. Estonian Institute for Population Studies, Tallinn University, Tallinn, Estonia.
+Email: katrin.schwanitz@utu.fi; katrin.schwanitz@tlu.ee
+URL: https://www.etis.ee/CV/Katrin%20vanessa_Schwanitz/eng/
+
+**Liili Abuladze**
+Estonian Institute for Population Studies, School of Governance, Law and Society, Tallinn University, Tallinn, Estonia. Population Research Institute. VÃ¤estÃ¶liitto, Finland.
+Email: liili@tlu.ee; liili.abuladze@vaestoliitto.fi
+URL: https://www.etis.ee/CV/Liili_Abuladze/eng/; https://www.vaestoliitto.fi/en/people/liili-abuladze/ 
+
+## Comparative Population Studies
+
+**Published by:** Federal Institute for Population Research (BiB), 65180 Wiesbaden, Germany
+
+**Managing Publisher:** Dr. Nikola Sander
+
+**2023**
+
+**Editor:** Prof. Frans Willekens
+
+**Managing Editor:** Dr. Katrin Schiefer
+
+**Editorial Assistants:** Beatriz Feiler-Fuchs, Wiebke Hamann
+
+**Layout:** Beatriz Feiler-Fuchs
+
+**E-mail:** cpos@bib.bund.de
+
+**Scientific Advisory Board:**
+
+* Kieron Barclay (Stockholm)
+* Karsten Hank (Cologne)
+* Ridhi Kashyap (Oxford)
+* Natalie Nitsche (Rostock)
+* Alyson van Raalte (Rostock)
+* Pia S. Schober (TÃ¼bingen)
+* Rainer Wehrhahn (Kiel)
+
+**www.comparativepopulationstudies.de**
+
+**ISSN:** 1869-8980 (Print) â€“ 1869-8999 (Internet)
+
+**Board of Reviewers:**
+
+* Bruno Arpino (Barcelona)
+* Laura Bernardi (Lausanne)
+* Gabriele Doblhammer (Rostock)
+* Anette Eva Fasang (Berlin)
+* Michael Feldhaus (Oldenburg)
+* Alexia FÃ¼rnkranz-Prskawetz (Vienna)
+* Birgit Glorius (Chemnitz)
+* Fanny Janssen (Groningen)
+* Frank Kalter (Mannheim)
+* Stefanie Kley (Hamburg)
+* Bernhard KÃ¶ppen (Koblenz)
+* Anne-Kristin Kuhnt (Rostock)
+* Hill Kulu (St Andrews)
+* Nadja Milewski (Wiesbaden)
+* Roland Rau (Rostock)
+* Thorsten Schneider (Leipzig)
+* Tomas Sobotka (Vienna)
+* Jeroen J. A. Spijker (Barcelona)
+* Heike Trappe (Rostock)
+* Helga de Valk (The Hague)
+* Sergi Vidal (Barcelona)
+* Michael Wagner (Cologne) 

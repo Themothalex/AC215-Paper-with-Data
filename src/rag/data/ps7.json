@@ -1,0 +1,21 @@
+{
+    "dataset_information": [],
+    "study_context": {
+        "study_title": "The dangers of conditioning on the time of occurrence of one demographic process in the analysis of another",
+        "authors": [
+            {
+                "name": "Jan M. Hoem",
+                "affiliations": [
+                    "Stockholm University"
+                ]
+            }
+        ],
+        "publication_year": "",
+        "research_domain": ""
+    },
+    "variables": {
+        "dependent_variables": [],
+        "independent_variables": [],
+        "control_variables": []
+    }
+}

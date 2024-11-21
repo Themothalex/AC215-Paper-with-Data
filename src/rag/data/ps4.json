@@ -1,0 +1,76 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Norwegian register data",
+            "source_repository": "Norwegian Institute of Public Health",
+            "timeframe": "1990-2002",
+            "geographical_scope": "Norway",
+            "population_sample": "Men aged 50-69",
+            "unit_of_analysis": "Individual",
+            "data_format": "Annual labor income",
+            "sample_size": "Not specified",
+            "missing_data": "Not specified",
+            "data_collection_method": "Tax registers",
+            "data_cleaning": "Excluding retired individuals",
+            "usage_in_paper": {
+                "variable_type": "Income and mortality",
+                "specifics": "Estimating effects of income changes on mortality among men aged 50-69 over a 15-year period."
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "The effects of earlier income variation on mortality: An analysis of Norwegian register data",
+        "authors": [
+            {
+                "name": "Ka\u02dare B\u00e6vre",
+                "affiliations": [
+                    "Norwegian Institute of Public Health"
+                ]
+            },
+            {
+                "name": "\u00d8ystein Kravdal",
+                "affiliations": [
+                    "Norwegian Institute of Public Health"
+                ]
+            }
+        ],
+        "publication_year": "",
+        "research_domain": "Social Science"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Mortality",
+                "type": "",
+                "measurement": ""
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "Income changes",
+                "type": "Continuous",
+                "categories": [
+                    "Income falls",
+                    "Income rises"
+                ]
+            }
+        ],
+        "control_variables": [
+            {
+                "name": "Education",
+                "type": "Categorical",
+                "measurement": ""
+            },
+            {
+                "name": "Age",
+                "type": "Continuous",
+                "measurement": ""
+            },
+            {
+                "name": "Period",
+                "type": "Time",
+                "measurement": ""
+            }
+        ]
+    }
+}

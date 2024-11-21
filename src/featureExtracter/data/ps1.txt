@@ -1,0 +1,943 @@
+Household wealth and child health in India
+Satvika Chalasani and Shea Rutstein
+
+Using data from the Indian National Family Health Surveys (1992-93, 1998-99, 2005-06), this study examined how the relationship between household wealth and child health evolved during a time of significant economic change in India. The main predictor was an innovative measure of household wealth that captures changes in wealth over time. Discrete-time logistic models (with community fixed effects) were used to examine mortality and malnutrition outcomes: infant, child, and under-5 mortality; stunting, wasting, and being underweight. Analysis was conducted at the national, urban/rural, and regional levels, separately for boys and girls. The results indicate that the relationship between household wealth and under-5 mortality weakened over time but this result was dominated by infant mortality. The relationship between wealth and child mortality stayed strong for girls. The relationship between household wealth and malnutrition became stronger over time for boys and particularly for girls, in urban and (especially) rural areas.
+
+Keywords: India; 1990s; NFHS; wealth index; infant mortality; child mortality; under-5 mortality; stunting; wasting; underweight
+
+Introduction
+Improving child health remains an important challenge in much of the less developed world, including India. However, India has made some progress in recent decades. The under-5 mortality rate (U5MR) has been declining steadily. In 2005-06, the U5MR was 74 deaths per 1,000 live births, down from 95 per 1,000 in 1998-99 and 109 per 1,000 in 1992-93. These estimates, which come from the National Family Health Surveys (NFHSs), differ slightly from the official estimates based on Sample Registration System data. The latter estimates actually show an increase in child mortality between the late 1990s and mid-2000s, but have been shown to be in need of correction. The corrected official estimates corroborate the findings from NFHSs and show a very modest decline in infant mortality but close to a halving in child mortality. Declines in malnutrition were much smaller. Our own calculations show that in 1992-93, 55 percent of children were stunted, compared to 51 percent in 1998-99 and 46 percent in 2005-06. Similarly, in 1992-93, 48 percent of children were underweight, compared to 43 percent in 1998-99 and 40 percent in 2005-06. These improvements occurred during a time of immense economic growth in India, though there is considerable debate on whether all groups benefited evenly from the economic growth. At the heart of this debate lies the question of whether the structural adjustment programme of the early 1990s had desirable or undesirable consequences. The economic reforms initiated as part of this programme emphasized globalization, liberalization, and privatization, with the implicit retreat of the state. Some have argued that these new policies had an adverse effect on poverty reduction. Moreover, most scholars agree that there were increases in inequality at the national level, within and between states, and within and between rural and urban areas during this time.
+
+Given that child health is closely tied to economic welfare, these macro-level trends in child health and poverty prompt the question of what happened at the micro level or household level. If the role of the state indeed diminished, were household factors increasingly responsible for producing improvements in child survival and nutritional status? Public spending directly or indirectly subsidizes the cost of a household procuring better health outcomes for its children. If it is true that India’s recent economic growth was not pro-poor, and in fact involved a reduction in these subsidies to poorer people, household wealth should have become more important over the years as a factor in improving child health. With these considerations in mind, we examined how the role of household wealth as a determinant of child health evolved between the mid-1980s and mid-2000s. India has experienced dramatic macroeconomic changes in recent decades, accompanied by microeconomic changes in the welfare of households, all of which served as the backdrop for the analyses described in this paper.
+A household procuring better health outcomes for its children is linked to economic growth and poverty dynamics in India. If recent growth was not pro-poor, involving reductions in subsidies to poorer people, household wealth should have become more important over the years as a factor in improving child health. We examined how the role of household wealth as a determinant of child health evolved between the mid-1980s and mid-2000s, a period of significant macroeconomic changes in India.
+
+India’s economic growth over the past three decades has been notable. The period starting in the mid-1980s saw the beginnings of deregulation and an increase in domestic demand, leading to gross domestic product (GDP) growth coupled with declines in poverty. In the 1980s, economic growth might have left the poor behind, leading to an increase in overall inequality. However, evidence suggests that macroeconomic growth benefited people near the poverty line and was not linked to noticeable increases in inequality.
+
+The growth in GDP continued into the 1990s, but the decade started with a fiscal crisis that necessitated a series of economic reforms. These included fiscal consolidation, tax reforms, agricultural sector reforms, and policy changes related to industry, foreign investment, trade, exchange rates, and the public and financial sectors. The impact of these reforms on poverty and inequality in the 1990s is less clear than in the 1980s.
+
+The role of the state has been significant, especially in light of economic reforms that emphasized privatization, liberalization, and globalization. The Coburn thesis urges examining the causes of socioeconomic status (SES) inequalities, rooted in the rise of neoliberalism and its impact on the welfare state. In India, the role of the state diminished following the reforms. Public investment in health as a percentage of GDP declined from 1.05 percent in 1985-86 to just 0.90 percent by 2000-01.
+
+This decline in state spending on health and other welfare measures has critical implications for child health, as state interventions in food security, infrastructure, disease control, and subsidies complement household investments in child health. A large portion of health spending, between 65-75 percent, comes from households, which is significantly higher than in both low-income and developed countries, making India’s healthcare spending pattern exceptional.
+
+Our study examines shifts over time in the role that household wealth plays in influencing child survival and nutrition, hypothesizing that household wealth has become a more important determinant of child health. We also explore economic and geographic disparities in child health, which could indicate missed opportunities for public interventions aimed at improving equity. Previous studies have documented the positive relationship between wealth and child health; our analysis builds on this by examining both mortality and malnutrition with a consistent methodological approach across urban and rural areas.
+
+Data for our analysis came from the National Family Health Surveys (NFHS) in India, conducted in 1992-93, 1998-99, and 2005-06, covering a nationally representative sample of women and households across various states of India. These surveys provide data on assets, housing characteristics, and comprehensive birth histories, which form the basis of our wealth measures and analysis of child health outcomes.
+
+Findings analogous to those of Chalasani (2012) were shown in another study by Pathak and Singh (2011), who used three NFHSs to demonstrate inequalities in the proportion of underweight individuals at the national and regional levels. Bivariate analyses, poor-rich ratios, and concentration indices were utilized to measure inequality. Pooled logistic regression models were fitted to estimate the adjusted effect of economic status on the likelihood of being underweight. Their results indicated a rise in economic inequalities in being underweight during the period between 1992 and 2006. Another study utilizing NFHS-1 and -2 found significant improvements in short-term measures of child nutritional status across all of India, as well as sizable long-term performance improvements in urban areas. However, these changes hid large differences between the sexes, especially in rural India. The change in the distribution of weight-for-height z-scores was about twice as large for boys as it was for girls. While boys’ height performances showed a relatively small improvement, for girls there was an almost spectacular worsening (Tarozzi and Mahajan 2007).
+
+Our analysis contributes to this literature on the relationship between household-level economic factors and child health in several ways. The biggest contribution, particularly given the Indian context, is the separate analysis for boys and girls, which uncovered several critical differences in levels and trends. Secondly, examining both mortality (especially at different ages) and malnutrition outcomes with the same data and analytic methods led to some key inferences that might not have been apparent had we studied any one of these types of outcomes alone. Because of the uniformity in approach, our inferences could be made more confidently, and cannot be ascribed to differences in data and method. Thirdly, breaking down the results by urban/rural area, as well as region, revealed pathways through which the effects were operating. Finally, the innovative wealth measure we created enabled us to examine changes in the wealth-child health relationship over time.
+
+The data for the analysis came from the Demographic and Health Survey (DHS) series, known as the National Family Health Surveys in India. Interviews were conducted as follows: In 1992-93 with a 99 percent nationally representative sample of 89,777 ever-married women aged 13-49 in 24 states and Delhi (then a union territory). In 1998-99, interviews involved 89,199 ever-married women aged 15-49 in 26 states, including the newly included state of Sikkim and the Kashmir region of Jammu and Kashmir, with Delhi having become a state. In 2005-06, interviews were conducted with 124,385 women aged 15-49 in the 29 states of India, where Jharkhand, Chhattisgarh, and Uttarakhand were carved out of Bihar, Madhya Pradesh, and Orissa, respectively. Small union territories were excluded in all three surveys.
+
+In NFHS-1, height was not measured in five states but national estimates were not affected. Regional findings for height closely matched findings for weight, reflecting the data tabulated from responses to the women’s and household questionnaires. Information on children came from the complete birth history recorded for all interviewed women. Information on assets and housing characteristics, which formed the basis of the wealth measure, came from the household questionnaire. 
+The logit function could then be written as log h(t | x) = 1 / (1 - h(t | x)) = b0 + b1x1 + ... + bkxk which is the ratio of the probability of occurrence of death to the probability of its non-occurrence. The hazard function is represented by h(t | x). The logit coefficients bk represent the relationship of each covariate to the log odds of death. Exponentiating these coefficients yields the increase or decrease in the odds of death associated with a change in the respective covariate. The logit discrete-time model makes the assumption that the baseline hazard is flat, whereas in all likelihood, the hazard probability changes with age. To account for this duration dependence, we included first- and second-order temporal dummy variables in the regression.
+
+Fixed-effects logistic model
+
+The regression model does not include any information about the larger context that the children live in, beyond the family and the household. Features of communities can have an impact on child outcomes. Characteristics of these communities that are related to household wealth levels but are also related to child health will be captured in the error term, thus violating the fundamental regression assumption that the independent variables in the model and the error term are uncorrelated. In order to address this problem of unobserved group-level heterogeneity, we also present results from a fixed-effects model. We included fixed effects at the community or primary sampling unit (PSU) level.
+
+Clustering
+
+We used an estimator of variance that is robust to the fact that cluster samples, unlike simple random samples, violate the assumption of independence of observations. Households are not drawn randomly from a listing of all households in the country. Rather, households are chosen randomly within a cluster, thus violating the assumption of independence of observations, and leading to incorrect estimates of the standard errors. Parameter estimates are not affected by this violation. The robust variance estimator was specified using the vce (cluster) option in Stata 11. Cluster membership was specified using the cluster ID as the group-membership variable.
+
+Weighting
+
+The principal components analyses were conducted using household data and were consequently weighted using the normal household weights. The regression analyses would have used the woman weights but the weights provided in the NFHS are usually normalized, that is, the sampling weight is multiplied by the sampling fraction. When data are pooled for the regression analysis, these weights are no longer correct and must be de-normalized. Since the woman files from all three NFHS surveys were pooled for the multivariable analysis, weights needed to be adjusted. The factor by which weights were multiplied was a product of the following ratios: (i) ratio of the mid-year population of women aged 15-49 to the number of women in the corresponding survey year, and (ii) ratio of the total number of women in the pooled sample to the sum of the mid-year populations of women aged 15-49 in 1992, 1998, and 2005.
+Over time the data points generally move rightward and downward, indicating increases in median wealth, especially in urban areas, and decreases in mortality rates. The regional graphs show that both in the North and Central regions, where son preference tends to be the strongest, infant mortality is as high as or higher for girls than it is for boys (despite the usually higher biological vulnerability of boys). There are also large gaps between the child mortality lines for boys and girls in several regions, with girls always experiencing higher child mortality than boys.
+
+The graphs for malnutrition at the national level show that the data points for urban areas lie to the right of and higher than the points for rural areas. This implies that urban children come from wealthier households and are fewer standard deviations below the reference median than rural children, both in terms of height and weight for age. Over time the data points move marginally upward, more in urban areas than rural areas, indicating increases in median wealth and slight decreases in malnutrition. At the regional level, there is wide variation in malnutrition and wealth levels. Notice, for example, the distinctly different appearances of the graphs from the Central and the Eastern regions on the one hand and the Western and Southern regions on the other.
+
+To understand trends in child health more easily, mortality rates and proportion malnourished in each of the three survey years, at the national and regional levels, respectively. Many exceptions to a secular decline emerge. In urban areas, there was stagnation in the 1990s in infant mortality among boys and in child mortality among girls. In rural areas, there was stagnation in the 1990s in child mortality for both boys and girls. In the North and Central regions, infant and child mortality remained unchanged in the 1990s for both sexes. Even in the more prosperous regions, there was some flatlining. In the West, for example, infant mortality among boys did not decline in the 1990s, and neither infant nor child mortality among girls declined in the 2000s. In the South, infant mortality among girls stagnated in the 1990s, and child mortality seems to have increased in the 1990s.
+
+Trends in the percentage malnourished echo the graphs of z-scores. In both urban and rural areas, boys experienced declines of approximately 10 percentage points in stunting and being underweight, but there were much smaller declines for girls, particularly in rural areas. In the North, there were no improvements in the 1990s in stunting or being underweight for either boys or girls. In the Central as well as Eastern regions, only girls did not experience improvements in either outcome in the 1990s; in addition, boys’ and girls’ underweight levels remained unchanged in the 2000s. In the West, for both boys and girls, there were no real improvements in stunting between the first and third surveys, nor in being underweight in the 1990s.
+Increases in median wealth and slight decreases in malnutrition are observed. At the regional level, there is wide variation in malnutrition and wealth levels. Notice, for example, the distinctly different appearances of the graphs from the Central and the Eastern regions on the one hand and the Western and Southern regions on the other.
+
+To understand trends in child health more easily, mortality rates and proportion malnourished in each of the three survey years are shown at the national and regional levels, respectively. Many exceptions to a secular decline emerge. In urban areas, there was stagnation in the 1990s in infant mortality among boys and in child mortality among girls. In rural areas, there was stagnation in the 1990s in child mortality for both boys and girls. In the North and Central regions, infant and child mortality remained unchanged in the 1990s for both sexes. Even in the more prosperous regions there was some flatlining. In the West, for example, infant mortality among boys did not decline in the 1990s, and neither infant nor child mortality among girls declined in the 2000s. In the South, infant mortality among girls stagnated in the 1990s, and child mortality seems to have increased in the 1990s.
+
+Trends in the percentage malnourished echo the graphs of z-scores. In both urban and rural areas, boys experienced declines of approximately 10 percentage points in stunting and being underweight, but there were much smaller declines for girls, particularly in rural areas. In the North, there were no improvements in the 1990s in stunting or being underweight for either boys or girls. In the Central as well as Eastern regions, only girls did not experience improvements in either outcome in the 1990s; in addition, boys’ and girls’ underweight levels remained unchanged in the 2000s. In the West, for both boys and girls, there were no real improvements in stunting between the first and third surveys, nor in being underweight in the 1990s.
+
+Sample description provided at the national level shows means of the various determinants of child health that were included as control variables in the regression models.
+
+Mortality and malnutrition by wealth group shows changes in mortality rates and malnutrition levels for the five wealth groups at the national level. This indicates a clear wealth gradient in health: with few exceptions, poorer groups experience higher mortality and malnutrition than wealthier groups. Across years, there were absolute declines in mortality from 1992 to 2005 in every wealth group. The declines among poorer quintiles were larger for boys than girls. The excess mortality burden borne by the poor declined, contrasting with malnutrition, which did not always decline for every group, particularly not for girls. The relatively larger declines occurred among the richer quintiles, especially pronounced for girls.
+
+In the next section, results from the regression framework are presented. Odds ratios can be interpreted as the effect of a one standard deviation change in the wealth score. Remember that the wealth predictor was a continuous wealth score. Since a unit increase in this wealth score is somewhat difficult to interpret, a standardized version was used in the regressions. This shows summary statistics for the unstandardized wealth scores at each level of geographic aggregation.
+Table 1B
+Mortality, malnutrition, and means of determinants at the regional level in India (proportions unless otherwise indicated)
+
+North Central East  
+1992-93 1998-99 2005-06 1992-93 1998-99 2005-06 1992-93 1998-99 2005-06  
+Boys Girls Boys Girls Boys Girls Boys Girls Boys Girls Boys Girls Boys Girls Boys Girls Boys Girls  
+Mortality (deaths/1,000 live births)  
+Infant mortality 63.6 70.4 63.7 70.0 47.5 60.0 94.1 89.5 85.8 88.1 68.3 71.8 89.6 82.2 69.6 60.9 59.8 57.2  
+Child mortality 16.0 38.7 16.1 37.3 9.3 22.6 34.9 67.6 26.7 61.0 17.0 35.4 24.0 36.4 26.0 40.2 12.9 17.2  
+Under-5 mortality 79.6 109.1 79.8 107.3 56.8 82.6 129.0 157.1 112.5 149.1 85.3 107.2 113.6 118.6 95.6 101.1 72.7 74.4  
+Malnutrition (per cent 2 SD below ref. median)  
+Stunting 48.2 45.4 53.6 53.7 40.5 37.7 62.0 58.4 58.6 59.2 51.3 49.8 61.6 54.5 52.7 54.2 47.2 45.8  
+Wasting 18.7 17.8 14.2 12.9 20.5 19.1 26.0 21.1 20.4 19.1 24.2 24.8 35.7 27.0 24.7 21.9 29.3 26.2  
+Underweight 38.6 37.2 38.2 36.8 34.4 31.8 56.3 49.4 48.9 49.2 45.2 45.9 62.2 50.8 49.7 48.8 46.9 48.6  
+Proximate determinants  
+Birth order (number) 2.8 2.8 2.9 2.9 2.8 2.7 3.4 3.4 3.4 3.5 3.3 3.2 3.1 3.1 3.0 2.9 2.9 2.9  
+Birth interval (months) 33.9 33.6 32.5 32.0 33.0 32.1 35.1 35.0 33.0 32.9 33.5 33.6 34.8 35.2 34.7 34.4 34.3 34.6  
+Mother’s age (years) 24.5 24.5 24.7 24.5 24.7 24.5 25.3 25.2 24.4 24.6 25.0 24.8 24.2 24.3 24.1 24.0 24.0 24.0  
+Imp. drinking water 0.71 0.70 0.77 0.77 0.84 0.81 0.66 0.67 0.79 0.77 0.87 0.86 0.68 0.68 0.78 0.79 0.86 0.86  
+Imp. sanitation facility 0.18 0.18 0.27 0.24 0.37 0.35 0.09 0.10 0.11 0.09 0.23 0.22 0.12 0.13 0.15 0.14 0.22 0.20  
+Solid cooking fuel 0.78 0.79 0.74 0.76 0.74 0.76 0.92 0.92 0.88 0.89 0.87 0.88 0.82 0.82 0.93 0.93 0.93 0.94  
+Socio-economic determinants  
+Urban household 0.26 0.25 0.27 0.26 0.29 0.28 0.18 0.18 0.18 0.17 0.21 0.20 0.16 0.17 0.12 0.12 0.15 0.14  
+Mother’s education  
+No education 0.66 0.67 0.60 0.62 0.53 0.56 0.79 0.78 0.70 0.71 0.62 0.64 0.70 0.68 0.65 0.66 0.59 0.57  
+Primary 0.13 0.14 0.14 0.14 0.14 0.13 0.09 0.10 0.14 0.14 0.14 0.14 0.14 0.15 0.16 0.15 0.18 0.18  
+Secondary 0.17 0.16 0.22 0.19 0.27 0.25 0.10 0.10 0.14 0.12 0.20 0.18 0.14 0.15 0.18 0.17 0.20 0.22  
+Higher 0.04 0.04 0.05 0.04 0.06 0.06 0.02 0.02 0.03 0.03 0.04 0.04 0.02 0.02 0.02 0.02 0.02 0.02  
+Father’s education  
+No education 0.34 0.36 0.28 0.30 0.26 0.28 0.38 0.37 0.32 0.33 0.33 0.34 0.43 0.43 0.40 0.38 0.40 0.40  
+Primary 0.14 0.15 0.17 0.17 0.15 0.15 0.17 0.18 0.19 0.20 0.15 0.17 0.20 0.19 0.20 0.21 0.20 0.20  
+Secondary 0.43 0.40 0.46 0.44 0.49 0.46 0.37 0.37 0.41 0.40 0.42 0.41 0.31 0.31 0.33 0.33 0.33 0.34  
+Higher 0.08 0.08 0.09 0.09 0.10 0.10 0.07 0.08 0.09 0.07 0.10 0.09 0.07 0.08 0.07 0.08 0.07 0.06  
+Religion  
+Hindu 0.80 0.79 0.76 0.76 0.76 0.76 0.85 0.84 0.85 0.83 0.83 0.83 0.78 0.78 0.79 0.78 0.75 0.75  
+Muslim 0.06 0.07 0.12 0.13 0.14 0.15 0.14 0.15 0.15 0.16 0.16 0.16 0.20 0.20 0.20 0.21 0.23 0.22  
+Other 0.14 0.14 0.11 0.11 0.10 0.09 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.02 0.02 0.02 0.02 0.03  
+N (mortality sample) 7,025 6,252 6,976 6,179 4,329 3,643 7,201 6,810 6,287 6,018 6,567 6,099 5,062 4,745 4,984 4,696 4,065 3,904  
+N (malnutrition sample) 4,106 3,617 3,926 3,366 2,394 2,082 3,979 3,886 3,403 3,165 3,648 3,352 2,765 2,629 2,737 2,524 2,239 2,168  
+Source: National Family Health Survey, 1992-93, 1998-99, and 2005-06.
+Table 2
+Mortality and malnutrition at the national level in India, by wealth group (groups based on 1992-93 wealth quintile cut-offs)
+National boys
+National girls
+Change 1992-2005
+Change 1992-2005
+1992-93
+1998-99
+2005-06
+Absolute
+Per cent
+1992-93
+1998-99
+2005-06
+Absolute
+Per cent
+Mortality (deaths/1,000 live births)
+Infant
+Lowest
+99.7
+88.3
+62.9
+-36.8
+-37
+92.6
+88.1
+84.0
+-8.5
+-9
+Second
+94.4
+83.5
+71.5
+-22.9
+-24
+87.3
+77.1
+62.4
+-25.0
+-29
+Middle
+78.6
+66.4
+62.1
+-16.4
+-21
+70.8
+71.9
+70.0
+-0.9
+-1
+Fourth
+54.1
+54.7
+53.3
+-0.7
+-1
+55.5
+54.7
+46.9
+-8.6
+-15
+Highest
+42.8
+39.8
+34.2
+-8.7
+-20
+34.4
+33.5
+35.1
+0.7
+2
+Total
+79.2
+66.8
+55.4
+-23.8
+-30
+73.2
+66.2
+57.1
+-16.1
+-22
+Low:high ratio
+2.3
+2.2
+1.8
+-0.5
+-21
+2.7
+2.6
+2.4
+-0.3
+-11
+Child
+Lowest
+46.1
+42.8
+15.8
+-30.3
+-66
+58.6
+61.0
+35.8
+-22.8
+-39
+Second
+24.9
+27.4
+18.9
+-5.9
+-24
+63.2
+55.3
+40.9
+-22.3
+-35
+Middle
+25.1
+16.7
+21.4
+-3.7
+-15
+35.7
+45.9
+27.6
+-8.2
+-23
+Fourth
+14.6
+12.6
+9.3
+-5.3
+-36
+19.0
+28.7
+9.8
+-9.3
+-49
+Highest
+5.9
+4.8
+3.6
+-2.2
+-38
+8.0
+4.7
+4.2
+-3.8
+-47
+Total
+26.4
+21.3
+13.3
+-13.1
+-50
+42.0
+40.9
+21.8
+-20.2
+-48
+Low:high ratio
+7.9
+8.9
+4.4
+-3.5
+-44
+7.4
+13.1
+8.6
+1.2
+16
+Under-5
+Lowest
+145.7
+131.1
+78.6
+-67.1
+-46
+151.2
+149.1
+119.9
+-31.3
+-21
+Second
+119.3
+110.9
+90.4
+-28.9
+-24
+150.6
+132.4
+103.3
+-47.3
+-31
+Middle
+103.7
+83.1
+83.5
+-20.1
+-19
+106.6
+117.8
+97.5
+-9.0
+-8
+Fourth
+68.6
+67.3
+62.6
+-6.0
+-9
+74.5
+83.4
+56.7
+-17.8
+-24
+Highest
+48.7
+44.6
+37.8
+-10.9
+-22
+42.3
+38.2
+39.3
+-3.0
+-7
+Total
+105.6
+88.1
+68.7
+-36.9
+-35
+115.2
+107.1
+78.9
+-36.3
+-32
+Low:high ratio
+3.0
+2.9
+2.1
+-0.9
+-30
+3.6
+3.9
+3.1
+-0.5
+-15
+
+Malnutrition (per cent 2 SD below ref. median)
+Stunting
+Lowest
+62.7
+63.8
+56.3
+-6.4
+-10
+56.7
+61.1
+52.9
+-3.9
+-7
+Second
+62.1
+60.2
+56.6
+-5.5
+-9
+56.3
+58.6
+54.6
+-1.7
+-3
+Middle
+57.0
+53.9
+49.7
+-7.3
+-13
+52.1
+56.0
+49.6
+-2.5
+-5
+Fourth
+47.7
+47.3
+43.6
+-4.1
+-9
+46.0
+44.8
+40.3
+-5.8
+-13
+Highest
+36.8
+33.4
+30.7
+-6.1
+-17
+37.7
+33.4
+27.6
+-10.1
+-27
+Total
+54.9
+51.2
+45.8
+-9.1
+-17
+51.1
+50.6
+43.8
+-7.3
+-14
+Low:high ratio
+1.7
+1.9
+1.8
+0.1
+8
+1.5
+1.8
+1.9
+0.4
+27
+Wasting
+Lowest
+29.1
+26.1
+31.3
+2.2
+7
+24.7
+25.8
+28.3
+3.7
+15
+Second
+31.4
+24.3
+27.6
+-3.8
+-12
+25.2
+22.9
+25.4
+0.2
+1
+Middle
+25.0
+22.5
+25.9
+0.9
+4
+21.8
+19.2
+25.1
+3.3
+15
+Fourth
+21.9
+15.8
+21.2
+-0.6
+-3
+19.4
+16.9
+21.4
+2.0
+10
+Highest
+19.1
+14.7
+15.7
+-3.4
+-18
+15.0
+10.6
+14.4
+-0.5
+-3
+Total
+26.0
+20.3
+23.3
+-2.6
+-10
+21.9
+18.9
+22.3
+0.4
+2
+Low:high ratio
+1.5
+1.8
+2.0
+0.5
+30
+1.7
+2.4
+2.0
+0.3
+19
+Underweight
+Lowest
+58.8
+56.0
+55.1
+-3.7
+-6
+52.5
+54.8
+53.7
+1.2
+2
+Second
+59.9
+53.9
+51.6
+-8.3
+-14
+51.3
+51.9
+52.6
+1.3
+3
+Middle
+53.5
+47.8
+46.8
+-6.7
+-12
+45.9
+47.2
+46.3
+0.5
+1
+Fourth
+38.9
+36.5
+37.2
+-1.8
+-5
+39.9
+34.5
+35.4
+-4.5
+-11
+Highest
+30.0
+24.5
+22.9
+-7.1
+-24
+25.9
+23.8
+20.6
+-5.3
+-20
+Total
+50.2
+43.1
+40.7
+-9.4
+-19
+44.9
+42.1
+40.1
+-4.8
+-11
+Low:high ratio
+2.0
+2.3
+2.4
+0.4
+23
+2.0
+2.3
+2.6
+0.6
+28
+Wealth scores were generated separately for each area, so they are not always on the same scale. Urban areas have lower maximum and minimum values than rural areas, but medians are always higher in urban areas. Further, the median is higher than the mean in urban areas, implying that the data are left-skewed, with a long tail of low wealth scores pulling down the mean. On the other hand, the mean is higher than the median in rural areas, implying that the data are right-skewed, with the bulk of the population having low wealth but a long tail of higher wealth scores pulling up the mean. The mean and median increased everywhere over time, for both boys and girls. The range is larger in rural areas and more rural regions like the Central and Eastern regions.
+
+Multivariate analysis shows that the odds ratios associating wealth with all outcomes are generally below 1.0, corroborating what is generally known about children from wealthier households having lower odds of dying or being malnourished. Focusing first on under-5 mortality at the national level, in 1992 a one-standard-deviation increase in the wealth score resulted in a 25 per cent decline in the odds of mortality for boys and an 18 per cent decline for girls. By 2005, a one-standard-deviation increase led to only a 14 per cent decline in the odds for boys, with no significant change for girls. The national pattern is dominated by the rural pattern. Wealth effects on under-5 mortality are stronger in rural areas than urban areas. At the regional level, the picture is much more mixed, and clear patterns are not evident, indicating that the urban-rural division may be a more appropriate analytical grouping.
+
+We then unpacked under-5 mortality to study mortality in smaller age intervals. Wealth effects are much weaker for infant mortality than for child mortality. The patterns in infant mortality mirror those in under-5 mortality because the former is a dominant component of the latter. Wealth coefficients for infant mortality are significant for the first two surveys in rural areas but no significant effects remain by the third survey. Interestingly, in all three surveys, wealth does not seem to be the major driver of infant mortality in urban areas. Wealth effects are larger for child mortality. However, even those effects are attenuated by the third survey for boys, in both urban and rural areas. For girls, however, wealth effects on child mortality remain strong. At the regional level, effects of wealth on child mortality emerge across regions with very divergent profiles—North and South for boys; Central, West, and South for girls.
+
+We now turn to malnutrition. Of the three outcomes, wealth is most strongly correlated with being underweight followed by stunting and then wasting. Wealth is associated with malnutrition in both urban and rural areas, for both boys and girls. All regions show large wealth effects especially for stunting and being underweight, with the strongest effects shown in the West. No major sex differences emerge in any region. In terms of trends, at the national level wealth effects remained robust for boys, and became larger for girls in later surveys, particularly in rural areas (odds ratios moved further below 1.0). At the regional level, wealth effects on malnutrition for boys strengthened over time in the Northern, Central, and Eastern regions especially between the first two surveys, and for girls in every region except the South.
+
+Community fixed-effects models show that, for mortality at the national level, compared to the model without fixed effects, wealth effects on infant mortality are stronger in rural areas for both boys and girls, but wealth effects on child mortality are no longer significant. Effects at the regional level echo the national patterns: the inclusion of fixed effects renders wealth coefficients insignificant except in the case of infant mortality in poorer, more rural regions like the Central and Eastern regions. Adding fixed effects to the malnutrition models bolsters wealth effects at the national level and does not affect regional results.
+
+Discussion reveals that household wealth is an important predictor of mortality in all three surveys, but the associations are weaker for mortality at younger ages. This finding is consistent with the general literature. Variations in the causes of death at younger and older ages may explain the differences in the strength of wealth as a predictor of mortality. Older children have longer exposure time to their socioeconomic and physical environment, which possibly gives factors like household wealth more power to affect child survival. Wealth is also an important predictor of nutritional status, which is very much a function of constant household-level inputs such as food and health care. Wealth is associated with malnutrition in both urban and rural areas, underscoring the widespread nature of the malnutrition problem in India. Being underweight was the outcome most strongly associated with household wealth. Weight-for-age as a measure presents the advantage of reflecting both past and current malnutrition. This means that it is more responsive to short-term changes in inputs to health and current wealth status of the household. The correlation of household wealth with stunting was slightly weaker. Stunting is an indicator of past growth failure and is considered irreversible beyond the age of 2, and may thus not exhibit as close a correlation as being underweight with a current measure of household wealth.
+
+The addition of community fixed effects to the models intensifies the association of wealth with infant mortality in rural areas, and with malnutrition in urban as well as rural areas. This indicates that the associations of household wealth with these outcomes in these areas are not an artifact of unobserved community-level factors. Stated differently, community-level factors have some sort of equalizing effect, and controlling for them underscores wealth-based inequality in outcomes even more. Especially in rural areas, where the availability of services like antenatal care and skilled delivery may be less consistent, wealth plays a crucial role in affecting health outcomes.
+Variations in the causes of death at younger and older ages may explain the differences in the strength of wealth as a predictor of mortality. Older children have longer exposure time to their socioeconomic and physical environment, which possibly gives factors like household wealth more power to affect child survival. Wealth is also an important predictor of nutritional status, which is very much a function of constant household-level inputs such as food and health care. Wealth is associated with malnutrition in both urban and rural areas, underscoring the widespread nature of the malnutrition problem in India. Being underweight was the outcome most strongly associated with household wealth. Weight-for-age as a measure presents the advantage of reflecting both past and current malnutrition. This means that it is more responsive to short-term changes in inputs to health and current wealth status of the household. The correlation of household wealth with stunting was slightly weaker. Stunting is an indicator of past growth failure and is considered irreversible beyond the age of 2, and may thus not exhibit as close a correlation as being underweight with a current measure of household wealth.
+
+The addition of community fixed effects to the models intensifies the association of wealth with infant mortality in rural areas, and with malnutrition in urban as well as rural areas. This indicates that the associations of household wealth with these outcomes in these areas are not an artifact of unobserved community-level factors. Stated differently, community-level factors have some sort of equalizing effect, and controlling for them underscores wealth-based inequality in outcomes even more. Especially in rural areas, where the availability of services like antenatal care and skilled delivery attendants is sparse, household wealth can make a big difference to infant survival. Wealth effects on malnutrition remain strong even after controlling for community-level factors, a finding that shows how heavily nutritional status can be dependent on household-level inputs. Fixed effects do diminish the association of wealth with child mortality but this by no means implies that household wealth does not matter to child survival. A household’s neighborhood is not exogenous; after all, wealthier households can move to better neighborhoods, and the fixed-effects results could be reflecting this kind of selectivity. Care must be taken to not treat the results from the fixed-effects model as though they are ‘more correct’ than results from a simple model.
+
+Our hypothesis was that the relationship between household wealth and child health would strengthen over time. We found that this was true in the case of malnutrition but not in the case of mortality. Wealth effects on mortality declined over time, except for the mortality of female children, for which coefficients stayed strong. The weakening trend in wealth effects on infant mortality suggests that it is not as dependent on private wealth as it was before. This corroborates aggregate-level findings in another study, and our results demonstrated that it is true for boys as well as girls. As infant mortality rates decline, infants who die may be a somewhat more selective group, increasingly comprising those who are inherently more vulnerable and thus less affected by external factors like household wealth. This trend could also have been influenced by the universally subsidizing effect of public programs aimed at reducing mortality among children, specifically the Universal Immunization Program, followed by the Child Survival and Safe Motherhood Program, and finally the Reproductive and Child Health Program. These successful programs could have partially offset investments that households might otherwise have had to make. Survival between the ages of 1 and 4 demands sustained investments, which tend to come from the household, possibly resulting in wealth effects continuing to be strong across surveys. Lending support to this argument is the finding of especially strong effects on child mortality for girls in rural areas, who may be accorded lower priority for intra-household investment in poor, resource-constrained families. A potential selection issue arises when considering sex-selective abortion, and whether the more ‘wanted’ children who are being born as a result have lower mortality, driving the findings on mortality. This seems especially possible when looking at the improvements in child mortality among girls from wealthier rural households. Sex-selective abortion does occur disproportionately among wealthier, better-educated Hindu women. However, we know that there is no differential pattern of decline for infant mortality, and even the poorer groups do experience large declines in child mortality, rendering this explanation unlikely.
+
+For malnutrition, there is a pattern of steady wealth effects for boys and intensifying wealth effects for girls, in urban as well as rural areas. This generally aligns with the findings of other researchers. Subramanyam et al. found that at the national level, social disparities in undernutrition over a 14-year period either widened or stayed the same. Pathak and Singh found that the decline in the rate of malnutrition among the poor was not as significant as among the richer groups, highlighting an increasing inequality in nutritional status based on socioeconomic status.
+Attendants is sparse, household wealth can make a big difference to infant survival. Wealth effects on malnutrition remain strong even after controlling for community-level factors, a finding that shows how heavily nutritional status can be dependent on household-level inputs. Fixed effects do diminish the association of wealth with child mortality but this by no means implies that household wealth does not matter to child survival. A household’s neighborhood is not exogenous; after all, wealthier households can move to better neighborhoods, and the fixed-effects results could be reflecting this kind of selectivity. Care must be taken to not treat the results from the fixed-effects model as though they are ‘more correct’ than results from a simple model.
+
+Our hypothesis was that the relationship between household wealth and child health would strengthen over time. We found that this was true in the case of malnutrition but not in the case of mortality. Wealth effects on mortality declined over time, except for the mortality of female children, for which coefficients stayed strong. The weakening trend in wealth effects on infant mortality suggests that it is not as dependent on private wealth as it was before. This corroborates aggregate-level findings in another study (Singh et al. 2011), and our results demonstrated that it is true for boys as well as girls. As infant mortality rates decline, infants who die may be a somewhat more selective group, increasingly comprising those who are inherently more vulnerable and thus less affected by external factors like household wealth.
+
+This trend could also have been influenced by the universally subsidizing effect of public programs aimed at reducing mortality among children, specifically the Universal Immunization Programme, followed by the Child Survival and Safe Motherhood Programme, and finally the Reproductive and Child Health Programme. These successful programs could have partially offset investments that households might otherwise have had to make. 
+
+Survival between the ages of 1 and 4 demands sustained investments, which tend to come from the household, possibly resulting in wealth effects continuing to be strong across surveys. Lending support to this argument is the finding of especially strong effects on child mortality for girls in rural areas, who may be accorded lower priority for intra-household investment in poor, resource-constrained families. A potential selection issue arises when considering sex-selective abortion, and whether the more ‘wanted’ children who are being born as a result have lower mortality, driving the findings on mortality. This seems especially possible when looking at the larger improvements in child mortality among girls from wealthier rural households. Sex-selective abortion does occur disproportionately among wealthier, better-educated Hindu women. However, we know that there is no differential pattern of decline for infant mortality, and even the poorer groups do experience large declines in child mortality, rendering this explanation unlikely.
+
+For malnutrition, there is a pattern of steady wealth effects for boys and intensifying wealth effects for girls, in urban as well as rural areas. This is generally in line with the findings of other researchers. Subramanyam et al. found that at the national level, social disparities in undernutrition over the 14-year period either widened or stayed the same. Pathak and Singh found that the decline in the rate of malnutrition among the poor was slower than the decline among the better off, which they concluded was indicative of rising inequality that was disadvantageous to the poor, across geographic regions. However, separating boys from girls in our analysis revealed that the findings from these studies are partially driven by gender differences. Another selection issue arises when considering whether child malnutrition did not decline much, especially among the poor, because more children were now surviving.
+
+An issue that merits discussion is the performance during this period of two large public programs relevant to child nutrition—the Integrated Child Development Scheme (ICDS) and the Public Distribution System (PDS). While the ICDS has been praised as being well-conceived and well-placed to address the major causes of malnutrition, some key mismatches between the program’s intentions and its implementation have been identified. One of these mismatches is that children from wealthier households participate more than children from poorer households, and the program is only partially succeeding in targeting the most vulnerable children, for example, girls and children from lower castes. Furthermore, central government allocations to the ICDS scarcely increased in the years corresponding to the period between the first two surveys. The PDS provides wheat, rice, and sugar at affordable prices to families to enhance food security. It is India’s most far-reaching safety net.
+Table 5B
+Relationship between wealth and mortality and malnutrition at the regional level in India (odds ratios from fixed effects/conditional logistic regressions)
+
+North
+Central
+East
+Boys
+Girls
+Boys
+Girls
+Boys
+Girls
+Mortality
+Infant
+Wealth*1992
+0.90
+0.85
+0.79
+0.88
+0.65
+0.64*
+Wealth*1998
+0.70*
+0.69
+0.70*
+0.84
+0.80
+0.60*
+Wealth*2005
+0.82
+0.76
+0.80
+0.70*
+1.02
+0.87
+Child
+Wealth*1992
+0.27
+0.39
+0.50
+0.45
+0.55
+0.95
+Wealth*1998
+1.14
+0.45
+0.26
+0.83
+0.82
+0.37
+Wealth*2005
+0.26
+0.32
+1.35
+0.49
+1.10
+0.55
+Under-5
+Wealth*1992
+0.84
+0.74
+0.75
+0.75
+0.63*
+0.61*
+Wealth*1998
+0.66*
+0.63**
+0.66**
+0.75*
+0.77
+0.53**
+Wealth*2005
+0.75
+0.67
+0.78
+0.63**
+1.02
+0.79
+
+North-east
+West
+South
+Boys
+Girls
+Boys
+Girls
+Boys
+Girls
+Mortality
+Infant
+Wealth*1992
+0.58
+0.59
+0.68
+1.00
+0.71
+0.65
+Wealth*1998
+0.91
+0.72
+0.65
+0.89
+1.01
+0.73
+Wealth*2005
+0.89
+0.88
+0.58
+0.79
+0.84
+1.00
+Child
+Wealth*1992
+0.30
+0.14
+0.21
+0.54
+0.71
+0.17
+Wealth*1998
+0.34
+0.54
+0.79
+0.18
+0.15
+0.40
+Wealth*2005
+3.73
+0.06
+0.86
+0.03
+0.23
+0.27
+Under-5
+Wealth*1992
+0.49
+0.51
+0.60
+0.93
+0.70
+0.62
+Wealth*1998
+0.81
+0.67
+0.65
+0.71
+0.88
+0.74
+Wealth*2005
+0.98
+0.84
+0.63
+0.67
+0.78
+0.94
+
+North
+Central
+East
+Boys
+Girls
+Boys
+Girls
+Boys
+Girls
+Malnutrition
+Stunting
+Wealth*1992
+0.72*
+0.69*
+0.68*
+1.02
+0.83
+0.80
+Wealth*1998
+0.69**
+0.64***
+0.56***
+0.66**
+0.61***
+0.65***
+Wealth*2005
+0.51***
+0.59**
+0.68***
+0.67***
+0.52***b
+0.62***
+Wasting
+Wealth*1992
+0.82
+0.84
+1.02
+0.82
+0.78
+0.80
+Wealth*1998
+0.60**
+0.75
+0.82
+0.82
+0.82
+0.72
+Wealth*2005
+0.84
+0.76
+0.73**
+0.74*
+0.78
+0.83
+Underweight
+Wealth*1992
+0.64**
+0.67*
+0.67*
+0.83
+0.72
+0.76
+Wealth*1998
+0.59***
+0.58***
+0.64***
+0.66**
+0.63***
+0.61***
+Wealth*2005
+0.57**
+0.54**
+0.61***
+0.61***
+0.52***
+0.69***
+
+North-east
+West
+South
+Boys
+Girls
+Boys
+Girls
+Boys
+Girls
+Malnutrition
+Stunting
+Wealth*1992
+0.65
+0.47
+0.59**
+0.83
+0.58**
+0.47**
+Wealth*1998
+0.75
+0.78
+0.49**
+0.66
+0.59***
+0.69**
+Wealth*2005
+0.60**
+0.62*
+0.54**
+0.54*
+0.78
+0.52***
+Wasting
+Wealth*1992
+0.95
+0.45
+0.66
+0.83
+0.80
+0.65
+Wealth*1998
+0.80
+0.71
+0.57
+0.68
+0.74
+0.81
+Wealth*2005
+0.89
+0.94
+0.79
+0.67
+0.76
+0.83
+Underweight
+Wealth*1992
+0.50
+0.33
+0.53**
+0.63
+0.63*
+0.54
+Wealth*1998
+0.68
+0.60
+0.45**
+0.56*
+0.53***
+0.67**
+Wealth*2005
+0.56*
+0.61*
+0.58**
+0.43**
+0.62***
+0.60**
+Measure multiple dimensions of household economic well-being and trends in those dimensions. Second, the wealth score is more a measure of long-term rather than short-term economic welfare. This matters if child survival and nutrition are more responsive to short-term measures of welfare such as household income. Third, a major assumption in the construction of this measure was that the functional form linking household wealth to asset ownership remains constant over time. This may not be true, and if it is not then our measure of wealth is not really comparable across years. However, the findings on mother’s education are encouraging, as are findings using a different construction of the wealth index. Households from all three surveys were pooled, and one ranking was created for all of them. While all the wealth coefficients tended to be significant in models using this pooled wealth index, trends in the size of coefficients were very similar to the results presented here. Fourth, we also assumed that the functional form linking household wealth to child health did not change. Fifth, which is more a clarification, is that the income of each of the groups we used in Table 2, is probably changing year to year. Finally, although our hypothesis stemmed from an observation of economic growth and general indicators of a change in the role of the state, we did not conduct a direct test of the role of government and public programs, and thus cannot report directly on the influence of those factors on our main effects of interest.
+
+Conclusion
+
+Future extensions of this research could include additional tests of the central hypothesis about changes in the wealth-health link. One could test for changes in the effects of household wealth on such outcomes as antenatal care, immunization, and giving birth in a health care facility or with assistance from a skilled attendant. These factors can be seen as being on the pathway from wealth to child health. The changing effects of wealth may well be capturing changes in patterns of usage of antenatal and delivery care, and immunization. Moreover, policy can have an impact on such services, and thus reduce the burden of purchasing them on households. Another important extension would be a decomposition analysis to partition the sources of change in mortality and malnutrition into changes in the levels of the determinants vs. changes in the slopes, in order to identify the relative importance of the sources of change.
+
+The numbers presented in this paper tell a compelling story. While mortality and malnutrition among children have both declined, household wealth still plays a crucial role in ensuring desirable outcomes. The right programs can improve child health while simultaneously decreasing the burden on households. The fraction of under-5 mortality attributable to infant mortality has increased over time. In order to achieve further mortality reductions, it will be essential to improve the quality of health care and equity in the provision of medical services. Malnutrition continues to be very high in India even compared with other less developed regions; again underscoring the crucial role that policy and programs can play.
+Tarozzi, Alessandro and Aprajit Mahajan. 2007. Child nutrition in India in the nineties, Economic Development and Cultural Change 55(3): 441-486.  
+
+WHO/UNICEF. 2010. Joint Monitoring Programme (JMP) for water supply and sanitation. Available: http://www.wssinfo.org/definitions/infrastructure.html (accessed: 1 March 2011).
+
+World Health Organization Multicentre Growth Reference Study Group. 2006. WHO Child Growth Standards: Methods and Development. Length/Height-for-Age, Weight-for-Age, Weight-for-Length, Weight-for-Height and Body Mass Index-for-Age. Geneva: World Health Organization.
