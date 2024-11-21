@@ -19,18 +19,15 @@ vertexai.init(project=GCP_PROJECT, location=GCP_LOCATION)
 GENERATIVE_MODEL = "gemini-1.5-flash-001"
 generative_model = GenerativeModel(
     "projects/590232342668/locations/us-central1/endpoints/7908374821732352000",
-    system_instruction=[SYSTEM_INSTRUCTION]
+    system_instruction=[SYSTEM_INSTRUCTION],
 )
 
 # Configuration settings for content generation
 generation_config = GenerationConfig(
-    max_output_tokens=2048,
-    temperature=0.2,
-    top_p=0.95,
-    top_k=40
+    max_output_tokens=2048, temperature=0.2, top_p=0.95, top_k=40
 )
 
-# JSON schema for data extraction 
+# JSON schema for data extraction
 
 
 schema = {
@@ -38,11 +35,11 @@ schema = {
 }
 
 
-
 def read_text_file(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, "r", encoding="utf-8") as file:
         text = file.read()
     return text
+
 
 def extract_information(text):
     prompt = f"""
@@ -64,6 +61,7 @@ Provide the extracted information in **strict JSON format** without any addition
     )
     return response.text.strip()
 
+
 def upload_json_to_gcs(bucket_name, content, destination_blob_name):
     client = storage.Client()
     bucket = client.bucket(bucket_name)
@@ -71,22 +69,27 @@ def upload_json_to_gcs(bucket_name, content, destination_blob_name):
 
     # Check if the blob already exists in the bucket
     if blob.exists():
-        print(f"{destination_blob_name} already exists in gs://{bucket_name}/{destination_blob_name}. Skipping upload.")
+        print(
+            f"{destination_blob_name} already exists in gs://{bucket_name}/{destination_blob_name}. Skipping upload."
+        )
         return
 
     # Save content to a local JSON file and upload
     with open("extracted_information.json", "w", encoding="utf-8") as f:
         json.dump(content, f, indent=4)
-    
+
     with open("extracted_information.json", "r", encoding="utf-8") as f:
         blob.upload_from_file(f, content_type="application/json")
-    
-    print(f"Uploaded {destination_blob_name} to gs://{bucket_name}/{destination_blob_name}")
+
+    print(
+        f"Uploaded {destination_blob_name} to gs://{bucket_name}/{destination_blob_name}"
+    )
+
 
 def main():
-    txt_path = 'data/ps8.txt'
+    txt_path = "data/ps8.txt"
     text = read_text_file(txt_path)
-    
+
     # Extract structured information from the full text
     extracted_info = extract_information(text)
 
@@ -112,5 +115,6 @@ def main():
     destination_blob_name = "extracted_information.json"
     # upload_json_to_gcs(output_bucket_name, extracted_data, destination_blob_name)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

@@ -1,6 +1,5 @@
 repos:
   - repo: https://github.com/psf/black
-    rev: 23.9.1  # Replace with the latest version of Black
+    rev: 23.9.1
     hooks:
       - id: black
-        args: [--check]  # Checks formatting without reformatting
