@@ -54,8 +54,12 @@ class TestTextProcessor(unittest.TestCase):
         c("mock_bucket", "Sample content", "sample_blob.txt")
 
         # Assert methods were called as expected
-        mock_open.assert_any_call("/tmp/to_upload.txt", "w", encoding="utf-8")
-        mock_open.assert_any_call("/tmp/to_upload.txt", "r", encoding="utf-8")
+        mock_open.assert_any_call(
+            "./to_upload.txt", "w", encoding="utf-8"
+        )  # Default path
+        mock_open.assert_any_call(
+            "./to_upload.txt", "r", encoding="utf-8"
+        )  # Default path
         mock_bucket.blob.assert_called_once_with("sample_blob.txt")
         mock_blob.upload_from_file.assert_called_once()
 
