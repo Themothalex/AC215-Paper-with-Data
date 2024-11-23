@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.7, pytest-8.3.3, pluggy-1.5.0
+rootdir: /app
+configfile: pytest.ini
+testpaths: tests
+plugins: cov-6.0.0, anyio-4.6.2.post1
+collected 4 items
+
+tests/test_text_processor.py ....                                        [100%]
+
+---------- coverage: platform linux, python 3.12.7-final-0 -----------
+Name                Stmts   Miss  Cover
+---------------------------------------
+text_processor.py      74     26    65%
+---------------------------------------
+TOTAL                  74     26    65%
+
+
+============================== 4 passed in 7.65s ===============================
