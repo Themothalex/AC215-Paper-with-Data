@@ -77,7 +77,7 @@ def main():
     ]
 
     # Input variables to match
-    input_text = "Household Type, including Male Same-Sex Households, Female Same-Sex Households, and Different-Sex Households."
+    input_text = "Same-Sex Households, Female Same-Sex Households, and Different-Sex Households."
 
     # Generate embeddings for JSON files
     json_embeddings = generate_embeddings_for_json_files(json_files)

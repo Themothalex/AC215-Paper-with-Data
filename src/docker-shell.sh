@@ -26,7 +26,7 @@ docker compose build
 docker compose up -d --remove-orphans
 
 # # Build the image based on the Dockerfile
-# docker build -t $IMAGE_NAME -f Dockerfile .
+docker build -t $IMAGE_NAME -f Dockerfile .
 
 # # Run Container
 # docker run --rm --name $IMAGE_NAME -ti \
