@@ -1,0 +1,60 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Human Mortality Database",
+            "source_repository": "",
+            "timeframe": "From 1950 to projected 2050",
+            "geographical_scope": "24 countries including Australia, Austria, Belgium, Canada, Denmark, England and Wales, Finland, France, Ireland, Italy, Japan, the Netherlands, New Zealand, Norway, Portugal, Scotland, Spain, Sweden, Switzerland, Taiwan, USA, UK, West Germany",
+            "population_sample": "Low-mortality populations",
+            "unit_of_analysis": "Population mortality data",
+            "data_format": "",
+            "sample_size": "",
+            "missing_data": "",
+            "data_collection_method": "Mortality data collection and projections",
+            "data_cleaning": "Extrapolations of declining age-specific mortality rates",
+            "usage_in_paper": {
+                "variable_type": "Mortality data",
+                "specifics": "Used for mortality scenarios comparing PAYG and FS pension systems"
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "Why increasing longevity may favour a PAYG pension system over a funded system",
+        "authors": [
+            {
+                "name": "Dalkhat M. Ediev",
+                "affiliations": [
+                    "Vienna Institute of Demography"
+                ]
+            }
+        ],
+        "publication_year": "Year not mentioned",
+        "research_domain": "Pension systems and demographic change"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "PAYG IRR (Internal Rate of Return)",
+                "type": "Interest rate",
+                "measurement": "Percentage per annum"
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "CAL (Cross-sectional average length of life)",
+                "type": "Mortality indicator",
+                "categories": [
+                    "Low mortality countries",
+                    "Decline in mortality impact on pension systems"
+                ]
+            }
+        ],
+        "control_variables": [
+            {
+                "name": "Real interest rate",
+                "type": "Financial factor",
+                "measurement": "Percentage per annum"
+            }
+        ]
+    }
+}

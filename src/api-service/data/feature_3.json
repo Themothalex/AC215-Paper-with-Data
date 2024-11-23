@@ -1,0 +1,174 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Survey of Health, Ageing and Retirement in Europe (SHARE)",
+            "source_repository": "SHARE team",
+            "timeframe": "2017/2018",
+            "geographical_scope": "26 European countries",
+            "population_sample": "Individuals aged 50 and older",
+            "unit_of_analysis": "Individuals",
+            "data_format": "Not specified",
+            "sample_size": "41,566",
+            "missing_data": "Missing values supplemented with information from earlier waves (2004-2015) and multiply imputed variables provided by the SHARE team",
+            "data_collection_method": "Panel survey",
+            "data_cleaning": "Not specified",
+            "usage_in_paper": {
+                "variable_type": "Dependent, Independent, Control",
+                "specifics": "Used for all analyses, including self-rated health, everyday activity limitations, cognitive functioning, socioeconomic position, hunger, dispossession, parental discrimination, age, gender, marital status, number of partnerships, number of children, and country dummies"
+            }
+        }
+    ],
+    "study_context": {
+        "study_title": "Life-Course Factors and Later Life Health in Eastern and Western Europe",
+        "authors": [
+            {
+                "name": "Luule Sakkeus",
+                "affiliations": [
+                    "Estonian Institute for Population Studies",
+                    "School of Governance, Law and Society",
+                    "Tallinn University"
+                ]
+            },
+            {
+                "name": "Katrin Schwanitz",
+                "affiliations": [
+                    "INVEST Research Flagship Center",
+                    "University of Turku",
+                    "Estonian Institute for Population Studies",
+                    "Tallinn University"
+                ]
+            },
+            {
+                "name": "Liili Abuladze",
+                "affiliations": [
+                    "Estonian Institute for Population Studies",
+                    "School of Governance, Law and Society",
+                    "Tallinn University",
+                    "Population Research Institute",
+                    "V\u00c3\u00a4est\u00c3\u00b6liitto"
+                ]
+            },
+            {
+                "name": "Uku Rudissaar",
+                "affiliations": [
+                    "Estonian Institute for Population Studies",
+                    "School of Governance, Law and Society",
+                    "Tallinn University"
+                ]
+            }
+        ],
+        "publication_year": "2023",
+        "research_domain": "Social Sciences, Demography, Health"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Poor self-rated health",
+                "type": "Binary",
+                "measurement": "Based on a single item asking respondents to rate their health from 1 (excellent) to 5 (poor), recoded with 'very good' to 0 and 'good', 'fair', and 'poor' to 1"
+            },
+            {
+                "name": "Limited in everyday activities",
+                "type": "Binary",
+                "measurement": "Based on the Global Activity Limitations Index (GALI), recoded with 'no limitations' to 0 and 'moderately limited' and 'severely limited' to 1"
+            },
+            {
+                "name": "Poor immediate word recall",
+                "type": "Binary",
+                "measurement": "Based on how many words of a ten-word list respondents could recall during a 1-minute interval, recoded with a score of 5 to 10 words to 0 and 0 to 4 words to 1"
+            },
+            {
+                "name": "Poor delayed word recall",
+                "type": "Binary",
+                "measurement": "Based on how many words respondents could recall from a ten-word list after completing other SHARE questions, recoded with a score of 5 to 10 words to 0 and 0 to 4 words to 1"
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "Eastern Europe",
+                "type": "Binary",
+                "categories": [
+                    "Western Europe (0)",
+                    "Eastern Europe (1)"
+                ]
+            },
+            {
+                "name": "Disadvantaged SEP in childhood or adulthood",
+                "type": "Categorical",
+                "categories": [
+                    "Not in childhood and not in adulthood (0)",
+                    "Not in childhood, in adulthood (1)",
+                    "In childhood, not in adulthood (2)",
+                    "In childhood and in adulthood (3)"
+                ]
+            },
+            {
+                "name": "Experienced hunger period in childhood or adulthood",
+                "type": "Categorical",
+                "categories": [
+                    "Not in childhood and not in adulthood (0)",
+                    "Not in childhood, in adulthood (1)",
+                    "In childhood, not in adulthood (2)",
+                    "In childhood and in adulthood (3)"
+                ]
+            },
+            {
+                "name": "Experienced dispossession in childhood or adulthood",
+                "type": "Categorical",
+                "categories": [
+                    "Not in childhood and not in adulthood (0)",
+                    "Not in childhood, in adulthood (1)",
+                    "In childhood, not in adulthood (2)",
+                    "In childhood and in adulthood (3)"
+                ]
+            },
+            {
+                "name": "Parents experienced at least 1 act of discrimination",
+                "type": "Categorical",
+                "categories": [
+                    "Not the mother and not the father (0)",
+                    "Not the mother, the father (1)",
+                    "The mother, not the father (2)",
+                    "The mother and the father (3)"
+                ]
+            }
+        ],
+        "control_variables": [
+            {
+                "name": "Age",
+                "type": "Continuous",
+                "measurement": "Centered at age 65"
+            },
+            {
+                "name": "Age squared",
+                "type": "Continuous",
+                "measurement": "Centered at age 65"
+            },
+            {
+                "name": "Gender",
+                "type": "Binary",
+                "measurement": "0 = female, 1 = male"
+            },
+            {
+                "name": "Marital status",
+                "type": "Categorical",
+                "measurement": "Married/partnered (0), Never married (1), Divorced (2), Widowed (3)"
+            },
+            {
+                "name": "Number of partnerships",
+                "type": "Continuous",
+                "measurement": "Not specified"
+            },
+            {
+                "name": "Number of children",
+                "type": "Continuous",
+                "measurement": "Not specified"
+            },
+            {
+                "name": "Country dummies",
+                "type": "Categorical",
+                "measurement": "With Austria as the reference"
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "dataset_information": [
+        {
+            "formal_name": "Labour Force Survey, 1991 and 2001 Censuses, vital statistics",
+            "source_repository": "UK official statistics",
+            "timeframe": "1991-2009",
+            "geographical_scope": "England, local authority level",
+            "population_sample": "Ethnic women of childbearing age",
+            "unit_of_analysis": "Age-specific fertility rates",
+            "data_format": "Structured data",
+            "sample_size": "Not specified",
+            "missing_data": "Not specified",
+            "data_collection_method": "Combination of vital statistics, census data, and survey data",
+            "data_cleaning": "Controlled to ensure consistency with national totals"
+        }
+    ],
+    "study_context": {
+        "study_title": "The use of a new indirect method to estimate ethnic-group fertility rates for subnational projections for England",
+        "authors": [
+            {
+                "name": "Paul Norman, Philip Rees & Pia Wohland",
+                "affiliations": [
+                    ""
+                ]
+            }
+        ],
+        "publication_year": "Year not specified",
+        "research_domain": "Population projections, ethnicity, fertility rates"
+    },
+    "variables": {
+        "dependent_variables": [
+            {
+                "name": "Age-specific fertility rates",
+                "type": "Continuous",
+                "measurement": "Rates"
+            }
+        ],
+        "independent_variables": [
+            {
+                "name": "Ethnic group",
+                "type": "Categorical",
+                "categories": [
+                    "White British",
+                    "Black African",
+                    "Pakistani",
+                    "Bangladeshi",
+                    "Chinese",
+                    "Other"
+                ]
+            }
+        ],
+        "control_variables": []
+    }
+}
