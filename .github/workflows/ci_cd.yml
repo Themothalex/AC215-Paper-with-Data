@@ -1,0 +1,64 @@
+name: CI and CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint-and-format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install black flake8
+
+      - name: Reformat Code with Black
+        run: |
+          black .
+      
+      - name: Check Code Format with Black
+        run: black --check .
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Install Docker and Docker Compose
+      - name: Install Docker and Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-compose
+
+      # Step 3: Start Services with Docker Compose
+      - name: Start Services
+        run: sh ./src/docker-shell.sh
+
+      # Step 4: Run Tests Inside text_processor Container
+      - name: Run Pytest in pipenv Environment
+        run: |
+          docker exec text_processor sh -c "
+            COVERAGE_FILE=/tmp/.coverage pipenv run pytest \
+              --cov=text_processor \
+              --cov-report=term-missing \
+              --no-cov-on-fail \
+              -p no:warnings
+          "
+
+
+      # # Step 5: Stop Docker Compose Services
+      # - name: Stop Services
+      #   run: docker compose down
