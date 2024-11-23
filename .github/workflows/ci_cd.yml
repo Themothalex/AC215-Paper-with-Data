@@ -63,7 +63,10 @@ jobs:
           docker exec text_processor sh -c "
               pipenv run pytest --cov=text_processor --cov-report=term-missing
           "
+        env:
+          COVERAGE_FILE: /tmp/.coverage
 
       # Step 5: Stop Docker Compose Services
       - name: Stop Services
         run: docker compose down
+      
