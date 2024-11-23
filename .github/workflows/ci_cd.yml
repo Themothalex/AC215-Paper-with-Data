@@ -48,7 +48,7 @@ jobs:
 
       # Step 3: Start Services with Docker Compose
       - name: Start Services
-        run: ../../src/docker-shell.sh
+        run: sh ./src/docker-shell.sh
 
       # Step 4: Run Tests Inside text_processor Container
       - name: Run Pytest in Container
@@ -56,4 +56,4 @@ jobs:
 
       # Step 5: Stop Docker Compose Services
       - name: Stop Services
-        run: ../../src/docker-shell.sh down
+        run: docker compose down
