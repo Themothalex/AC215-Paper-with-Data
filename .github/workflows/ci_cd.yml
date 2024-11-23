@@ -57,9 +57,13 @@ jobs:
       - name: Start Services
         run: sh ./src/docker-shell.sh
 
-      # Step 4: Run Tests Inside text_processor Container
-      - name: Run Pytest in Container
-        run: docker exec text_processor pytest --cov=text_processor --cov-report=term-missing
+      # Step 4: Run Tests Inside text_processor Container with pipenv
+      - name: Run Pytest in pipenv Environment
+        run: |
+          docker exec text_processor sh -c "
+            pipenv shell && \
+            pytest --cov=text_processor --cov-report=term-missing
+          "
 
       # Step 5: Stop Docker Compose Services
       - name: Stop Services
