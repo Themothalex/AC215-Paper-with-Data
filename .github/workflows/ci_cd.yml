@@ -6,14 +6,9 @@ on:
       - main
   pull_request:
   workflow_dispatch:
-
 jobs:
   lint-and-format:
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #     os: [windows-latest, macos-latest]
-    # runs-on: ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v3
@@ -26,11 +21,23 @@ jobs:
       - name: Install dependencies
         run: pip install black flake8
 
+      - name: Reformat Code with Black
+        run: |
+          black .
+      
       - name: Check Code Format with Black
         run: black --check .
 
       - name: Lint Code with Flake8
         run: flake8 .
+
+      # - name: Verify No Changes
+      #   run: |
+      #     if [ -n "$(git status --porcelain)" ]; then
+      #       echo "There are uncommitted changes. Please commit or stash them before pushing."
+      #       git diff
+      #       exit 1
+      #     fi
 
   test:
     runs-on: ubuntu-latest
