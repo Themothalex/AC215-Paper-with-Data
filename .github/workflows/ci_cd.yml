@@ -48,15 +48,17 @@ jobs:
         run: sh ./src/docker-shell.sh
 
       # Step 4: Run Tests Inside text_processor Container
-      - name: Run Pytest in text_processor Container
+      - name: Run Pytest in pipenv Environment
         run: |
           docker exec text_processor sh -c "
             COVERAGE_FILE=/tmp/.coverage pipenv run pytest \
               --cov=text_processor \
               --cov-report=term-missing \
-              --no-cov-on-fail
+              --no-cov-on-fail \
+              -p no:warnings
           "
 
-      # Step 5: Stop Docker Compose Services
-      - name: Stop Services
-        run: docker compose down
+
+      # # Step 5: Stop Docker Compose Services
+      # - name: Stop Services
+      #   run: docker compose down
