@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-# set -e -x
+set -e -x
 
 # Extract and convert PDFs to TxTs
 echo "Running container text_processor"
