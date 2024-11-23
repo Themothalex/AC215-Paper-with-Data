@@ -14,7 +14,7 @@ GCP_PROJECT = os.environ["GCP_PROJECT"]
 TRAIN_DATASET = "gs://fine-tuning-ac215/train_data.jsonl"
 VALIDATION_DATASET = "gs://fine-tuning-ac215/validation_data.jsonl"
 GCP_LOCATION = "us-central1"
-GENERATIVE_SOURCE_MODEL = "gemini-1.5-flash-002" # gemini-1.5-pro-002
+GENERATIVE_SOURCE_MODEL = "gemini-1.5-flash-002"  # gemini-1.5-pro-002
 # Configuration settings for the content generation
 generation_config = {
     "max_output_tokens": 3000,  # Maximum number of tokens for output
@@ -24,6 +24,7 @@ generation_config = {
 
 vertexai.init(project=GCP_PROJECT, location=GCP_LOCATION)
 
+
 def train(wait_for_job=False):
     print("train()")
 
@@ -32,18 +33,18 @@ def train(wait_for_job=False):
         source_model=GENERATIVE_SOURCE_MODEL,
         train_dataset=TRAIN_DATASET,
         # validation_dataset=VALIDATION_DATASET,
-        epochs=1, # change to 2-3
+        epochs=1,  # change to 2-3
         adapter_size=4,
         learning_rate_multiplier=1.0,
         # tuned_model_display_name="-cheese-demo-v1",
-        tuned_model_display_name="datawithpaper-demo-v1"
+        tuned_model_display_name="datawithpaper-demo-v1",
     )
     print("Training job started. Monitoring progress...\n\n")
-    
+
     # Wait and refresh
     time.sleep(60)
     sft_tuning_job.refresh()
-    
+
     if wait_for_job:
         print("Check status of tuning job:")
         print(sft_tuning_job)
@@ -60,13 +61,15 @@ def train(wait_for_job=False):
 def process():
     # print("chat()")
     # Get the model endpoint from Vertex AI: https://console.cloud.google.com/vertex-ai/studio/tuning?project=ac215-project
-    MODEL_ENDPOINT = "projects/590232342668/locations/us-central1/endpoints/7908374821732352000" 
+    MODEL_ENDPOINT = (
+        "projects/590232342668/locations/us-central1/endpoints/7908374821732352000"
+    )
     generative_model = GenerativeModel(MODEL_ENDPOINT)
 
     # check if the model works and test the performance
     with open("demo_paper.txt", "r", encoding="utf-8") as f:
         query = f.read()
-        
+
     prompt = """
     Provide the extracted information in **strict JSON format** without any additional text or explanation.
 
@@ -138,14 +141,14 @@ Here is the paper from which you should extract information:
     )
     generated_text = response.text
     print("Fine-tuned LLM Response:", generated_text)
-     
+
 
 def main(args=None):
     print("CLI Arguments:", args)
 
     if args.train:
         train()
-    
+
     if args.process:
         process()
 

@@ -25,31 +25,34 @@ generation_config = {
 def extract_features_from_json(json_file):
     # Extract dataset information, study context, and variables into a text block
     text_blocks = []
-    
+
     # Convert the JSON into a single string representation
     text_blocks.append(json.dumps(json_file["dataset_information"], indent=2))
     text_blocks.append(json.dumps(json_file["study_context"], indent=2))
     text_blocks.append(json.dumps(json_file["variables"], indent=2))
-    
+
     return " ".join(text_blocks)
+
 
 def generate_embedding(text):
     embedding_input = [text]
     embeddings = embedding_model.get_embeddings(embedding_input)
     return np.array(embeddings[0].values)
 
+
 def generate_embeddings_for_json_files(json_file_paths):
     json_embeddings = []
 
     for json_file_path in json_file_paths:
         # print(json_file_path)
-        with open(json_file_path, 'r') as file:
+        with open(json_file_path, "r") as file:
             json_data = json.load(file)
             text_representation = extract_features_from_json(json_data)
             embedding = generate_embedding(text_representation)
             json_embeddings.append({"path": json_file_path, "embedding": embedding})
 
     return json_embeddings
+
 
 def find_best_match(input_text, json_embeddings):
     # Generate embedding for the input text
@@ -60,24 +63,29 @@ def find_best_match(input_text, json_embeddings):
     best_match = None
 
     for json_embedding in json_embeddings:
-        similarity = cosine_similarity([input_embedding], [json_embedding["embedding"]])[0][0]
+        similarity = cosine_similarity(
+            [input_embedding], [json_embedding["embedding"]]
+        )[0][0]
         if similarity > best_score:
             best_score = similarity
             best_match = json_embedding
 
     return best_match, best_score
 
+
 def main():
     # Set paths to your JSON files
     json_files = [
         "data/feature_1.json",
         "data/feature_2.json",
-        "data/feature_3.json"
+        "data/feature_3.json",
         # Add paths to other JSON files here
     ]
 
     # Input variables to match
-    input_text = "Same-Sex Households, Female Same-Sex Households, and Different-Sex Households."
+    input_text = (
+        "Same-Sex Households, Female Same-Sex Households, and Different-Sex Households."
+    )
 
     # Generate embeddings for JSON files
     json_embeddings = generate_embeddings_for_json_files(json_files)
@@ -91,11 +99,13 @@ def main():
     else:
         print("No match found.")
 
-    MODEL_ENDPOINT = "projects/590232342668/locations/us-central1/endpoints/7908374821732352000" 
+    MODEL_ENDPOINT = (
+        "projects/590232342668/locations/us-central1/endpoints/7908374821732352000"
+    )
     generative_model = GenerativeModel(MODEL_ENDPOINT)
 
     if best_match:
-        with open(best_match['path'], "r") as f:
+        with open(best_match["path"], "r") as f:
             text_summary = f.read()
 
         prompt_1 = f"""The user is interested in {input_text}. 
@@ -111,17 +121,18 @@ def main():
         You should first provide the basic information of the paper and then tell how they are related and finally convert the JSON file into a list of points.
             
             """
-        
+
         prompt = prompt_1 + prompt_2 + prompt_3
-        
+
         response = generative_model.generate_content(
-        [prompt],  # Input prompt
-        generation_config=generation_config,  # Configuration settings
-        stream=False,  # Enable streaming for responses
+            [prompt],  # Input prompt
+            generation_config=generation_config,  # Configuration settings
+            stream=False,  # Enable streaming for responses
         )
 
         generated_text = response.text
         print("Fine-tuned LLM Response:", generated_text)
+
 
 if __name__ == "__main__":
     main()
