@@ -32,9 +32,7 @@ class TestTextProcessor(unittest.TestCase):
 
     def test_preprocess_text(self):
         # Mock LLM content generation
-        with patch(
-            "text_processor.GenerativeModel.generate_content"
-        ) as mock_generate:
+        with patch("text_processor.GenerativeModel.generate_content") as mock_generate:
             mock_response = MagicMock()
             mock_response.text = "Corrected Text"
             mock_generate.return_value = mock_response
@@ -44,7 +42,8 @@ class TestTextProcessor(unittest.TestCase):
             self.assertEqual(result, "Corrected Text")
 
     @patch("text_processor.storage.Client")
-    def test_c(self, mock_storage_client):
+    @patch("builtins.open", new_callable=MagicMock)
+    def test_c(self, mock_open, mock_storage_client):
         # Mock GCS client and blob behavior
         mock_blob = MagicMock()
         mock_bucket = MagicMock()
@@ -55,6 +54,8 @@ class TestTextProcessor(unittest.TestCase):
         c("mock_bucket", "Sample content", "sample_blob.txt")
 
         # Assert methods were called as expected
+        mock_open.assert_any_call("/tmp/to_upload.txt", "w", encoding="utf-8")
+        mock_open.assert_any_call("/tmp/to_upload.txt", "r", encoding="utf-8")
         mock_bucket.blob.assert_called_once_with("sample_blob.txt")
         mock_blob.upload_from_file.assert_called_once()
 
