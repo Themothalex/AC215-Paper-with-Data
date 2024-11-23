@@ -49,7 +49,9 @@ def generate_embeddings_for_json_files(json_file_paths):
             json_data = json.load(file)
             text_representation = extract_features_from_json(json_data)
             embedding = generate_embedding(text_representation)
-            json_embeddings.append({"path": json_file_path, "embedding": embedding})
+            json_embeddings.append(
+                {"path": json_file_path, "embedding": embedding}
+            )
 
     return json_embeddings
 
@@ -83,9 +85,7 @@ def main():
     ]
 
     # Input variables to match
-    input_text = (
-        "Same-Sex Households, Female Same-Sex Households, and Different-Sex Households."
-    )
+    input_text = "Same-Sex Households, Female Same-Sex Households, and Different-Sex Households."
 
     # Generate embeddings for JSON files
     json_embeddings = generate_embeddings_for_json_files(json_files)
@@ -99,9 +99,7 @@ def main():
     else:
         print("No match found.")
 
-    MODEL_ENDPOINT = (
-        "projects/590232342668/locations/us-central1/endpoints/7908374821732352000"
-    )
+    MODEL_ENDPOINT = "projects/590232342668/locations/us-central1/endpoints/7908374821732352000"
     generative_model = GenerativeModel(MODEL_ENDPOINT)
 
     if best_match:

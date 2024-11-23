@@ -32,7 +32,9 @@ class TestTextProcessor(unittest.TestCase):
 
     def test_preprocess_text(self):
         # Mock LLM content generation
-        with patch("text_processor.GenerativeModel.generate_content") as mock_generate:
+        with patch(
+            "text_processor.GenerativeModel.generate_content"
+        ) as mock_generate:
             mock_response = MagicMock()
             mock_response.text = "Corrected Text"
             mock_generate.return_value = mock_response

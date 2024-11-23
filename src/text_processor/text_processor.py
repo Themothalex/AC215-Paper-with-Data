@@ -73,7 +73,9 @@ def c(bucket_name, content, destination_blob_name):
 
 
 # process pdf files and upload text files
-def process_and_upload_pdfs(input_bucket_name, output_bucket_name, chunk_size=3):
+def process_and_upload_pdfs(
+    input_bucket_name, output_bucket_name, chunk_size=3
+):
     client = storage.Client()
     input_bucket = client.bucket(input_bucket_name)
 
@@ -119,7 +121,9 @@ def main():
 
     # process text files and upload
     if bucket_exists(output_bucket_name):
-        print(f"Bucket {output_bucket_name} already exists. Skipping processing.")
+        print(
+            f"Bucket {output_bucket_name} already exists. Skipping processing."
+        )
     else:
         # process text files and upload
         process_and_upload_pdfs(input_bucket_name, output_bucket_name)

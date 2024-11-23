@@ -54,16 +54,16 @@ def train(wait_for_job=False):
             print("Job in progress...")
 
     print(f"Tuned model name: {sft_tuning_job.tuned_model_name}")
-    print(f"Tuned model endpoint name: {sft_tuning_job.tuned_model_endpoint_name}")
+    print(
+        f"Tuned model endpoint name: {sft_tuning_job.tuned_model_endpoint_name}"
+    )
     print(f"Experiment: {sft_tuning_job.experiment}")
 
 
 def process():
     # print("chat()")
     # Get the model endpoint from Vertex AI: https://console.cloud.google.com/vertex-ai/studio/tuning?project=ac215-project
-    MODEL_ENDPOINT = (
-        "projects/590232342668/locations/us-central1/endpoints/7908374821732352000"
-    )
+    MODEL_ENDPOINT = "projects/590232342668/locations/us-central1/endpoints/7908374821732352000"
     generative_model = GenerativeModel(MODEL_ENDPOINT)
 
     # check if the model works and test the performance

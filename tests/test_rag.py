@@ -9,7 +9,9 @@ from featureExtracter import generate_embedding, find_best_match
 def test_generate_embedding(mock_embedding_model):
     # Mock the embedding model's output
     mock_embedding = MagicMock()
-    mock_embedding.get_embeddings.return_value = [MagicMock(values=[0.1, 0.2, 0.3])]
+    mock_embedding.get_embeddings.return_value = [
+        MagicMock(values=[0.1, 0.2, 0.3])
+    ]
     mock_embedding_model.return_value = mock_embedding
 
     input_text = "Sample text for embedding"
