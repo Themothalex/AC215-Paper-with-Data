@@ -2,12 +2,15 @@
 
 
 **Team Members**
+
 Jinghan HUANG, Zhiyu LI, Haozhuo YANG, Luozhong ZHOU
 
 **Group Name**
+
 Paper with Data
 
 **Project**
+
 In this project, we aim create a dataset-centered search portal. This portal will enable researchers to use fine-grained dataset catefories and filter papers not just based on the presence of datasets, but also on the nature of their relationships. The core of our project is to construct a database of summarise of dataset from which we can get the most relevant papers to the query by users. We first use Gemini to construct a database and then use RAG to facilitate the searching process.
 
 
