@@ -1,4 +1,4 @@
-# AC215 - Milestone3 - Cheesy App
+# AC215 - Milestone4 - Paper with Data
 
 
 **Team Members**
@@ -8,7 +8,7 @@ Jinghan HUANG, Zhiyu LI, Haozhuo YANG, Luozhong ZHOU
 Paper with Data
 
 **Project**
-In this project, we aim to develop an AI-powered cheese application. The app will feature visual recognition technology to identify various types of cheese and include a chatbot for answering all kinds of cheese-related questions. Users can simply take a photo of the cheese, and the app will identify it, providing detailed information. Additionally, the chatbot will allow users to ask cheese-related questions. It will be powered by a RAG model and fine-tuned models, making it a specialist in cheese expertise.
+In this project, we aim create a dataset-centered search portal. This portal will enable researchers to use fine-grained dataset catefories and filter papers not just based on the presence of datasets, but also on the nature of their relationships. The core of our project is to construct a database of summarise of dataset from which we can get the most relevant papers to the query by users. We first use Gemini to construct a database and then use RAG to facilitate the searching process.
 
 
 ----
@@ -29,7 +29,7 @@ Here is our Solution Architecture:
 
 Here is our Technical Architecture:
 
-<img src="images/Technical Architecture"  width="800">
+<img src="images/Technical Architecture.jpg"  width="800">
 
 
 **Backend API**
