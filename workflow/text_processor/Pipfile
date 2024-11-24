@@ -4,6 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+gemini-api = "*"
+pypdf2 = "*"
+google-cloud-aiplatform = "*"
+google-auth = "*"
+
+
+pytest = "*"  # Testing framework for writing and running tests
+pytest-cov = "*"
+
+pypdf = "*" # For text processor
 
 [dev-packages]
 
