@@ -3,6 +3,8 @@
 # exit immediately if a command exits with a non-zero status
 set -ex
 
+cd "$(dirname "$0")"
+
 # Set vairables
 export BASE_DIR=$(pwd)
 export PERSISTENT_DIR=$(pwd)/../persistent-folder/
