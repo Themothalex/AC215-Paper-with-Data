@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 import os
 import json
@@ -17,7 +17,15 @@ EMBEDDING_MODEL = "text-embedding-004"
 embedding_model = TextEmbeddingModel.from_pretrained(EMBEDDING_MODEL)
 
 # Initialize FastAPI app
-app = FastAPI()
+app = FastAPI(
+    title="RAG Backend API",
+    description="A Retrieval-Augmented Generation (RAG) API for querying relevant documents based on Independent and Dependent variables.",
+    version="1.0.0",
+    openapi_tags=[
+        {"name": "Metadata", "description": "API for fetching metadata information."},
+        {"name": "Search", "description": "API for searching documents and retrieving best matches."},
+    ]
+)
 
 # Define API model
 class QueryRequest(BaseModel):
@@ -26,8 +34,29 @@ class QueryRequest(BaseModel):
     region: str = None
     data_unit: str = None
 
-@app.post("/search")
+@app.get("/", tags=["Metadata"])
+async def root():
+    """
+    Get API Index
+    """
+    return {"message": "Welcome to the RAG Backend API!"}
+
+@app.get("/metadata", tags=["Metadata"])
+async def get_metadata():
+    """
+    Fetch metadata about the available datasets, such as variable types and general information.
+    """
+    metadata = {
+        "available_variables": ["independent_variable", "dependent_variable", "region", "data_unit"],
+        "description": "This API helps in searching documents related to various study variables."
+    }
+    return metadata
+
+@app.post("/search", tags=["Search"])
 async def search(query: QueryRequest):
+    """
+    Search for relevant documents based on the input variables.
+    """
     try:
         # Combine all input fields to create a query
         input_text_parts = []
