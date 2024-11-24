@@ -11,17 +11,21 @@ services:
         volumes:
             - ../secrets:/secrets
             - ${PWD}/text_processor:/app
+            - ${PWD}/../tests/test_text_processor.py:/app/tests/test_text_processor.py  
+            - ${PWD}/../pytest.ini:/app/pytest.ini
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
 
-    featureextracter:  # Renamed to lowercase
+    featureextracter:
         build:
             context: ./featureExtracter
-        container_name: featureExtracter  # Renamed to lowercase
+        container_name: featureextracter
         volumes:
             - ../secrets:/secrets
             - ${PWD}/featureExtracter:/app
+            - ${PWD}/../tests/test_featureExtracter.py:/app/tests/test_featureExtracter.py  # Map the tests folder into the container
+            - ${PWD}/../pytest.ini:/app/pytest.ini
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
@@ -33,6 +37,8 @@ services:
         volumes:
             - ../secrets:/secrets
             - ${PWD}/rag:/app
+            - ${PWD}/../tests/test_rag.py:/app/tests/test_rag.py  # Map the tests folder into the container
+            - ${PWD}/../pytest.ini:/app/pytest.ini
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS
             GCP_PROJECT: $GCP_PROJECT
