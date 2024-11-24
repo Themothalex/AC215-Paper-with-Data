@@ -39,7 +39,7 @@ Here is our Technical Architecture:
 
 We built backend api service using fast API to expose model functionality to the frontend. We also added apis that will help the frontend display some key information about the model and data. 
 
-```Add screenshots here```
+<img src="images/Backend.jpg"  width="800">
 
 **Frontend**
 
