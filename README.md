@@ -39,7 +39,7 @@ Here is our Technical Architecture:
 
 We built backend api service using fast API to expose model functionality to the frontend. We also added apis that will help the frontend display some key information about the model and data. 
 
-```Add screenshots here```
+<img src="images/Backend.jpg"  width="800">
 
 **Frontend**
 
@@ -47,7 +47,11 @@ A user friendly React app was built to search the most relevant papers from our 
 
 Here are some screenshots of our app:
 
-```Add screenshots here```
+<img src="images/index_1.jpg"  width="800">
+
+<img src="images/index_2.jpg"  width="800">
+
+
 
 ## Running Dockerfile
 Instructions for running the Dockerfile can be added here.
