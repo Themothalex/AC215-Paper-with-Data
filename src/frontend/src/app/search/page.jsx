@@ -78,7 +78,7 @@ export default function ResearchPage() {
     };
 
        // Handle search
-       const handleSearch = () => {
+       const handleSearch2 = () => {
         const searchData = {
             variables: variables.map(variable => ({
                 name: variable.name,
@@ -92,6 +92,38 @@ export default function ResearchPage() {
         // Make API call here
         // apiCall(searchData);
     };
+
+        const handleSearch = async () => {
+            const searchData = {
+            independent_variable: addedIndependentVars.map(v => v.name).join(', '),
+            dependent_variable: addedDependentVars.map(v => v.name).join(', ')
+        };
+    
+        try {
+            const response = await fetch('http://localhost:9000/search', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(searchData)
+            });
+    
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+    
+            const data = await response.json();
+            console.log('API response:', data);
+    
+            // Update the search results based on the response
+            setHasSearched(true);
+            // Assuming `data.results` is the format of the response
+            setSearchResults(data.results);
+        } catch (error) {
+            console.error('Error fetching search results:', error);
+        }
+    };
+    
 
     const searchResults = Array(6).fill({
         id: 1,
