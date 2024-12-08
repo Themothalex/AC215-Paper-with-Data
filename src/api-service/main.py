@@ -77,11 +77,11 @@ async def search(query: QueryRequest):
         print(f"Input text for RAGProcessor: {input_text}")
 
         # Set paths to JSON files
-        json_files = [
-            "data/feature_1.json",
-            "data/feature_2.json",
-            "data/feature_3.json"
-        ]
+        # json_files = [
+        #     "data/feature_1.json",
+        #     "data/feature_2.json",
+        #     "data/feature_3.json"
+        # ]
 
         # Generate embeddings for JSON files
         json_embeddings = generate_embeddings_for_json_files(json_files)
@@ -104,7 +104,7 @@ async def search(query: QueryRequest):
                     "publication_year": match["publication_year"],
                     "summary": match["summary"]
                 }
-                for match in matches
+                for match in matches[:5]
             ]
         }
 
