@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import os
 import json
@@ -26,6 +27,14 @@ app = FastAPI(
         {"name": "Search", "description": "API for searching documents and retrieving best matches."},
     ]
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+        )
 
 # Define API model
 class QueryRequest(BaseModel):
