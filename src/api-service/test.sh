@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # URL of the API endpoint
-URL="http://localhost:9000/search"
+# URL="http://localhost:9000/search"
+URL="http://34.27.230.188:9000/search"
 
 # Test Case 1: Valid Input
 echo "Test Case 1: Valid Input"

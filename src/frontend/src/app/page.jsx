@@ -24,9 +24,36 @@ export default function Home() {
                         </h1>
                     </div>
 
-                    <p className="text-center mt-8 text-gray-600 text-xl">
-                        We help you to find the most relevant papers to your research.
-                    </p>
+                    <div className="text-center py-8 max-w-4xl mx-auto px-4">
+    <h2 className="text-3xl font-bold text-blue-600 mb-4">
+        We help you to find the most relevant papers to your research
+    </h2>
+    <div className="space-y-4">
+        <p className="text-blue-800 text-lg">
+            Define your variables of interest and discover research papers perfectly aligned with your study
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+            <div className="p-4 bg-blue-50 rounded-lg border border-blue-100">
+                <div className="text-blue-600 font-semibold mb-2">Smart Search</div>
+                <p className="text-blue-700 text-sm">
+                    Our algorithm matches your research variables with thousands of academic papers
+                </p>
+            </div>
+            <div className="p-4 bg-blue-50 rounded-lg border border-blue-100">
+                <div className="text-blue-600 font-semibold mb-2">Precise Matching</div>
+                <p className="text-blue-700 text-sm">
+                    Get match scores to identify the most relevant papers for your research
+                </p>
+            </div>
+            <div className="p-4 bg-blue-50 rounded-lg border border-blue-100">
+                <div className="text-blue-600 font-semibold mb-2">Detailed Analysis</div>
+                <p className="text-blue-700 text-sm">
+                    Explore comprehensive paper summaries and dataset details
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
                     <div className="flex justify-center gap-4 mt-12">
                       <Link href="/search" className="block">

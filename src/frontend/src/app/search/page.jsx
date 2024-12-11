@@ -1,6 +1,8 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { Search } from 'lucide-react';
+
 
 export default function ResearchPage() {
     const [variables, setVariables] = useState([]);
@@ -35,18 +37,23 @@ export default function ResearchPage() {
 
     // Handle variable selection
     const handleVariableSelect = (variable) => {
-        // Store features in the variables array when switching variables
+        // First, save the current features to the current selected variable
         if (selectedVariable) {
-            setVariables(variables.map(v =>
+            setVariables(prevVariables => prevVariables.map(v =>
                 v.name === selectedVariable.name
                     ? { ...v, features: variableFeatures }
                     : v
             ));
         }
 
-        // Set new selected variable and load its features
+        // Find the selected variable in the variables array to get its current features
+        const selectedVarWithFeatures = variables.find(v => v.name === variable.name);
+        
+        // Set the new selected variable
         setSelectedVariable(variable);
-        setVariableFeatures(variable.features || []);
+        
+        // Set the features from the found variable, or empty array if none exist
+        setVariableFeatures(selectedVarWithFeatures?.features || []);
     };
 
     // Add new feature
@@ -56,45 +63,90 @@ export default function ResearchPage() {
             setVariableFeatures(updatedFeatures);
             setNewFeature({ feature: '', value: '' });
 
-            // Update the features in the variables array
-            setVariables(variables.map(v =>
+            // Update the features in the variables array immediately
+            setVariables(prevVariables => prevVariables.map(v =>
                 v.name === selectedVariable.name
                     ? { ...v, features: updatedFeatures }
                     : v
             ));
         }
     };
-       // Remove feature
+
+    // Remove feature
     const removeFeature = (index) => {
         const updatedFeatures = variableFeatures.filter((_, i) => i !== index);
         setVariableFeatures(updatedFeatures);
 
-        // Update the features in the variables array
-        setVariables(variables.map(v =>
+        // Update the features in the variables array immediately
+        setVariables(prevVariables => prevVariables.map(v =>
             v.name === selectedVariable.name
                 ? { ...v, features: updatedFeatures }
                 : v
         ));
     };
 
-       // Handle search
-       const handleSearch2 = () => {
-        const searchData = {
-            variables: variables.map(variable => ({
-                name: variable.name,
-                type: variable.type,
-                features: variable.features || []
-            }))
-        };
-
-        console.log('Search data:', searchData);
-        setHasSearched(true);
-        // Make API call here
-        // apiCall(searchData);
+    const deleteVariable = (variableName) => {
+        // Remove the variable from the variables array
+        const updatedVariables = variables.filter(v => v.name !== variableName);
+        setVariables(updatedVariables);
+        
+        // If the deleted variable was selected, clear the selection
+        if (selectedVariable?.name === variableName) {
+            setSelectedVariable(null);
+            setVariableFeatures([]);
+        }
     };
 
+    useEffect(() => {
+        const storedResults = localStorage.getItem('searchResults');
+        const searchedBefore = localStorage.getItem('hasSearched');
+        const storedVariables = localStorage.getItem('variables');
+        const storedSelectedVariable = localStorage.getItem('selectedVariable');
+        const storedVariableFeatures = localStorage.getItem('variableFeatures');
 
-        const handleSearch = async () => {
+        if (storedResults) {
+            setSearchResults(JSON.parse(storedResults));
+        }
+        if (searchedBefore === 'true') {
+            setHasSearched(true);
+        }
+        if (storedVariables) {
+            setVariables(JSON.parse(storedVariables));
+        }
+        if (storedSelectedVariable) {
+            setSelectedVariable(JSON.parse(storedSelectedVariable));
+        }
+        if (storedVariableFeatures) {
+            setVariableFeatures(JSON.parse(storedVariableFeatures));
+        }
+    }, []);
+
+
+    // Save variables state whenever it changes
+    useEffect(() => {
+        localStorage.setItem('variables', JSON.stringify(variables));
+    }, [variables]);
+
+    // Save selected variable state whenever it changes
+    useEffect(() => {
+        localStorage.setItem('selectedVariable', JSON.stringify(selectedVariable));
+    }, [selectedVariable]);
+
+    // Save variable features whenever they change
+    useEffect(() => {
+        localStorage.setItem('variableFeatures', JSON.stringify(variableFeatures));
+    }, [variableFeatures]);
+
+     // Add useEffect to save variables state whenever it changes
+     useEffect(() => {
+        if (variables.length > 0) {
+            localStorage.setItem('variables', JSON.stringify(variables));
+        }
+    }, [variables]);
+
+
+    // Handle search
+    const handleSearch2 = async () => {
         const searchData = {
             independent_variable: addedIndependentVars.map(v => v.name).join(', '),
             dependent_variable: addedDependentVars.map(v => v.name).join(', ')
@@ -135,6 +187,54 @@ export default function ResearchPage() {
         }
     };
 
+    const handleSearch = async () => {
+        const addedIndependentVars = variables.filter(v => v.type === 'independent');
+        const addedDependentVars = variables.filter(v => v.type === 'dependent');
+    
+        const searchData = {
+            independent_variable: addedIndependentVars.map(v => v.name).join(', '),
+            dependent_variable: addedDependentVars.map(v => v.name).join(', '),
+            variables: variables.map(variable => ({
+                name: variable.name,
+                type: variable.type,
+                features: variable.features || []
+            }))
+        };
+    
+        try {
+            const response = await fetch('http://34.27.230.188:9000/search', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(searchData)
+            });
+    
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+    
+            const data = await response.json();
+    
+            const formattedResults = data.results.map(result => ({
+                id: Math.random().toString(),
+                title: result.study_title,
+                authors: Array.isArray(result.authors) ? result.authors.join(', ') : result.authors,
+                description: result.summary,
+                topic: "Research Paper",
+                stars: result.similarity_score ? `${(result.similarity_score * 100).toFixed(1)}%` : "N/A",
+                views: result.publication_year || "N/A",
+                thumbnail: "/api/placeholder/120/80"
+            }));
+    
+            setSearchResults(formattedResults);
+            setHasSearched(true);
+    
+            localStorage.setItem('searchResults', JSON.stringify(formattedResults));
+            localStorage.setItem('hasSearched', 'true');
+        } catch (error) {
+            console.error('Error fetching search results:', error);
+        }
+    };
+
     // const searchResults = Array(6).fill({
     //     id: 1,
     //     title: "Depth Pro: Sharp Monocular Metric Depth in Less Than a Second",
@@ -152,7 +252,7 @@ export default function ResearchPage() {
                 <div className="flex">
                 {/* Left Column - Variables */}
                 <div className="w-90 bg-gray-100 min-h-screen p-4">
-                        <h2 className="text-xl font-bold mb-4 md:text-2xl text-center">Add Variables</h2>
+                <h2 className="text-xl font-bold mb-4 md:text-2xl text-center text-white bg-gradient-to-r from-blue-300 to-blue-600 py-2 px-4 rounded-lg">Add Variables</h2>
 
                         <div className="grid grid-cols-2 gap-4">
                             {/* Independent Variables Column */}
@@ -178,14 +278,25 @@ export default function ResearchPage() {
                                 {/* Variables list - only show once */}
                                 {variables.filter(v => v.type === 'independent').map((variable, index) => (
                                     <div
-                                        key={index}
-                                        className={`p-2 rounded-lg bg-red-100 cursor-pointer ${
-                                            selectedVariable?.name === variable.name ? 'ring-2 ring-red-500' : ''
-                                        }`}
+                                    key={index}
+                                    className={`p-2 rounded-lg bg-red-100 flex items-center justify-between ${
+                                        selectedVariable?.name === variable.name ? 'ring-2 ring-red-500' : ''
+                                    }`}
+                                >
+                                    <div
+                                        className="flex-grow cursor-pointer"
                                         onClick={() => handleVariableSelect(variable)}
                                     >
                                         {variable.name}
                                     </div>
+                                    <button
+                                        onClick={() => deleteVariable(variable.name)}
+                                        className="text-red-600 hover:text-red-800 ml-2 px-2"
+                                    >
+                                        ×
+                                    </button>
+                                </div>
+                                    
                                 ))}
                                 {/* Predefined Independent Variables */}
                                 {independentVariables.map((variable, index) => (
@@ -220,14 +331,24 @@ export default function ResearchPage() {
                                 </div>
                                 {/* Variables list - only show once */}
                                 {variables.filter(v => v.type === 'dependent').map((variable, index) => (
-                <div
+                                        <div
                                         key={index}
-                                        className={`p-2 rounded-lg bg-blue-100 cursor-pointer ${
+                                        className={`p-2 rounded-lg bg-blue-100 flex items-center justify-between ${
                                             selectedVariable?.name === variable.name ? 'ring-2 ring-blue-500' : ''
                                         }`}
-                                        onClick={() => handleVariableSelect(variable)}
                                     >
-                                        {variable.name}
+                                        <div
+                                            className="flex-grow cursor-pointer"
+                                            onClick={() => handleVariableSelect(variable)}
+                                        >
+                                            {variable.name}
+                                        </div>
+                                        <button
+                                            onClick={() => deleteVariable(variable.name)}
+                                            className="text-blue-600 hover:text-blue-800 ml-2 px-2"
+                                        >
+                                            ×
+                                        </button>
                                     </div>
                                 ))}
                                 {/* Predefined Dependent Variables */}
@@ -244,7 +365,7 @@ export default function ResearchPage() {
 
                         {/* Variable Details */}
                         <div className="mt-8">
-                        <h3 className="text-lg font-semibold mb-4">Variable Details:</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-blue-700 bg-blue-50 py-2 px-4 rounded-lg inline-block">Variable Details:</h3>
                          <div className="bg-white p-4 rounded-lg shadow">
                     {selectedVariable ? (
                         <div className="space-y-4">
@@ -345,96 +466,59 @@ export default function ResearchPage() {
 
                  {/* Middle Column - Search Results */}
                     
-                <div className="flex-1 p-4">
-                    <h2 className="text-xl font-bold mb-4 text-center">Paper Results</h2>
-                        <div className="bg-white rounded-lg shadow min-h-screen">
-                            {hasSearched ? (
-                                <div className="p-4 space-y-4">
-                                        {searchResults.map((result, index) => (
-                                <div
-                        key={index}
-                        className="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow cursor-pointer"
-                        onClick={() => setSelectedResult(result)}
-                    >
-                        {/* Basic Info Section */}
-                        <div className="flex gap-4">
-                            <div className="flex-shrink-0">
-                                <img
-                                    src={result.thumbnail}
-                                    alt="Preview"
-                                    className="w-32 h-24 object-cover rounded"
-                                />
+                 <div className="flex-1 p-4">
+                    <h2 className="text-xl font-bold mb-4 md:text-2xl text-center text-white bg-gradient-to-r from-blue-300 to-blue-600 py-2 px-4 rounded-lg">Paper Results</h2>
+                    <div className="bg-white rounded-lg shadow min-h-screen">
+                        {hasSearched ? (
+                            <div className="p-4 space-y-4">
+                                {searchResults.map((result, index) => (
+                                    <div
+                                        key={index}
+                                        className="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow cursor-pointer"
+                                        onClick={() => setSelectedResult(result)}
+                                    >
+                                        <div className="flex-1">
+                                            <h3 className="font-semibold text-lg">{result.title}</h3>
+                                            <p className="text-sm text-gray-600">Authors: {result.authors}</p>
+                                            <p className="text-sm mt-1">{result.description}</p>
+                                            <div className="flex items-center justify-between mt-2">
+                                                <div className="flex items-center gap-2">
+                                                    <span className="text-sm bg-purple-100 text-purple-800 px-2 py-1 rounded">
+                                                        Match Score: {result.stars}
+                                                    </span>
+                                                    <span className="text-sm text-gray-600">
+                                                        Year: {result.views}
+                                                    </span>
+                                                </div>
+                                                <div className="flex gap-2">
+                                                    <button
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            router.push(`/paperdetails?id=${result.id}`);
+                                                        }}
+                                                        className="px-4 py-1 bg-teal-600 text-white rounded hover:bg-teal-700"
+                                                    >
+                                                        Paper
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
-                            {/* <div className="flex-1">
-                                <h3 className="font-semibold text-lg">{result.title}</h3>
-                                <p className="text-sm text-gray-600">{result.authors}</p>
-                                <p className="text-sm mt-1">{result.description}</p>
-                                <div className="flex items-center justify-between mt-2">
-                                    <div className="flex items-center gap-2">
-                                        <span className="text-sm bg-purple-100 text-purple-800 px-2 py-1 rounded">
-                                            {result.topic}
-                                        </span>
-                                        <span className="text-sm text-gray-600">
-                                    ★ {result.stars} • {result.views}
-                                        </span>
-                                    </div>
-                                    <div className="flex gap-2">
-                                    <button 
-                                            onClick={(e) => {
-                                                e.stopPropagation();
-                                                router.push(`/paperdetails?id=${result.id}`);
-                                            }}
-                                            className="px-4 py-1 bg-teal-600 text-white rounded hover:bg-teal-700"
-                                        >
-                                            Paper
-                                        </button>
-                                    </div>
-                                </div>
-                            </div> */}
-                                <div className="flex-1">
-    <h3 className="font-semibold text-lg">{result.title}</h3>
-    <p className="text-sm text-gray-600">Authors: {result.authors}</p>
-    <p className="text-sm mt-1">{result.description}</p>
-    <div className="flex items-center justify-between mt-2">
-        <div className="flex items-center gap-2">
-            <span className="text-sm bg-purple-100 text-purple-800 px-2 py-1 rounded">
-                Match Score: {result.stars}
-            </span>
-            <span className="text-sm text-gray-600">
-                Year: {result.views}
-            </span>
-        </div>
-        <div className="flex gap-2">
-            <button
-                onClick={(e) => {
-                    e.stopPropagation();
-                    router.push(`/paperdetails?id=${result.id}`);
-                }}
-                className="px-4 py-1 bg-teal-600 text-white rounded hover:bg-teal-700"
-            >
-                Paper
-            </button>
-        </div>
-    </div>
-</div>
-
-                        </div>
+                        ) : (
+                            <div className="flex items-center justify-center h-full text-gray-500">
+                                Add variables and click search to find relevant papers
+                            </div>
+                        )}
                     </div>
-                ))}
-            </div>
-        ) : (
-            <div className="flex items-center justify-center h-full text-gray-500">
-                Add variables and click search to find relevant papersss
-            </div>
-        )}
-    </div>
                 </div>
 
                 {/* Right Column - Dataset Details */}
 
                 {selectedResult && (
                     <div className="w-80 bg-gray-100 min-h-screen p-4">
-                     <h2 className="text-xl font-bold mb-4">Dataset Details:</h2>
+                     <h2 className="text-xl font-bold mb-4 md:text-2xl text-center text-white bg-gradient-to-r from-blue-300 to-blue-600 py-2 px-4 rounded-lg">Dataset Details:</h2>
                         <div className="space-y-4">
                          <div className="bg-white p-4 rounded-lg shadow">
                                 <p className="text-sm space-y-1">
@@ -451,5 +535,9 @@ export default function ResearchPage() {
 )}
             </div>
         </div>
+
+
+
+
     );
 }
