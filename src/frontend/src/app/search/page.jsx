@@ -517,22 +517,66 @@ export default function ResearchPage() {
                 {/* Right Column - Dataset Details */}
 
                 {selectedResult && (
-                    <div className="w-80 bg-gray-100 min-h-screen p-4">
-                     <h2 className="text-xl font-bold mb-4 md:text-2xl text-center text-white bg-gradient-to-r from-blue-300 to-blue-600 py-2 px-4 rounded-lg">Dataset Details:</h2>
-                        <div className="space-y-4">
-                         <div className="bg-white p-4 rounded-lg shadow">
-                                <p className="text-sm space-y-1">
-                                    <span className="font-semibold">Title:</span> {selectedResult.title}<br/>
-                                    <span className="font-semibold">Authors:</span> {selectedResult.authors}<br/>
-                                    <span className="font-semibold">Publication Year:</span> {selectedResult.views}<br/>
-                                    <span className="font-semibold">Similarity Score:</span> {selectedResult.stars}<br/>
-                                    <span className="font-semibold">Summary:</span><br/>
-                                    <span className="text-gray-600">{selectedResult.description}</span>
-                </p>
+    <div className="w-80 bg-gray-100 min-h-screen p-4">
+        <h2 className="text-xl font-bold mb-4 md:text-2xl text-center text-white bg-gradient-to-r from-blue-300 to-blue-600 py-2 px-4 rounded-lg">Dataset Details</h2>
+        <div className="space-y-4">
+            <div className="bg-white p-4 rounded-lg shadow">
+                <div className="space-y-2">
+                    <div className="mb-4">
+                        <p className="text-sm space-y-1">
+                            <span className="font-semibold bg-blue-50">Title:</span> {selectedResult.title}<br/>
+                            <span className="font-semibold bg-blue-50">Authors:</span> {selectedResult.authors}<br/>
+                            <span className="font-semibold bg-blue-50">Publication Year:</span> {selectedResult.views}<br/>
+                            <span className="font-semibold bg-blue-50">Similarity Score:</span> {selectedResult.stars}
+                        </p>
+                    </div>
+
+                    <div className="border rounded-lg overflow-hidden">
+                        <div className="bg-blue-50 px-3 py-2 border-b">
+                            <h3 className="text-sm font-semibold text-blue-800">Summary Details</h3>
+                        </div>
+                        <div className="divide-y divide-gray-200">
+                            {(() => {
+                                try {
+                                    const summaryData = JSON.parse(selectedResult.description);
+                                    return Object.entries(summaryData[0]).map(([key, value]) => {
+                                        if (key === 'usage_in_paper') {
+                                            return Object.entries(value).map(([subKey, subValue]) => (
+                                                <div key={subKey} className="flex py-2 text-sm">
+                                                    <div className="w-1/3 px-3 font-medium text-gray-600">
+                                                        {subKey.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                                                    </div>
+                                                    <div className="w-2/3 px-3">{subValue}</div>
+                                                </div>
+                                            ));
+                                        }
+                                        return (
+                                            <div key={key} className="flex py-2 text-sm">
+                                                <div className="w-1/3 px-3 font-medium text-gray-600">
+                                                    {key.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                                                </div>
+                                                <div className="w-2/3 px-3">{value === null ? 'Not specified' : value}</div>
+                                            </div>
+                                        );
+                                    });
+                                } catch (error) {
+                                    return (
+                                        <div className="p-3 text-sm text-gray-600">
+                                            {selectedResult.description}
+                                        </div>
+                                    );
+                                }
+                            })()}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 )}
+
+
+
             </div>
         </div>
 
