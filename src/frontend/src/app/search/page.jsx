@@ -37,23 +37,18 @@ export default function ResearchPage() {
 
     // Handle variable selection
     const handleVariableSelect = (variable) => {
-        // First, save the current features to the current selected variable
-        if (selectedVariable) {
-            setVariables(prevVariables => prevVariables.map(v =>
-                v.name === selectedVariable.name
-                    ? { ...v, features: variableFeatures }
-                    : v
-            ));
-        }
-
-        // Find the selected variable in the variables array to get its current features
+        // Find the complete variable object with its features from the variables array
         const selectedVarWithFeatures = variables.find(v => v.name === variable.name);
         
         // Set the new selected variable
-        setSelectedVariable(variable);
+        setSelectedVariable(selectedVarWithFeatures);
         
-        // Set the features from the found variable, or empty array if none exist
-        setVariableFeatures(selectedVarWithFeatures?.features || []);
+        // Set the features from the found variable
+        if (selectedVarWithFeatures) {
+            setVariableFeatures(selectedVarWithFeatures.features || []);
+        } else {
+            setVariableFeatures([]);
+        }
     };
 
     // Add new feature
@@ -369,7 +364,7 @@ export default function ResearchPage() {
                          <div className="bg-white p-4 rounded-lg shadow">
                     {selectedVariable ? (
                         <div className="space-y-4">
-                            <div className="text-lg font-medium mb-4">
+                            <div className="text-lg font-medium mb-4 bg-blue-50">
                                 Selected: {selectedVariable.name}
                             </div>
                             <div className="flex items-center justify-between">
