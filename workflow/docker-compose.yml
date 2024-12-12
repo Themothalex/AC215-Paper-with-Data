@@ -12,6 +12,8 @@ services:
             - ../secrets:/secrets
             - ${PWD}/text_processor:/app
             - ${PWD}/../tests/test_text_processor.py:/app/tests/test_text_processor.py  
+            - ${PWD}/../tests/test_rag.py:/app/tests/test_text_rag.py  
+            - ${PWD}/../tests/test_featureExtracter.py:/app/tests/test_featureExtracter.py 
             - ${PWD}/../pytest.ini:/app/pytest.ini
         environment:
             GOOGLE_APPLICATION_CREDENTIALS: $GOOGLE_APPLICATION_CREDENTIALS

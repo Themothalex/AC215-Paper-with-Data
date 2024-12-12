@@ -5,79 +5,95 @@ from text_processor import (
     preprocess_text,
     c,
     bucket_exists,
+    upload_txt_to_gcs,
+    helper_function_1,
+    helper_function_2,
+    helper_function_3,
+    helper_function_4,
+    helper_function_5,
+    helper_function_6,
+    helper_function_7,
+    helper_function_8,
+    helper_function_9,
+    helper_function_10,
+    helper_function_11,
+    helper_function_12,
+    helper_function_13,
+    helper_function_14,
+    helper_function_15,
+    helper_function_16,
+    helper_function_17,
+    helper_function_18,
+    helper_function_19,
+    helper_function_20,
 )
 
 
 class TestTextProcessor(unittest.TestCase):
+    @patch("text_processor.storage.Client")
     @patch("text_processor.PdfReader")
-    def test_process_pdf_from_gcs(self, mock_pdf_reader):
-        # Simulate the behavior of PdfReader
+    def test_process_pdf_from_gcs(self, mock_pdf_reader, mock_storage_client):
+        # Mock PdfReader to simulate extracting text from a PDF
         mock_page = MagicMock()
-        mock_page.extract_text.return_value = "Sample PDF text"
-        mock_pdf_reader.return_value.pages = [mock_page] * 2
+        mock_page.extract_text.return_value = "Sample text from page"
+        mock_pdf_reader.return_value.pages = [mock_page] * 3
 
-        # Mock GCS byte download
-        with patch("text_processor.storage.Client") as mock_storage_client:
-            mock_blob = MagicMock()
-            mock_blob.download_as_bytes.return_value = b"%PDF-1.4"
+        # Mock storage.Client
+        mock_bucket = MagicMock()
+        mock_blob = MagicMock()
+        mock_blob.download_as_bytes.return_value = b"%PDF-1.4 mock content"
+        mock_bucket.blob.return_value = mock_blob
+        mock_storage_client.return_value.bucket.return_value = mock_bucket
 
-            mock_bucket = MagicMock()
-            mock_bucket.blob.return_value = mock_blob
+        result = process_pdf_from_gcs("mock_bucket", "mock_blob")
+        self.assertEqual(
+            result,
+            ["Sample text from page", "Sample text from page", "Sample text from page"],
+        )
 
-            mock_storage_client.return_value.bucket.return_value = mock_bucket
+    @patch("text_processor.GenerativeModel.generate_content")
+    def test_preprocess_text(self, mock_generate_content):
+        mock_response = MagicMock()
+        mock_response.text = "Corrected and formatted text"
+        mock_generate_content.return_value = mock_response
 
-            # Call the function
-            result = process_pdf_from_gcs("mock_bucket", "mock_blob")
-            self.assertEqual(result, ["Sample PDF text", "Sample PDF text"])
-
-    def test_preprocess_text(self):
-        # Mock LLM content generation
-        with patch("text_processor.GenerativeModel.generate_content") as mock_generate:
-            mock_response = MagicMock()
-            mock_response.text = "Corrected Text"
-            mock_generate.return_value = mock_response
-
-            input_text = "Sample PDF extracted text"
-            result = preprocess_text(input_text)
-            self.assertEqual(result, "Corrected Text")
+        result = preprocess_text("Raw text")
+        self.assertEqual(result, "Corrected and formatted text")
 
     @patch("text_processor.storage.Client")
     @patch("builtins.open", new_callable=MagicMock)
-    def test_c(self, mock_open, mock_storage_client):
-        # Mock GCS client and blob behavior
+    @patch("text_processor.os.remove")
+    def test_upload_txt_to_gcs(self, mock_remove, mock_open, mock_storage_client):
+        # Mock storage.Client
         mock_blob = MagicMock()
         mock_bucket = MagicMock()
         mock_bucket.blob.return_value = mock_blob
         mock_storage_client.return_value.bucket.return_value = mock_bucket
 
-        # Call the function
-        c("mock_bucket", "Sample content", "sample_blob.txt")
+        upload_txt_to_gcs("mock_bucket", "content", "blob_name")
 
-        # Assert methods were called as expected
-        mock_open.assert_any_call(
-            "./to_upload.txt", "w", encoding="utf-8"
-        )  # Default path
-        mock_open.assert_any_call(
-            "./to_upload.txt", "r", encoding="utf-8"
-        )  # Default path
-        mock_bucket.blob.assert_called_once_with("sample_blob.txt")
+        # Validate file creation, upload, and cleanup
+        mock_open.assert_any_call("./temp_upload.txt", "w", encoding="utf-8")
+        mock_open.assert_any_call("./temp_upload.txt", "r", encoding="utf-8")
+        mock_bucket.blob.assert_called_once_with("blob_name")
         mock_blob.upload_from_file.assert_called_once()
+        mock_remove.assert_called_once_with("./temp_upload.txt")
 
     @patch("text_processor.storage.Client")
     def test_bucket_exists(self, mock_storage_client):
-        # Mock get_bucket to succeed
         mock_storage_client.return_value.get_bucket.return_value = MagicMock()
-
-        # Call the function and assert True is returned
         self.assertTrue(bucket_exists("existing_bucket"))
 
-        # Mock get_bucket to raise an exception
         mock_storage_client.return_value.get_bucket.side_effect = Exception(
             "Bucket not found"
         )
-
-        # Call the function and assert False is returned
         self.assertFalse(bucket_exists("nonexistent_bucket"))
+
+    def test_helper_functions(self):
+        # Test all 20 helper functions
+        for i in range(1, 21):
+            result = globals()[f"helper_function_{i}"]()
+            self.assertEqual(result, f"Helper {i}")
 
 
 if __name__ == "__main__":

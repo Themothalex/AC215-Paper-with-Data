@@ -57,7 +57,7 @@ jobs:
               --cov=text_processor \
               --cov-report=term-missing \
               --no-cov-on-fail \
-              -p no:warnings
+              -p no:warnings tests/test_text_processor.py
           "
       # Run Tests Inside rag Container
       - name: Run Pytest in rag Container
@@ -67,7 +67,7 @@ jobs:
               --cov=text_processor \
               --cov-report=term-missing \
               --no-cov-on-fail \
-              -p no:warnings
+              -p no:warnings tests/test_text_rag.py
           "
       # Run Tests Inside rag Container
       - name: Run Pytest in featureextracter Container
@@ -77,7 +77,7 @@ jobs:
               --cov=text_processor \
               --cov-report=term-missing \
               --no-cov-on-fail \
-              -p no:warnings
+              -p no:warnings tests/test_featureExtracter.py
           "
       # # Step 5: Stop Docker Compose Services
       # - name: Stop Services
