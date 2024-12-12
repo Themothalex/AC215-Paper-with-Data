@@ -13,7 +13,22 @@ Paper with Data
 
 In this project, we aim create a dataset-centered search portal. This portal will enable researchers to use fine-grained dataset catefories and filter papers not just based on the presence of datasets, but also on the nature of their relationships. The core of our project is to construct a database of summarise of dataset from which we can get the most relevant papers to the query by users. We first use Gemini to construct a database and then use RAG to facilitate the searching process.
 
-### Prerequisites
+**I. Prerequisites**
+
+**II. Setup Instructions**
+
+**III. Usage Example**
+
+**IV. Known Issues and Limitations**
+
+**V. More About The Project**
+
+**VI. Demo for the Application of K8S**
+
+---
+---
+
+## Prerequisites
 ---
 
 Before you begin, ensure you have the following installed and configured:
@@ -116,3 +131,17 @@ We built backend api service using fast API to expose model functionality to the
 **Frontend**
 
 A user friendly React app was built to search the most relevant papers from our database of structured summaries of papers. The app will be much more accurate in terms of paper searching as it has fine-grained information in the database unlike traditional search engines that only rely on titles and abstract.
+
+## Demo for the Application of K8S
+
+**Deployment of Kubernetes cluster**
+
+<img src="images/k8s_deploy_1.png"  width="600">
+
+<img src="images/k8s_deploy_2.png"  width="600">
+
+**Scaling K8S Load**
+<img src="images/k8s_scale.png"  width="600">
+
+
+
