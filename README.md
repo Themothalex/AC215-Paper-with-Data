@@ -86,10 +86,13 @@ The following is an example. Let's say you are interested in studying the factor
 
 ## Known Issues and Limitations
 
+**Known Issues:** The paper results are not well formatted. In the next version, we will prettify the format of paper results.
 
+**Limitations:** The dataset is not big enough and specialized enough, so that users may not immediately get the value of this project. 
 
 
 ## More About The Project
+---
 
 **Application Design**
 
