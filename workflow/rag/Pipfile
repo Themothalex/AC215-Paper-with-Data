@@ -11,6 +11,8 @@ google-auth = "*"
 
 pytest = "*" 
 pytest-cov = "*"
+scikit-learn = "*"
+
 
 
 [dev-packages]

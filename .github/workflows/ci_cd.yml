@@ -62,22 +62,22 @@ jobs:
       # Run Tests Inside rag Container
       - name: Run Pytest in rag Container
         run: |
-          docker exec text_processor sh -c "
+          docker exec rag sh -c "
             COVERAGE_FILE=/tmp/.coverage pipenv run pytest \
-              --cov=text_processor \
+              --cov=rag_helper \
               --cov-report=term-missing \
               --no-cov-on-fail \
-              -p no:warnings tests/test_text_rag.py
+              -p no:warnings tests/test_rag_helper.py
           "
       # Run Tests Inside rag Container
       - name: Run Pytest in featureextracter Container
         run: |
-          docker exec text_processor sh -c "
+          docker exec featureextracter sh -c "
             COVERAGE_FILE=/tmp/.coverage pipenv run pytest \
-              --cov=text_processor \
+              --cov=featureExtracter_helper \
               --cov-report=term-missing \
               --no-cov-on-fail \
-              -p no:warnings tests/test_featureExtracter.py
+              -p no:warnings tests/test_featureExtracter_helper.py
           "
       # # Step 5: Stop Docker Compose Services
       # - name: Stop Services

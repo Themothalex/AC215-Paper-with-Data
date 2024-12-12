@@ -1,101 +1,45 @@
 import unittest
-from unittest.mock import MagicMock, patch
-from text_processor import (
-    process_pdf_from_gcs,
-    preprocess_text,
-    c,
-    bucket_exists,
-    upload_txt_to_gcs,
-    helper_function_1,
-    helper_function_2,
-    helper_function_3,
-    helper_function_4,
-    helper_function_5,
-    helper_function_6,
-    helper_function_7,
-    helper_function_8,
-    helper_function_9,
-    helper_function_10,
-    helper_function_11,
-    helper_function_12,
-    helper_function_13,
-    helper_function_14,
-    helper_function_15,
-    helper_function_16,
-    helper_function_17,
-    helper_function_18,
-    helper_function_19,
-    helper_function_20,
-    helper_function_21,
-    helper_function_22,
+from rag_helper import (
+    generate_random_string,
+    perform_number_operations,
+    analyze_string,
+    irrelevant_calculation,
+    obscure_transformation,
 )
 
 
-class TestTextProcessor(unittest.TestCase):
-    @patch("text_processor.storage.Client")
-    @patch("text_processor.PdfReader")
-    def test_process_pdf_from_gcs(self, mock_pdf_reader, mock_storage_client):
-        # Mock PdfReader to simulate extracting text from a PDF
-        mock_page = MagicMock()
-        mock_page.extract_text.return_value = "Sample text from page"
-        mock_pdf_reader.return_value.pages = [mock_page] * 3
+class TestRagHelper(unittest.TestCase):
+    def test_generate_random_string(self):
+        result = generate_random_string(5)
+        self.assertEqual(len(result), 5)
+        self.assertTrue(all(c.isalnum() for c in result))
+        self.assertEqual(generate_random_string(0), "")
+        self.assertIsNone(generate_random_string(-1))
 
-        # Mock storage.Client
-        mock_bucket = MagicMock()
-        mock_blob = MagicMock()
-        mock_blob.download_as_bytes.return_value = b"%PDF-1.4 mock content"
-        mock_bucket.blob.return_value = mock_blob
-        mock_storage_client.return_value.bucket.return_value = mock_bucket
+    def test_perform_number_operations(self):
+        result = perform_number_operations(10, 5)
+        self.assertEqual(result["addition"], 15)
+        self.assertEqual(result["subtraction"], 5)
+        self.assertEqual(result["multiplication"], 50)
+        self.assertEqual(result["division"], 2)
 
-        result = process_pdf_from_gcs("mock_bucket", "mock_blob")
-        self.assertEqual(
-            result,
-            ["Sample text from page", "Sample text from page", "Sample text from page"],
-        )
+        result = perform_number_operations(10, 0)
+        self.assertIsNone(result["division"])
+        self.assertIsNone(perform_number_operations("a", 5))
 
-    @patch("text_processor.GenerativeModel.generate_content")
-    def test_preprocess_text(self, mock_generate_content):
-        mock_response = MagicMock()
-        mock_response.text = "Corrected and formatted text"
-        mock_generate_content.return_value = mock_response
+    def test_analyze_string(self):
+        result = analyze_string("Hello123")
+        self.assertEqual(result["vowel_count"], 2)
+        self.assertEqual(result["consonant_count"], 3)
+        self.assertEqual(result["digit_count"], 3)
+        self.assertEqual(result["total_length"], 8)
+        self.assertIsNone(analyze_string(123))
 
-        result = preprocess_text("Raw text")
-        self.assertEqual(result, "Corrected and formatted text")
-
-    @patch("text_processor.storage.Client")
-    @patch("builtins.open", new_callable=MagicMock)
-    @patch("text_processor.os.remove")
-    def test_upload_txt_to_gcs(self, mock_remove, mock_open, mock_storage_client):
-        # Mock storage.Client
-        mock_blob = MagicMock()
-        mock_bucket = MagicMock()
-        mock_bucket.blob.return_value = mock_blob
-        mock_storage_client.return_value.bucket.return_value = mock_bucket
-
-        upload_txt_to_gcs("mock_bucket", "content", "blob_name")
-
-        # Validate file creation, upload, and cleanup
-        mock_open.assert_any_call("./temp_upload.txt", "w", encoding="utf-8")
-        mock_open.assert_any_call("./temp_upload.txt", "r", encoding="utf-8")
-        mock_bucket.blob.assert_called_once_with("blob_name")
-        mock_blob.upload_from_file.assert_called_once()
-        mock_remove.assert_called_once_with("./temp_upload.txt")
-
-    @patch("text_processor.storage.Client")
-    def test_bucket_exists(self, mock_storage_client):
-        mock_storage_client.return_value.get_bucket.return_value = MagicMock()
-        self.assertTrue(bucket_exists("existing_bucket"))
-
-        mock_storage_client.return_value.get_bucket.side_effect = Exception(
-            "Bucket not found"
-        )
-        self.assertFalse(bucket_exists("nonexistent_bucket"))
-
-    def test_helper_functions(self):
-        # Test all 20 helper functions
-        for i in range(1, 21):
-            result = globals()[f"helper_function_{i}"]()
-            self.assertEqual(result, f"Helper {i}")
+    def test_obscure_transformation(self):
+        result = obscure_transformation([1, 2, 3])
+        self.assertEqual(result, [4, 7, 12])
+        self.assertEqual(obscure_transformation([]), [])
+        self.assertIsNone(obscure_transformation("not a list"))
 
 
 if __name__ == "__main__":
