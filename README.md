@@ -30,7 +30,7 @@ docker --version
 **A Google Cloud Platform account with appropriate permissions.**
 
 Required actions include:
-1. Get secrets from service account. You should give the following roles:
+1. Get a secret in the format of `JSON` from [service account](https://cloud.google.com/iam/docs/service-account-overview). You should assign your service account with the following roles:
   * Compute Admin
   * Compute OS Login
   * Container Registry Service Agent
@@ -65,17 +65,19 @@ Go to `./src` and run the following code:
 sh deploy_pipeline.sh
 ```
 
-Wait a few minutes, then you can access the application by visiting the external IP address of your virtual machine.
+You may need to wait for a few minutes as the pipeline above has done anything for you!
+
+Once the process completes, you can access the application by visiting the external IP address of your virtual machine.
 
 You can get the IP address from:
-![image](https://github.com/user-attachments/assets/1f92e7e8-8381-4d9a-b172-2fa7ff9c8466)
+<img src="/images/external_ip.jpg" alt="Description" width="500" height="300">
 
 Then you will land our main page!
 
-![image](https://github.com/user-attachments/assets/ffbf6ffc-5215-49d7-9a11-5d4a9a59033e)
+<img src="/images/main_page.jpg" alt="Description" width="500" height="300">
 
 
-Known Issues and Limitations
+## Known Issues and Limitations
 Authentication Setup: Ensure your GCP secrets are correctly configured; otherwise, the application may fail to authenticate.
 Docker Resource Usage: High resource usage may occur on machines with limited CPU or memory.
 Environment-Specific Issues: The application has been tested primarily on Linux-based systems. Windows or macOS users may experience differences in behavior.
