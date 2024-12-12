@@ -1,4 +1,4 @@
-# AC215 - Milestone4 - Paper with Data
+# AC215 - Milestone5 - Paper with Data
 
 
 **Team Members**
@@ -58,64 +58,30 @@ Create a folder called `secrets`.
 mkdir secrets
 ```
 
-Rename you secrets into `deployment.json` and put it into `./mkdir/`
+Rename you secrets into `deployment.json` and put it into `./secrets/`
 
-Build the Docker image:
+Go to `./src` and run the following code:
+```
+sh deploy_pipeline.sh
+```
 
-bash
-Copy code
-docker build -t yourproject-image .
-Deployment Instructions
-To deploy the project using Docker:
+Wait a few minutes, then you can access the application by visiting the external IP address of your virtual machine.
 
-Start the Docker container:
+You can get the IP address from:
+![image](https://github.com/user-attachments/assets/1f92e7e8-8381-4d9a-b172-2fa7ff9c8466)
 
-bash
-Copy code
-docker run -d \
-  -e GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account.json" \
-  -v /path/to/your/service-account.json:/path/to/your/service-account.json \
-  -p 8080:8080 \
-  yourproject-image
-Verify the container is running:
+Then you will land our main page!
 
-bash
-Copy code
-docker ps
-Access the application via http://localhost:8080 (or another configured endpoint).
+![image](https://github.com/user-attachments/assets/ffbf6ffc-5215-49d7-9a11-5d4a9a59033e)
 
-Usage
-Example Usage
-Once deployed, you can interact with the application as follows:
 
-Web Interface: Open the application in a browser using http://localhost:8080.
-API Requests: Send a request to the application's endpoint. Example:
-bash
-Copy code
-curl -X POST -H "Content-Type: application/json" \
-     -d '{"key":"value"}' \
-     http://localhost:8080/api/endpoint
-Features
-[Feature 1]
-[Feature 2]
-[Feature 3]
 Known Issues and Limitations
 Authentication Setup: Ensure your GCP secrets are correctly configured; otherwise, the application may fail to authenticate.
 Docker Resource Usage: High resource usage may occur on machines with limited CPU or memory.
 Environment-Specific Issues: The application has been tested primarily on Linux-based systems. Windows or macOS users may experience differences in behavior.
 [Additional limitations specific to your project]
 
-
-
-
-
-----
-
-### Milestone4 ###
-
-In this milestone, we have the components for frontend, API service, also components from previous milestones for data management, including versioning, as well as language models.
-
-After completions of building a robust ML Pipeline in our previous milestone we have built a backend api service and frontend app. This will be our user-facing application that ties together the various components built in previous milestones.
+## More About The Project
 
 **Application Design**
 
@@ -139,16 +105,3 @@ We built backend api service using fast API to expose model functionality to the
 **Frontend**
 
 A user friendly React app was built to search the most relevant papers from our database of structured summaries of papers. The app will be much more accurate in terms of paper searching as it has fine-grained information in the database unlike traditional search engines that only rely on titles and abstract.
-
-Here are some screenshots of our app:
-
-<img src="images/index_1.jpg"  width="800">
-
-<img src="images/index_2.jpg"  width="800">
-
-
-
-## Running Dockerfile
-Instructions for running the Dockerfile can be added here.
-To run Dockerfile - `Instructions here`
-
