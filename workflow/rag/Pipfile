@@ -9,7 +9,7 @@ pypdf2 = "*"
 google-cloud-aiplatform = "*"
 google-auth = "*"
 
-pytest = "*"  # Testing framework for writing and running tests
+pytest = "*" 
 pytest-cov = "*"
 
 
