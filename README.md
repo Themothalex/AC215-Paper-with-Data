@@ -70,18 +70,24 @@ You may need to wait for a few minutes as the pipeline above has done anything f
 Once the process completes, you can access the application by visiting the external IP address of your virtual machine.
 
 You can get the IP address from:
-<img src="/images/external_ip.jpg" alt="Description" width="500" height="300">
+
+<img src="/images/external_ip.jpg" alt="Description" width="600">
 
 Then you will land our main page!
 
-<img src="/images/main_page.jpg" alt="Description" width="500" height="300">
+<img src="/images/main_page.jpg" alt="Description" width="600">
+
+## Usage Example
+
+The following is an example. Let's say you are interested in studying the factors affecting one's **income**. You can set the independent variable to be **income**, and then click "Search Paper". You will immediately get a list of studies having income as the variable of interest.
+
+<img src="/images/demo.jpg" alt="Description" width="600">
 
 
 ## Known Issues and Limitations
-Authentication Setup: Ensure your GCP secrets are correctly configured; otherwise, the application may fail to authenticate.
-Docker Resource Usage: High resource usage may occur on machines with limited CPU or memory.
-Environment-Specific Issues: The application has been tested primarily on Linux-based systems. Windows or macOS users may experience differences in behavior.
-[Additional limitations specific to your project]
+
+
+
 
 ## More About The Project
 
@@ -91,18 +97,18 @@ Before we start implementing the app we built a detailed design document outlini
 
 Here is our Solution Architecture:
 
-<img src="images/Solution Architecture.jpg"  width="800">
+<img src="images/Solution Architecture.jpg"  width="600">
 
 Here is our Technical Architecture:
 
-<img src="images/Technical Architecture.jpg"  width="800">
+<img src="images/Technical Architecture.jpg"  width="600">
 
 
 **Backend API**
 
 We built backend api service using fast API to expose model functionality to the frontend. We also added apis that will help the frontend display some key information about the model and data. 
 
-<img src="images/Backend.jpg"  width="800">
+<img src="images/Backend.jpg"  width="600">
 
 **Frontend**
 
