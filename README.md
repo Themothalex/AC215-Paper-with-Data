@@ -141,6 +141,7 @@ A user friendly React app was built to search the most relevant papers from our 
 <img src="images/k8s_deploy_2.png"  width="600">
 
 **Scaling K8S Load**
+
 <img src="images/k8s_scale.png"  width="600">
 
 
